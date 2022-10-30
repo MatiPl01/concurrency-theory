@@ -6,17 +6,12 @@ public class Counter {
     private int count = 0;
     private final int maxCount;
 
-    private static final Lock lock = new ReentrantLock();
-    private static final Condition notFull = lock.newCondition();
-    private static final Condition notEmpty = lock.newCondition();
+    private final Lock lock = new ReentrantLock();
+    private final Condition producers = lock.newCondition();
+    private final Condition consumers = lock.newCondition();
 
     public Counter(int maxCount) {
         this.maxCount = maxCount;
-    }
-
-    public Counter(int maxCount, int initialCount) {
-        this.maxCount = maxCount;
-        this.count = initialCount;
     }
 
     public int getCount() {
@@ -29,9 +24,9 @@ public class Counter {
     public void produce() {
         lock.lock();
         try {
-            while (count == maxCount) notEmpty.await();
+            while (count == maxCount) producers.await();
             count++;
-            notFull.signal();
+            consumers.signal();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         } finally {
@@ -42,9 +37,9 @@ public class Counter {
     public void consume() {
         lock.lock();
         try {
-            while (count == 0) notFull.await();
+            while (count == 0) consumers.await();
             count--;
-            notEmpty.signal();
+            producers.signal();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         } finally {
