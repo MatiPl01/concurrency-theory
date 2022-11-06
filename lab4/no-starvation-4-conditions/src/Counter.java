@@ -19,18 +19,21 @@ public class Counter {
         this.maxCount = maxCount;
     }
 
-    @Override
-    public String toString() {
-        return "Counter: " + count + "/" + maxCount;
+    public int getCount() {
+        lock.lock();
+        int result = count;
+        lock.unlock();
+        return result;
     }
 
-    public void produce(int producedCount) {
+    public void produce(int producedCount, Runnable callback) {
         lock.lock();
         try {
             while (isFirstProducerWaiting) remainingProducers.await();
             isFirstProducerWaiting = true;
             while (maxCount - count < producedCount) firstProducer.await();
             count += producedCount;
+            callback.run();
             firstConsumer.signal();
             remainingProducers.signal();
             isFirstProducerWaiting = false;
@@ -41,13 +44,14 @@ public class Counter {
         }
     }
 
-    public void consume(int consumedCount) {
+    public void consume(int consumedCount, Runnable callback) {
         lock.lock();
         try {
             while (isFirstConsumerWaiting) remainingConsumers.await();
             isFirstConsumerWaiting = true;
             while (count < consumedCount) firstConsumer.await();
             count -= consumedCount;
+            callback.run();
             firstProducer.signal();
             remainingConsumers.signal();
             isFirstConsumerWaiting = false;
