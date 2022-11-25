@@ -1,5 +1,3 @@
-import utils.Interval;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringJoiner;
@@ -22,35 +20,57 @@ public class Main {
 
         // Create small producers
         for (int i = 0; i < smallProducerCount; i++) {
-            producers.add(new Producer(counter, 1, 3));
+            producers.add(new Producer(counter, maxCount / 2, maxCount));
         }
 
         // Create small consumers
         for (int i = 0; i < smallConsumerCount; i++) {
-            consumers.add(new Consumer(counter, 1, 3));
+            consumers.add(new Consumer(counter, 1, 2));
         }
 
         // Start all threads
-        for (Actor consumer : consumers) new Thread(consumer).start();
-        for (Actor producer : producers) new Thread(producer).start();
-
-        // Add interval that prints summary
-        new Interval(() -> summarize(producers, consumers), 1).start();
+        for (Actor consumer : consumers) {
+            consumer.setSummarizer(() -> summarize(producers, consumers));
+            new Thread(consumer).start();
+        }
+        for (Actor producer : producers) {
+            producer.setSummarizer(() -> summarize(producers, consumers));
+            new Thread(producer).start();
+        }
     }
 
-    private static void summarize(List<Actor> producers, List<Actor> consumers) {
+    private static void summarize(List<Actor> producers,
+                                  List<Actor> consumers) {
         StringJoiner joiner = new StringJoiner("\n");
         joiner.add("\n=====================");
-        joiner.add("Producers: ");
-        producers.forEach(p -> joiner.add(Main.getActorAccessText(p)));
-        joiner.add("\nConsumers: ");
-        consumers.forEach(c -> joiner.add(Main.getActorAccessText(c)));
+        joiner.add("Producers:");
+//        producers.forEach(p -> joiner.add(Main.getActorAccessText(p)));
+//        joiner.add("Waiting threads:");
+        addWaitingThreadsInfo(joiner, producers, "hasWaiters");
+        addWaitingThreadsInfo(joiner, producers, "buffer");
+        joiner.add("Consumers:");
+//        consumers.forEach(c -> joiner.add(Main.getActorAccessText(c)));
+//        joiner.add("Waiting threads:");
+        addWaitingThreadsInfo(joiner, consumers, "hasWaiters");
+        addWaitingThreadsInfo(joiner, consumers, "buffer");
         joiner.add("=====================\n");
         System.out.println(joiner);
     }
 
     private static String getActorAccessText(Actor actor) {
         int count = actor.getMonitorAccessCount();
-        return String.format("%-14s", actor) + ": " + String.format("%8d", count);
+        return String.format("%-14s", actor) +
+               ": " +
+               String.format("%8d", count);
+    }
+
+    private static void addWaitingThreadsInfo(StringJoiner joiner,
+                                              List<Actor> actors,
+                                              String queueName) {
+        joiner.add("  " + queueName + ":");
+        actors.stream()
+              .filter(a -> a.getWaitsOnCondition() != null &&
+                           a.getWaitsOnCondition().equals(queueName))
+              .forEach(a -> joiner.add("  - " + a));
     }
 }
