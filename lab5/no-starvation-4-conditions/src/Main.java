@@ -63,7 +63,7 @@ public class Main {
         }
 
         System.out.println("\n=========================");
-        summarizeTestResults(totalAccessCount, totalCPUTime);
+        summarizeTestResults(totalAccessCount, threadCount, totalCPUTime);
         System.out.println("=========================\n\n");
     }
 
@@ -94,6 +94,7 @@ public class Main {
     }
 
     private static void summarizeTestResults(long totalAccessCount,
+                                             int threadCount,
                                              double totalCPUTime) {
         System.out.println("Average results after running " +
                            REPETITIONS + " tests:");
@@ -101,10 +102,13 @@ public class Main {
                            String.format("%.2f", (double) totalAccessCount / REPETITIONS));
         System.out.println("Total CPU time:                      " +
                            String.format("%.2f", totalCPUTime / REPETITIONS)
-                           + "ms");
+                           + " ms");
+        System.out.println("Average thread CPU time:             " +
+                           String.format("%.2f", totalCPUTime / threadCount / REPETITIONS)
+                           + " ms");
         System.out.println("Total monitor access per CPU second: " +
-                           String.format("%.2f", totalAccessCount / totalCPUTime) +
-                           " ms"
+                           String.format("%.2f", totalAccessCount / (totalCPUTime / 1000)) +
+                           " 1/s"
         );
     }
 }
