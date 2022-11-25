@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/has-waiters-4-conditions/has-waiters-4-conditions.iml" filepath="$PROJECT_DIR$/has-waiters-4-conditions/has-waiters-4-conditions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lab4.iml" filepath="$PROJECT_DIR$/.idea/lab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/no-starvation-4-conditions/no-starvation-4-conditions.iml" filepath="$PROJECT_DIR$/no-starvation-4-conditions/no-starvation-4-conditions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starvation-2-conditions/starvation-2-conditions.iml" filepath="$PROJECT_DIR$/starvation-2-conditions/starvation-2-conditions.iml" />
+    </modules>
+  </component>
+</project>

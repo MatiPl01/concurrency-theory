@@ -1,0 +1,2160 @@
+4 conditions
+
+=========================
+- buffer size:  10
+- thread count: 10
+
+Test run: 1
+Total monitor access count: 231104
+Total real time:            1000 ms
+Total CPU time:             879.4780 ms
+Average thread CPU time:    87.9478 ms
+
+Test run: 2
+Total monitor access count: 249819
+Total real time:            1000 ms
+Total CPU time:             922.8120 ms
+Average thread CPU time:    92.2812 ms
+
+Test run: 3
+Total monitor access count: 249225
+Total real time:            1000 ms
+Total CPU time:             932.2220 ms
+Average thread CPU time:    93.2222 ms
+
+Test run: 4
+Total monitor access count: 233499
+Total real time:            1000 ms
+Total CPU time:             898.7540 ms
+Average thread CPU time:    89.8754 ms
+
+Test run: 5
+Total monitor access count: 179869
+Total real time:            1000 ms
+Total CPU time:             747.3180 ms
+Average thread CPU time:    74.7318 ms
+
+Test run: 6
+Total monitor access count: 227789
+Total real time:            1000 ms
+Total CPU time:             893.4180 ms
+Average thread CPU time:    89.3418 ms
+
+Test run: 7
+Total monitor access count: 188101
+Total real time:            1000 ms
+Total CPU time:             759.7140 ms
+Average thread CPU time:    75.9714 ms
+
+Test run: 8
+Total monitor access count: 214837
+Total real time:            1000 ms
+Total CPU time:             885.7190 ms
+Average thread CPU time:    88.5719 ms
+
+Test run: 9
+Total monitor access count: 246230
+Total real time:            1000 ms
+Total CPU time:             909.0280 ms
+Average thread CPU time:    90.9028 ms
+
+Test run: 10
+Total monitor access count: 254134
+Total real time:            1000 ms
+Total CPU time:             907.9830 ms
+Average thread CPU time:    90.7983 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          227460.70
+Total CPU time:                      873.64ms
+Total monitor access per CPU second: 260.36 ms
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 20
+
+Test run: 1
+Total monitor access count: 223539
+Total real time:            1000 ms
+Total CPU time:             893.8020 ms
+Average thread CPU time:    44.6901 ms
+
+Test run: 2
+Total monitor access count: 228774
+Total real time:            1000 ms
+Total CPU time:             901.9790 ms
+Average thread CPU time:    45.0990 ms
+
+Test run: 3
+Total monitor access count: 217933
+Total real time:            1000 ms
+Total CPU time:             861.2440 ms
+Average thread CPU time:    43.0622 ms
+
+Test run: 4
+Total monitor access count: 168138
+Total real time:            1000 ms
+Total CPU time:             755.2130 ms
+Average thread CPU time:    37.7607 ms
+
+Test run: 5
+Total monitor access count: 191488
+Total real time:            1000 ms
+Total CPU time:             844.0460 ms
+Average thread CPU time:    42.2023 ms
+
+Test run: 6
+Total monitor access count: 225852
+Total real time:            1000 ms
+Total CPU time:             884.9050 ms
+Average thread CPU time:    44.2453 ms
+
+Test run: 7
+Total monitor access count: 237172
+Total real time:            1000 ms
+Total CPU time:             907.0800 ms
+Average thread CPU time:    45.3540 ms
+
+Test run: 8
+Total monitor access count: 227778
+Total real time:            1000 ms
+Total CPU time:             911.8150 ms
+Average thread CPU time:    45.5908 ms
+
+Test run: 9
+Total monitor access count: 222319
+Total real time:            1000 ms
+Total CPU time:             905.8020 ms
+Average thread CPU time:    45.2901 ms
+
+Test run: 10
+Total monitor access count: 232517
+Total real time:            1000 ms
+Total CPU time:             917.4760 ms
+Average thread CPU time:    45.8738 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          217551.00
+Total CPU time:                      878.34ms
+Total monitor access per CPU second: 247.69 ms
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 30
+
+Test run: 1
+Total monitor access count: 228306
+Total real time:            1000 ms
+Total CPU time:             916.5510 ms
+Average thread CPU time:    30.5517 ms
+
+Test run: 2
+Total monitor access count: 210027
+Total real time:            1000 ms
+Total CPU time:             884.3910 ms
+Average thread CPU time:    29.4797 ms
+
+Test run: 3
+Total monitor access count: 215032
+Total real time:            1000 ms
+Total CPU time:             888.9280 ms
+Average thread CPU time:    29.6309 ms
+
+Test run: 4
+Total monitor access count: 215037
+Total real time:            1000 ms
+Total CPU time:             906.2930 ms
+Average thread CPU time:    30.2098 ms
+
+Test run: 5
+Total monitor access count: 236232
+Total real time:            1000 ms
+Total CPU time:             915.0920 ms
+Average thread CPU time:    30.5031 ms
+
+Test run: 6
+Total monitor access count: 244838
+Total real time:            1000 ms
+Total CPU time:             916.9300 ms
+Average thread CPU time:    30.5643 ms
+
+Test run: 7
+Total monitor access count: 239257
+Total real time:            1000 ms
+Total CPU time:             921.7290 ms
+Average thread CPU time:    30.7243 ms
+
+Test run: 8
+Total monitor access count: 236474
+Total real time:            1000 ms
+Total CPU time:             919.1440 ms
+Average thread CPU time:    30.6381 ms
+
+Test run: 9
+Total monitor access count: 230774
+Total real time:            1000 ms
+Total CPU time:             920.7620 ms
+Average thread CPU time:    30.6921 ms
+
+Test run: 10
+Total monitor access count: 238065
+Total real time:            1000 ms
+Total CPU time:             914.3910 ms
+Average thread CPU time:    30.4797 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          229404.20
+Total CPU time:                      910.42ms
+Total monitor access per CPU second: 251.98 ms
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 40
+
+Test run: 1
+Total monitor access count: 237682
+Total real time:            1000 ms
+Total CPU time:             912.4260 ms
+Average thread CPU time:    22.8107 ms
+
+Test run: 2
+Total monitor access count: 237828
+Total real time:            1000 ms
+Total CPU time:             912.3500 ms
+Average thread CPU time:    22.8088 ms
+
+Test run: 3
+Total monitor access count: 233581
+Total real time:            1000 ms
+Total CPU time:             915.1800 ms
+Average thread CPU time:    22.8795 ms
+
+Test run: 4
+Total monitor access count: 235810
+Total real time:            1000 ms
+Total CPU time:             917.4990 ms
+Average thread CPU time:    22.9375 ms
+
+Test run: 5
+Total monitor access count: 231904
+Total real time:            1000 ms
+Total CPU time:             915.8950 ms
+Average thread CPU time:    22.8974 ms
+
+Test run: 6
+Total monitor access count: 228663
+Total real time:            1000 ms
+Total CPU time:             913.8920 ms
+Average thread CPU time:    22.8473 ms
+
+Test run: 7
+Total monitor access count: 235960
+Total real time:            1000 ms
+Total CPU time:             906.1730 ms
+Average thread CPU time:    22.6543 ms
+
+Test run: 8
+Total monitor access count: 236073
+Total real time:            1000 ms
+Total CPU time:             916.9070 ms
+Average thread CPU time:    22.9227 ms
+
+Test run: 9
+Total monitor access count: 236336
+Total real time:            1000 ms
+Total CPU time:             914.6170 ms
+Average thread CPU time:    22.8654 ms
+
+Test run: 10
+Total monitor access count: 234931
+Total real time:            1000 ms
+Total CPU time:             910.8340 ms
+Average thread CPU time:    22.7709 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          234876.80
+Total CPU time:                      913.58ms
+Total monitor access per CPU second: 257.10 ms
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 50
+
+Test run: 1
+Total monitor access count: 229081
+Total real time:            1000 ms
+Total CPU time:             912.0090 ms
+Average thread CPU time:    18.2402 ms
+
+Test run: 2
+Total monitor access count: 230363
+Total real time:            1000 ms
+Total CPU time:             909.2100 ms
+Average thread CPU time:    18.1842 ms
+
+Test run: 3
+Total monitor access count: 230485
+Total real time:            1000 ms
+Total CPU time:             916.4270 ms
+Average thread CPU time:    18.3285 ms
+
+Test run: 4
+Total monitor access count: 228380
+Total real time:            1000 ms
+Total CPU time:             906.0520 ms
+Average thread CPU time:    18.1210 ms
+
+Test run: 5
+Total monitor access count: 229066
+Total real time:            1000 ms
+Total CPU time:             910.7810 ms
+Average thread CPU time:    18.2156 ms
+
+Test run: 6
+Total monitor access count: 232125
+Total real time:            1000 ms
+Total CPU time:             919.1510 ms
+Average thread CPU time:    18.3830 ms
+
+Test run: 7
+Total monitor access count: 231362
+Total real time:            1000 ms
+Total CPU time:             915.0830 ms
+Average thread CPU time:    18.3017 ms
+
+Test run: 8
+Total monitor access count: 230359
+Total real time:            1000 ms
+Total CPU time:             922.8140 ms
+Average thread CPU time:    18.4563 ms
+
+Test run: 9
+Total monitor access count: 230602
+Total real time:            1000 ms
+Total CPU time:             917.4260 ms
+Average thread CPU time:    18.3485 ms
+
+Test run: 10
+Total monitor access count: 232542
+Total real time:            1000 ms
+Total CPU time:             911.5160 ms
+Average thread CPU time:    18.2303 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          230436.50
+Total CPU time:                      914.05ms
+Total monitor access per CPU second: 252.11 ms
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 60
+
+Test run: 1
+Total monitor access count: 228507
+Total real time:            1000 ms
+Total CPU time:             925.2380 ms
+Average thread CPU time:    15.4206 ms
+
+Test run: 2
+Total monitor access count: 219898
+Total real time:            1000 ms
+Total CPU time:             910.7550 ms
+Average thread CPU time:    15.1793 ms
+
+Test run: 3
+Total monitor access count: 227278
+Total real time:            1000 ms
+Total CPU time:             919.9560 ms
+Average thread CPU time:    15.3326 ms
+
+Test run: 4
+Total monitor access count: 228219
+Total real time:            1000 ms
+Total CPU time:             916.1300 ms
+Average thread CPU time:    15.2688 ms
+
+Test run: 5
+Total monitor access count: 227295
+Total real time:            1000 ms
+Total CPU time:             922.8880 ms
+Average thread CPU time:    15.3815 ms
+
+Test run: 6
+Total monitor access count: 204571
+Total real time:            1000 ms
+Total CPU time:             928.7700 ms
+Average thread CPU time:    15.4795 ms
+
+Test run: 7
+Total monitor access count: 226835
+Total real time:            1000 ms
+Total CPU time:             920.1770 ms
+Average thread CPU time:    15.3363 ms
+
+Test run: 8
+Total monitor access count: 220363
+Total real time:            1000 ms
+Total CPU time:             927.5480 ms
+Average thread CPU time:    15.4591 ms
+
+Test run: 9
+Total monitor access count: 212547
+Total real time:            1000 ms
+Total CPU time:             914.1260 ms
+Average thread CPU time:    15.2354 ms
+
+Test run: 10
+Total monitor access count: 225910
+Total real time:            1000 ms
+Total CPU time:             915.2600 ms
+Average thread CPU time:    15.2543 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          222142.30
+Total CPU time:                      920.08ms
+Total monitor access per CPU second: 241.44 ms
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 70
+
+Test run: 1
+Total monitor access count: 222138
+Total real time:            1000 ms
+Total CPU time:             907.1370 ms
+Average thread CPU time:    12.9591 ms
+
+Test run: 2
+Total monitor access count: 225325
+Total real time:            1000 ms
+Total CPU time:             928.6210 ms
+Average thread CPU time:    13.2660 ms
+
+Test run: 3
+Total monitor access count: 214330
+Total real time:            1000 ms
+Total CPU time:             911.2510 ms
+Average thread CPU time:    13.0179 ms
+
+Test run: 4
+Total monitor access count: 201908
+Total real time:            1000 ms
+Total CPU time:             890.2060 ms
+Average thread CPU time:    12.7172 ms
+
+Test run: 5
+Total monitor access count: 218268
+Total real time:            1000 ms
+Total CPU time:             893.9350 ms
+Average thread CPU time:    12.7705 ms
+
+Test run: 6
+Total monitor access count: 191936
+Total real time:            1000 ms
+Total CPU time:             924.7660 ms
+Average thread CPU time:    13.2109 ms
+
+Test run: 7
+Total monitor access count: 223010
+Total real time:            1000 ms
+Total CPU time:             907.6320 ms
+Average thread CPU time:    12.9662 ms
+
+Test run: 8
+Total monitor access count: 214415
+Total real time:            1000 ms
+Total CPU time:             893.2960 ms
+Average thread CPU time:    12.7614 ms
+
+Test run: 9
+Total monitor access count: 212854
+Total real time:            1000 ms
+Total CPU time:             905.5990 ms
+Average thread CPU time:    12.9371 ms
+
+Test run: 10
+Total monitor access count: 215563
+Total real time:            1000 ms
+Total CPU time:             918.0440 ms
+Average thread CPU time:    13.1149 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          213974.70
+Total CPU time:                      908.05ms
+Total monitor access per CPU second: 235.64 ms
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 80
+
+Test run: 1
+Total monitor access count: 218433
+Total real time:            1000 ms
+Total CPU time:             919.5440 ms
+Average thread CPU time:    11.4943 ms
+
+Test run: 2
+Total monitor access count: 215872
+Total real time:            1000 ms
+Total CPU time:             912.5320 ms
+Average thread CPU time:    11.4067 ms
+
+Test run: 3
+Total monitor access count: 215824
+Total real time:            1000 ms
+Total CPU time:             921.0780 ms
+Average thread CPU time:    11.5135 ms
+
+Test run: 4
+Total monitor access count: 216257
+Total real time:            1000 ms
+Total CPU time:             919.1610 ms
+Average thread CPU time:    11.4895 ms
+
+Test run: 5
+Total monitor access count: 213867
+Total real time:            1000 ms
+Total CPU time:             913.1360 ms
+Average thread CPU time:    11.4142 ms
+
+Test run: 6
+Total monitor access count: 195245
+Total real time:            1000 ms
+Total CPU time:             931.3670 ms
+Average thread CPU time:    11.6421 ms
+
+Test run: 7
+Total monitor access count: 212180
+Total real time:            1000 ms
+Total CPU time:             922.5740 ms
+Average thread CPU time:    11.5322 ms
+
+Test run: 8
+Total monitor access count: 216768
+Total real time:            1000 ms
+Total CPU time:             916.2910 ms
+Average thread CPU time:    11.4536 ms
+
+Test run: 9
+Total monitor access count: 212121
+Total real time:            1000 ms
+Total CPU time:             917.7550 ms
+Average thread CPU time:    11.4719 ms
+
+Test run: 10
+Total monitor access count: 214676
+Total real time:            1000 ms
+Total CPU time:             923.2210 ms
+Average thread CPU time:    11.5403 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          213124.30
+Total CPU time:                      919.67ms
+Total monitor access per CPU second: 231.74 ms
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 90
+
+Test run: 1
+Total monitor access count: 210939
+Total real time:            1000 ms
+Total CPU time:             923.9840 ms
+Average thread CPU time:    10.2665 ms
+
+Test run: 2
+Total monitor access count: 202454
+Total real time:            1000 ms
+Total CPU time:             933.1660 ms
+Average thread CPU time:    10.3685 ms
+
+Test run: 3
+Total monitor access count: 210198
+Total real time:            1000 ms
+Total CPU time:             912.1800 ms
+Average thread CPU time:    10.1353 ms
+
+Test run: 4
+Total monitor access count: 210536
+Total real time:            1000 ms
+Total CPU time:             923.3610 ms
+Average thread CPU time:    10.2596 ms
+
+Test run: 5
+Total monitor access count: 210146
+Total real time:            1000 ms
+Total CPU time:             912.0710 ms
+Average thread CPU time:    10.1341 ms
+
+Test run: 6
+Total monitor access count: 211765
+Total real time:            1000 ms
+Total CPU time:             925.6110 ms
+Average thread CPU time:    10.2846 ms
+
+Test run: 7
+Total monitor access count: 210039
+Total real time:            1000 ms
+Total CPU time:             915.3170 ms
+Average thread CPU time:    10.1702 ms
+
+Test run: 8
+Total monitor access count: 209857
+Total real time:            1000 ms
+Total CPU time:             924.7700 ms
+Average thread CPU time:    10.2752 ms
+
+Test run: 9
+Total monitor access count: 207908
+Total real time:            1000 ms
+Total CPU time:             924.2310 ms
+Average thread CPU time:    10.2692 ms
+
+Test run: 10
+Total monitor access count: 211848
+Total real time:            1000 ms
+Total CPU time:             917.4280 ms
+Average thread CPU time:    10.1936 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          209569.00
+Total CPU time:                      921.21ms
+Total monitor access per CPU second: 227.49 ms
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 100
+
+Test run: 1
+Total monitor access count: 207005
+Total real time:            1000 ms
+Total CPU time:             922.3460 ms
+Average thread CPU time:    9.2235 ms
+
+Test run: 2
+Total monitor access count: 204760
+Total real time:            1000 ms
+Total CPU time:             926.7250 ms
+Average thread CPU time:    9.2673 ms
+
+Test run: 3
+Total monitor access count: 206096
+Total real time:            1000 ms
+Total CPU time:             922.5640 ms
+Average thread CPU time:    9.2256 ms
+
+Test run: 4
+Total monitor access count: 205567
+Total real time:            1000 ms
+Total CPU time:             921.0520 ms
+Average thread CPU time:    9.2105 ms
+
+Test run: 5
+Total monitor access count: 204075
+Total real time:            1000 ms
+Total CPU time:             933.7250 ms
+Average thread CPU time:    9.3373 ms
+
+Test run: 6
+Total monitor access count: 205928
+Total real time:            1000 ms
+Total CPU time:             928.4780 ms
+Average thread CPU time:    9.2848 ms
+
+Test run: 7
+Total monitor access count: 203677
+Total real time:            1000 ms
+Total CPU time:             924.3340 ms
+Average thread CPU time:    9.2433 ms
+
+Test run: 8
+Total monitor access count: 204398
+Total real time:            1000 ms
+Total CPU time:             924.1840 ms
+Average thread CPU time:    9.2418 ms
+
+Test run: 9
+Total monitor access count: 203917
+Total real time:            1000 ms
+Total CPU time:             922.0650 ms
+Average thread CPU time:    9.2207 ms
+
+Test run: 10
+Total monitor access count: 189404
+Total real time:            1000 ms
+Total CPU time:             887.7440 ms
+Average thread CPU time:    8.8774 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          203482.70
+Total CPU time:                      921.32ms
+Total monitor access per CPU second: 220.86 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 10
+
+Test run: 1
+Total monitor access count: 265032
+Total real time:            1000 ms
+Total CPU time:             907.1800 ms
+Average thread CPU time:    90.7180 ms
+
+Test run: 2
+Total monitor access count: 260960
+Total real time:            1000 ms
+Total CPU time:             899.0640 ms
+Average thread CPU time:    89.9064 ms
+
+Test run: 3
+Total monitor access count: 264743
+Total real time:            1000 ms
+Total CPU time:             909.1500 ms
+Average thread CPU time:    90.9150 ms
+
+Test run: 4
+Total monitor access count: 267354
+Total real time:            1000 ms
+Total CPU time:             905.8370 ms
+Average thread CPU time:    90.5837 ms
+
+Test run: 5
+Total monitor access count: 263971
+Total real time:            1000 ms
+Total CPU time:             900.8540 ms
+Average thread CPU time:    90.0854 ms
+
+Test run: 6
+Total monitor access count: 265534
+Total real time:            1000 ms
+Total CPU time:             908.9770 ms
+Average thread CPU time:    90.8977 ms
+
+Test run: 7
+Total monitor access count: 262452
+Total real time:            1000 ms
+Total CPU time:             904.4820 ms
+Average thread CPU time:    90.4482 ms
+
+Test run: 8
+Total monitor access count: 265862
+Total real time:            1000 ms
+Total CPU time:             912.4370 ms
+Average thread CPU time:    91.2437 ms
+
+Test run: 9
+Total monitor access count: 268256
+Total real time:            1000 ms
+Total CPU time:             908.8620 ms
+Average thread CPU time:    90.8862 ms
+
+Test run: 10
+Total monitor access count: 267229
+Total real time:            1000 ms
+Total CPU time:             912.7410 ms
+Average thread CPU time:    91.2741 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          265139.30
+Total CPU time:                      906.96ms
+Total monitor access per CPU second: 292.34 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 20
+
+Test run: 1
+Total monitor access count: 243896
+Total real time:            1000 ms
+Total CPU time:             910.5920 ms
+Average thread CPU time:    45.5296 ms
+
+Test run: 2
+Total monitor access count: 240500
+Total real time:            1000 ms
+Total CPU time:             915.0290 ms
+Average thread CPU time:    45.7515 ms
+
+Test run: 3
+Total monitor access count: 240230
+Total real time:            1000 ms
+Total CPU time:             917.3690 ms
+Average thread CPU time:    45.8685 ms
+
+Test run: 4
+Total monitor access count: 240066
+Total real time:            1000 ms
+Total CPU time:             915.3330 ms
+Average thread CPU time:    45.7667 ms
+
+Test run: 5
+Total monitor access count: 235702
+Total real time:            1000 ms
+Total CPU time:             917.0750 ms
+Average thread CPU time:    45.8538 ms
+
+Test run: 6
+Total monitor access count: 236773
+Total real time:            1000 ms
+Total CPU time:             911.8330 ms
+Average thread CPU time:    45.5917 ms
+
+Test run: 7
+Total monitor access count: 239676
+Total real time:            1000 ms
+Total CPU time:             915.3460 ms
+Average thread CPU time:    45.7673 ms
+
+Test run: 8
+Total monitor access count: 238046
+Total real time:            1000 ms
+Total CPU time:             916.1890 ms
+Average thread CPU time:    45.8095 ms
+
+Test run: 9
+Total monitor access count: 241545
+Total real time:            1000 ms
+Total CPU time:             909.7880 ms
+Average thread CPU time:    45.4894 ms
+
+Test run: 10
+Total monitor access count: 236849
+Total real time:            1000 ms
+Total CPU time:             916.2230 ms
+Average thread CPU time:    45.8112 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          239328.30
+Total CPU time:                      914.48ms
+Total monitor access per CPU second: 261.71 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 30
+
+Test run: 1
+Total monitor access count: 237172
+Total real time:            1000 ms
+Total CPU time:             919.0860 ms
+Average thread CPU time:    30.6362 ms
+
+Test run: 2
+Total monitor access count: 238688
+Total real time:            1000 ms
+Total CPU time:             921.3450 ms
+Average thread CPU time:    30.7115 ms
+
+Test run: 3
+Total monitor access count: 238110
+Total real time:            1000 ms
+Total CPU time:             918.9370 ms
+Average thread CPU time:    30.6312 ms
+
+Test run: 4
+Total monitor access count: 239390
+Total real time:            1000 ms
+Total CPU time:             921.9850 ms
+Average thread CPU time:    30.7328 ms
+
+Test run: 5
+Total monitor access count: 232296
+Total real time:            1000 ms
+Total CPU time:             919.4980 ms
+Average thread CPU time:    30.6499 ms
+
+Test run: 6
+Total monitor access count: 238208
+Total real time:            1000 ms
+Total CPU time:             921.6910 ms
+Average thread CPU time:    30.7230 ms
+
+Test run: 7
+Total monitor access count: 236843
+Total real time:            1000 ms
+Total CPU time:             916.4520 ms
+Average thread CPU time:    30.5484 ms
+
+Test run: 8
+Total monitor access count: 238693
+Total real time:            1000 ms
+Total CPU time:             925.3720 ms
+Average thread CPU time:    30.8457 ms
+
+Test run: 9
+Total monitor access count: 242380
+Total real time:            1000 ms
+Total CPU time:             920.0420 ms
+Average thread CPU time:    30.6681 ms
+
+Test run: 10
+Total monitor access count: 236689
+Total real time:            1000 ms
+Total CPU time:             919.8700 ms
+Average thread CPU time:    30.6623 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          237846.90
+Total CPU time:                      920.43ms
+Total monitor access per CPU second: 258.41 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 40
+
+Test run: 1
+Total monitor access count: 227693
+Total real time:            1000 ms
+Total CPU time:             926.0770 ms
+Average thread CPU time:    23.1519 ms
+
+Test run: 2
+Total monitor access count: 232855
+Total real time:            1000 ms
+Total CPU time:             924.8270 ms
+Average thread CPU time:    23.1207 ms
+
+Test run: 3
+Total monitor access count: 241310
+Total real time:            1000 ms
+Total CPU time:             917.3730 ms
+Average thread CPU time:    22.9343 ms
+
+Test run: 4
+Total monitor access count: 243819
+Total real time:            1000 ms
+Total CPU time:             918.3800 ms
+Average thread CPU time:    22.9595 ms
+
+Test run: 5
+Total monitor access count: 238967
+Total real time:            1000 ms
+Total CPU time:             907.3390 ms
+Average thread CPU time:    22.6835 ms
+
+Test run: 6
+Total monitor access count: 241285
+Total real time:            1000 ms
+Total CPU time:             913.2930 ms
+Average thread CPU time:    22.8323 ms
+
+Test run: 7
+Total monitor access count: 237968
+Total real time:            1000 ms
+Total CPU time:             909.5250 ms
+Average thread CPU time:    22.7381 ms
+
+Test run: 8
+Total monitor access count: 240308
+Total real time:            1000 ms
+Total CPU time:             911.2670 ms
+Average thread CPU time:    22.7817 ms
+
+Test run: 9
+Total monitor access count: 241123
+Total real time:            1000 ms
+Total CPU time:             917.7870 ms
+Average thread CPU time:    22.9447 ms
+
+Test run: 10
+Total monitor access count: 238694
+Total real time:            1000 ms
+Total CPU time:             914.6740 ms
+Average thread CPU time:    22.8669 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          238402.20
+Total CPU time:                      916.05ms
+Total monitor access per CPU second: 260.25 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 50
+
+Test run: 1
+Total monitor access count: 237538
+Total real time:            1000 ms
+Total CPU time:             919.4190 ms
+Average thread CPU time:    18.3884 ms
+
+Test run: 2
+Total monitor access count: 234767
+Total real time:            1000 ms
+Total CPU time:             911.6210 ms
+Average thread CPU time:    18.2324 ms
+
+Test run: 3
+Total monitor access count: 235654
+Total real time:            1000 ms
+Total CPU time:             914.3760 ms
+Average thread CPU time:    18.2875 ms
+
+Test run: 4
+Total monitor access count: 224015
+Total real time:            1000 ms
+Total CPU time:             924.2390 ms
+Average thread CPU time:    18.4848 ms
+
+Test run: 5
+Total monitor access count: 179648
+Total real time:            1000 ms
+Total CPU time:             954.8080 ms
+Average thread CPU time:    19.0962 ms
+
+Test run: 6
+Total monitor access count: 170380
+Total real time:            1000 ms
+Total CPU time:             966.9500 ms
+Average thread CPU time:    19.3390 ms
+
+Test run: 7
+Total monitor access count: 168654
+Total real time:            1000 ms
+Total CPU time:             971.6540 ms
+Average thread CPU time:    19.4331 ms
+
+Test run: 8
+Total monitor access count: 218012
+Total real time:            1000 ms
+Total CPU time:             936.7130 ms
+Average thread CPU time:    18.7343 ms
+
+Test run: 9
+Total monitor access count: 236198
+Total real time:            1000 ms
+Total CPU time:             911.3140 ms
+Average thread CPU time:    18.2263 ms
+
+Test run: 10
+Total monitor access count: 234945
+Total real time:            1000 ms
+Total CPU time:             913.8560 ms
+Average thread CPU time:    18.2771 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          213981.10
+Total CPU time:                      932.49ms
+Total monitor access per CPU second: 229.47 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 60
+
+Test run: 1
+Total monitor access count: 232194
+Total real time:            1000 ms
+Total CPU time:             911.8500 ms
+Average thread CPU time:    15.1975 ms
+
+Test run: 2
+Total monitor access count: 231975
+Total real time:            1000 ms
+Total CPU time:             913.8550 ms
+Average thread CPU time:    15.2309 ms
+
+Test run: 3
+Total monitor access count: 231093
+Total real time:            1000 ms
+Total CPU time:             913.3950 ms
+Average thread CPU time:    15.2233 ms
+
+Test run: 4
+Total monitor access count: 227641
+Total real time:            1000 ms
+Total CPU time:             914.6790 ms
+Average thread CPU time:    15.2447 ms
+
+Test run: 5
+Total monitor access count: 232868
+Total real time:            1000 ms
+Total CPU time:             918.9610 ms
+Average thread CPU time:    15.3160 ms
+
+Test run: 6
+Total monitor access count: 230183
+Total real time:            1000 ms
+Total CPU time:             907.7260 ms
+Average thread CPU time:    15.1288 ms
+
+Test run: 7
+Total monitor access count: 230751
+Total real time:            1000 ms
+Total CPU time:             914.0600 ms
+Average thread CPU time:    15.2343 ms
+
+Test run: 8
+Total monitor access count: 232621
+Total real time:            1000 ms
+Total CPU time:             915.9170 ms
+Average thread CPU time:    15.2653 ms
+
+Test run: 9
+Total monitor access count: 232379
+Total real time:            1000 ms
+Total CPU time:             920.3880 ms
+Average thread CPU time:    15.3398 ms
+
+Test run: 10
+Total monitor access count: 231819
+Total real time:            1000 ms
+Total CPU time:             915.6790 ms
+Average thread CPU time:    15.2613 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          231352.40
+Total CPU time:                      914.65ms
+Total monitor access per CPU second: 252.94 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 70
+
+Test run: 1
+Total monitor access count: 227216
+Total real time:            1000 ms
+Total CPU time:             915.6960 ms
+Average thread CPU time:    13.0814 ms
+
+Test run: 2
+Total monitor access count: 226644
+Total real time:            1000 ms
+Total CPU time:             920.3220 ms
+Average thread CPU time:    13.1475 ms
+
+Test run: 3
+Total monitor access count: 225556
+Total real time:            1000 ms
+Total CPU time:             917.2600 ms
+Average thread CPU time:    13.1037 ms
+
+Test run: 4
+Total monitor access count: 226314
+Total real time:            1000 ms
+Total CPU time:             919.7120 ms
+Average thread CPU time:    13.1387 ms
+
+Test run: 5
+Total monitor access count: 227210
+Total real time:            1000 ms
+Total CPU time:             923.5420 ms
+Average thread CPU time:    13.1935 ms
+
+Test run: 6
+Total monitor access count: 228143
+Total real time:            1000 ms
+Total CPU time:             926.4850 ms
+Average thread CPU time:    13.2355 ms
+
+Test run: 7
+Total monitor access count: 226928
+Total real time:            1000 ms
+Total CPU time:             921.1670 ms
+Average thread CPU time:    13.1595 ms
+
+Test run: 8
+Total monitor access count: 229140
+Total real time:            1000 ms
+Total CPU time:             922.8680 ms
+Average thread CPU time:    13.1838 ms
+
+Test run: 9
+Total monitor access count: 227801
+Total real time:            1000 ms
+Total CPU time:             919.4460 ms
+Average thread CPU time:    13.1349 ms
+
+Test run: 10
+Total monitor access count: 226204
+Total real time:            1000 ms
+Total CPU time:             922.9970 ms
+Average thread CPU time:    13.1857 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          227115.60
+Total CPU time:                      920.95ms
+Total monitor access per CPU second: 246.61 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 80
+
+Test run: 1
+Total monitor access count: 223217
+Total real time:            1000 ms
+Total CPU time:             928.1740 ms
+Average thread CPU time:    11.6022 ms
+
+Test run: 2
+Total monitor access count: 225761
+Total real time:            1000 ms
+Total CPU time:             923.6000 ms
+Average thread CPU time:    11.5450 ms
+
+Test run: 3
+Total monitor access count: 224321
+Total real time:            1000 ms
+Total CPU time:             925.5340 ms
+Average thread CPU time:    11.5692 ms
+
+Test run: 4
+Total monitor access count: 218831
+Total real time:            1000 ms
+Total CPU time:             929.1790 ms
+Average thread CPU time:    11.6147 ms
+
+Test run: 5
+Total monitor access count: 216551
+Total real time:            1000 ms
+Total CPU time:             919.0560 ms
+Average thread CPU time:    11.4882 ms
+
+Test run: 6
+Total monitor access count: 218483
+Total real time:            1000 ms
+Total CPU time:             922.3290 ms
+Average thread CPU time:    11.5291 ms
+
+Test run: 7
+Total monitor access count: 216675
+Total real time:            1000 ms
+Total CPU time:             921.3460 ms
+Average thread CPU time:    11.5168 ms
+
+Test run: 8
+Total monitor access count: 215559
+Total real time:            1000 ms
+Total CPU time:             926.7470 ms
+Average thread CPU time:    11.5843 ms
+
+Test run: 9
+Total monitor access count: 218645
+Total real time:            1000 ms
+Total CPU time:             918.0960 ms
+Average thread CPU time:    11.4762 ms
+
+Test run: 10
+Total monitor access count: 219298
+Total real time:            1000 ms
+Total CPU time:             926.0340 ms
+Average thread CPU time:    11.5754 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          219734.10
+Total CPU time:                      924.01ms
+Total monitor access per CPU second: 237.81 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 90
+
+Test run: 1
+Total monitor access count: 215216
+Total real time:            1000 ms
+Total CPU time:             925.6740 ms
+Average thread CPU time:    10.2853 ms
+
+Test run: 2
+Total monitor access count: 214926
+Total real time:            1000 ms
+Total CPU time:             920.7190 ms
+Average thread CPU time:    10.2302 ms
+
+Test run: 3
+Total monitor access count: 214602
+Total real time:            1000 ms
+Total CPU time:             922.1500 ms
+Average thread CPU time:    10.2461 ms
+
+Test run: 4
+Total monitor access count: 214261
+Total real time:            1000 ms
+Total CPU time:             930.1640 ms
+Average thread CPU time:    10.3352 ms
+
+Test run: 5
+Total monitor access count: 216043
+Total real time:            1000 ms
+Total CPU time:             923.2350 ms
+Average thread CPU time:    10.2582 ms
+
+Test run: 6
+Total monitor access count: 211506
+Total real time:            1000 ms
+Total CPU time:             922.1050 ms
+Average thread CPU time:    10.2456 ms
+
+Test run: 7
+Total monitor access count: 216995
+Total real time:            1000 ms
+Total CPU time:             923.0510 ms
+Average thread CPU time:    10.2561 ms
+
+Test run: 8
+Total monitor access count: 217037
+Total real time:            1000 ms
+Total CPU time:             922.9470 ms
+Average thread CPU time:    10.2550 ms
+
+Test run: 9
+Total monitor access count: 217800
+Total real time:            1000 ms
+Total CPU time:             922.0840 ms
+Average thread CPU time:    10.2454 ms
+
+Test run: 10
+Total monitor access count: 218221
+Total real time:            1000 ms
+Total CPU time:             920.7420 ms
+Average thread CPU time:    10.2305 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          215660.70
+Total CPU time:                      923.29ms
+Total monitor access per CPU second: 233.58 ms
+=========================
+
+
+=========================
+- buffer size:  100
+- thread count: 100
+
+Test run: 1
+Total monitor access count: 206761
+Total real time:            1000 ms
+Total CPU time:             919.8920 ms
+Average thread CPU time:    9.1989 ms
+
+Test run: 2
+Total monitor access count: 211643
+Total real time:            1000 ms
+Total CPU time:             928.1100 ms
+Average thread CPU time:    9.2811 ms
+
+Test run: 3
+Total monitor access count: 211377
+Total real time:            1000 ms
+Total CPU time:             927.1550 ms
+Average thread CPU time:    9.2716 ms
+
+Test run: 4
+Total monitor access count: 212631
+Total real time:            1000 ms
+Total CPU time:             922.6990 ms
+Average thread CPU time:    9.2270 ms
+
+Test run: 5
+Total monitor access count: 211837
+Total real time:            1000 ms
+Total CPU time:             925.9330 ms
+Average thread CPU time:    9.2593 ms
+
+Test run: 6
+Total monitor access count: 212526
+Total real time:            1000 ms
+Total CPU time:             926.7310 ms
+Average thread CPU time:    9.2673 ms
+
+Test run: 7
+Total monitor access count: 212610
+Total real time:            1000 ms
+Total CPU time:             928.8710 ms
+Average thread CPU time:    9.2887 ms
+
+Test run: 8
+Total monitor access count: 211284
+Total real time:            1000 ms
+Total CPU time:             924.2370 ms
+Average thread CPU time:    9.2424 ms
+
+Test run: 9
+Total monitor access count: 209905
+Total real time:            1000 ms
+Total CPU time:             919.4250 ms
+Average thread CPU time:    9.1943 ms
+
+Test run: 10
+Total monitor access count: 210844
+Total real time:            1000 ms
+Total CPU time:             921.2690 ms
+Average thread CPU time:    9.2127 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          211141.80
+Total CPU time:                      924.43ms
+Total monitor access per CPU second: 228.40 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 10
+
+Test run: 1
+Total monitor access count: 266516
+Total real time:            1000 ms
+Total CPU time:             913.1190 ms
+Average thread CPU time:    91.3119 ms
+
+Test run: 2
+Total monitor access count: 265611
+Total real time:            1000 ms
+Total CPU time:             915.9470 ms
+Average thread CPU time:    91.5947 ms
+
+Test run: 3
+Total monitor access count: 250991
+Total real time:            1000 ms
+Total CPU time:             906.6560 ms
+Average thread CPU time:    90.6656 ms
+
+Test run: 4
+Total monitor access count: 258264
+Total real time:            1000 ms
+Total CPU time:             902.6600 ms
+Average thread CPU time:    90.2660 ms
+
+Test run: 5
+Total monitor access count: 264351
+Total real time:            1000 ms
+Total CPU time:             910.5280 ms
+Average thread CPU time:    91.0528 ms
+
+Test run: 6
+Total monitor access count: 261165
+Total real time:            1000 ms
+Total CPU time:             915.3710 ms
+Average thread CPU time:    91.5371 ms
+
+Test run: 7
+Total monitor access count: 261615
+Total real time:            1000 ms
+Total CPU time:             914.4840 ms
+Average thread CPU time:    91.4484 ms
+
+Test run: 8
+Total monitor access count: 263127
+Total real time:            1000 ms
+Total CPU time:             912.2060 ms
+Average thread CPU time:    91.2206 ms
+
+Test run: 9
+Total monitor access count: 268027
+Total real time:            1000 ms
+Total CPU time:             908.6320 ms
+Average thread CPU time:    90.8632 ms
+
+Test run: 10
+Total monitor access count: 264516
+Total real time:            1000 ms
+Total CPU time:             903.7430 ms
+Average thread CPU time:    90.3743 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          262418.30
+Total CPU time:                      910.33ms
+Total monitor access per CPU second: 288.27 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 20
+
+Test run: 1
+Total monitor access count: 243646
+Total real time:            1000 ms
+Total CPU time:             919.6260 ms
+Average thread CPU time:    45.9813 ms
+
+Test run: 2
+Total monitor access count: 238147
+Total real time:            1000 ms
+Total CPU time:             917.7660 ms
+Average thread CPU time:    45.8883 ms
+
+Test run: 3
+Total monitor access count: 240169
+Total real time:            1000 ms
+Total CPU time:             917.0980 ms
+Average thread CPU time:    45.8549 ms
+
+Test run: 4
+Total monitor access count: 240304
+Total real time:            1000 ms
+Total CPU time:             920.8600 ms
+Average thread CPU time:    46.0430 ms
+
+Test run: 5
+Total monitor access count: 244053
+Total real time:            1000 ms
+Total CPU time:             912.3990 ms
+Average thread CPU time:    45.6200 ms
+
+Test run: 6
+Total monitor access count: 242916
+Total real time:            1000 ms
+Total CPU time:             921.6080 ms
+Average thread CPU time:    46.0804 ms
+
+Test run: 7
+Total monitor access count: 228518
+Total real time:            1000 ms
+Total CPU time:             908.4030 ms
+Average thread CPU time:    45.4202 ms
+
+Test run: 8
+Total monitor access count: 239731
+Total real time:            1000 ms
+Total CPU time:             918.3980 ms
+Average thread CPU time:    45.9199 ms
+
+Test run: 9
+Total monitor access count: 244400
+Total real time:            1000 ms
+Total CPU time:             905.1780 ms
+Average thread CPU time:    45.2589 ms
+
+Test run: 10
+Total monitor access count: 244593
+Total real time:            1000 ms
+Total CPU time:             920.7240 ms
+Average thread CPU time:    46.0362 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          240647.70
+Total CPU time:                      916.21ms
+Total monitor access per CPU second: 262.66 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 30
+
+Test run: 1
+Total monitor access count: 236800
+Total real time:            1000 ms
+Total CPU time:             921.5980 ms
+Average thread CPU time:    30.7199 ms
+
+Test run: 2
+Total monitor access count: 232591
+Total real time:            1000 ms
+Total CPU time:             917.9530 ms
+Average thread CPU time:    30.5984 ms
+
+Test run: 3
+Total monitor access count: 239353
+Total real time:            1000 ms
+Total CPU time:             914.2440 ms
+Average thread CPU time:    30.4748 ms
+
+Test run: 4
+Total monitor access count: 241475
+Total real time:            1000 ms
+Total CPU time:             915.4930 ms
+Average thread CPU time:    30.5164 ms
+
+Test run: 5
+Total monitor access count: 238653
+Total real time:            1000 ms
+Total CPU time:             920.0830 ms
+Average thread CPU time:    30.6694 ms
+
+Test run: 6
+Total monitor access count: 234811
+Total real time:            1000 ms
+Total CPU time:             914.9120 ms
+Average thread CPU time:    30.4971 ms
+
+Test run: 7
+Total monitor access count: 233878
+Total real time:            1000 ms
+Total CPU time:             918.9450 ms
+Average thread CPU time:    30.6315 ms
+
+Test run: 8
+Total monitor access count: 235828
+Total real time:            1000 ms
+Total CPU time:             919.1270 ms
+Average thread CPU time:    30.6376 ms
+
+Test run: 9
+Total monitor access count: 237937
+Total real time:            1000 ms
+Total CPU time:             921.4120 ms
+Average thread CPU time:    30.7137 ms
+
+Test run: 10
+Total monitor access count: 237665
+Total real time:            1000 ms
+Total CPU time:             916.3420 ms
+Average thread CPU time:    30.5447 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          236899.10
+Total CPU time:                      918.01ms
+Total monitor access per CPU second: 258.06 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 40
+
+Test run: 1
+Total monitor access count: 240501
+Total real time:            1000 ms
+Total CPU time:             917.0650 ms
+Average thread CPU time:    22.9266 ms
+
+Test run: 2
+Total monitor access count: 235644
+Total real time:            1000 ms
+Total CPU time:             906.5480 ms
+Average thread CPU time:    22.6637 ms
+
+Test run: 3
+Total monitor access count: 241930
+Total real time:            1000 ms
+Total CPU time:             912.1800 ms
+Average thread CPU time:    22.8045 ms
+
+Test run: 4
+Total monitor access count: 244110
+Total real time:            1000 ms
+Total CPU time:             911.8580 ms
+Average thread CPU time:    22.7965 ms
+
+Test run: 5
+Total monitor access count: 242253
+Total real time:            1000 ms
+Total CPU time:             912.1200 ms
+Average thread CPU time:    22.8030 ms
+
+Test run: 6
+Total monitor access count: 240369
+Total real time:            1000 ms
+Total CPU time:             903.8380 ms
+Average thread CPU time:    22.5960 ms
+
+Test run: 7
+Total monitor access count: 236685
+Total real time:            1000 ms
+Total CPU time:             912.1550 ms
+Average thread CPU time:    22.8039 ms
+
+Test run: 8
+Total monitor access count: 244059
+Total real time:            1000 ms
+Total CPU time:             917.1170 ms
+Average thread CPU time:    22.9279 ms
+
+Test run: 9
+Total monitor access count: 241986
+Total real time:            1000 ms
+Total CPU time:             909.4900 ms
+Average thread CPU time:    22.7373 ms
+
+Test run: 10
+Total monitor access count: 240584
+Total real time:            1000 ms
+Total CPU time:             920.4280 ms
+Average thread CPU time:    23.0107 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          240812.10
+Total CPU time:                      912.28ms
+Total monitor access per CPU second: 263.97 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 50
+
+Test run: 1
+Total monitor access count: 238502
+Total real time:            1000 ms
+Total CPU time:             911.9280 ms
+Average thread CPU time:    18.2386 ms
+
+Test run: 2
+Total monitor access count: 231490
+Total real time:            1000 ms
+Total CPU time:             918.7430 ms
+Average thread CPU time:    18.3749 ms
+
+Test run: 3
+Total monitor access count: 235694
+Total real time:            1000 ms
+Total CPU time:             918.8180 ms
+Average thread CPU time:    18.3764 ms
+
+Test run: 4
+Total monitor access count: 236079
+Total real time:            1000 ms
+Total CPU time:             913.2600 ms
+Average thread CPU time:    18.2652 ms
+
+Test run: 5
+Total monitor access count: 237557
+Total real time:            1000 ms
+Total CPU time:             911.0410 ms
+Average thread CPU time:    18.2208 ms
+
+Test run: 6
+Total monitor access count: 237496
+Total real time:            1000 ms
+Total CPU time:             908.8580 ms
+Average thread CPU time:    18.1772 ms
+
+Test run: 7
+Total monitor access count: 232831
+Total real time:            1000 ms
+Total CPU time:             915.1510 ms
+Average thread CPU time:    18.3030 ms
+
+Test run: 8
+Total monitor access count: 238738
+Total real time:            1000 ms
+Total CPU time:             916.0090 ms
+Average thread CPU time:    18.3202 ms
+
+Test run: 9
+Total monitor access count: 239947
+Total real time:            1000 ms
+Total CPU time:             913.1870 ms
+Average thread CPU time:    18.2637 ms
+
+Test run: 10
+Total monitor access count: 236831
+Total real time:            1000 ms
+Total CPU time:             913.1090 ms
+Average thread CPU time:    18.2622 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          236516.50
+Total CPU time:                      914.01ms
+Total monitor access per CPU second: 258.77 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 60
+
+Test run: 1
+Total monitor access count: 232896
+Total real time:            1000 ms
+Total CPU time:             919.6170 ms
+Average thread CPU time:    15.3270 ms
+
+Test run: 2
+Total monitor access count: 201402
+Total real time:            1000 ms
+Total CPU time:             943.6240 ms
+Average thread CPU time:    15.7271 ms
+
+Test run: 3
+Total monitor access count: 232423
+Total real time:            1000 ms
+Total CPU time:             920.1390 ms
+Average thread CPU time:    15.3357 ms
+
+Test run: 4
+Total monitor access count: 234141
+Total real time:            1000 ms
+Total CPU time:             920.9670 ms
+Average thread CPU time:    15.3495 ms
+
+Test run: 5
+Total monitor access count: 232063
+Total real time:            1000 ms
+Total CPU time:             919.7290 ms
+Average thread CPU time:    15.3288 ms
+
+Test run: 6
+Total monitor access count: 232373
+Total real time:            1000 ms
+Total CPU time:             921.4050 ms
+Average thread CPU time:    15.3568 ms
+
+Test run: 7
+Total monitor access count: 225884
+Total real time:            1000 ms
+Total CPU time:             916.4510 ms
+Average thread CPU time:    15.2742 ms
+
+Test run: 8
+Total monitor access count: 233236
+Total real time:            1000 ms
+Total CPU time:             918.5060 ms
+Average thread CPU time:    15.3084 ms
+
+Test run: 9
+Total monitor access count: 234772
+Total real time:            1000 ms
+Total CPU time:             922.4640 ms
+Average thread CPU time:    15.3744 ms
+
+Test run: 10
+Total monitor access count: 231660
+Total real time:            1000 ms
+Total CPU time:             918.3070 ms
+Average thread CPU time:    15.3051 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          229085.00
+Total CPU time:                      922.12ms
+Total monitor access per CPU second: 248.43 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 70
+
+Test run: 1
+Total monitor access count: 229946
+Total real time:            1000 ms
+Total CPU time:             921.4520 ms
+Average thread CPU time:    13.1636 ms
+
+Test run: 2
+Total monitor access count: 211660
+Total real time:            1000 ms
+Total CPU time:             905.4800 ms
+Average thread CPU time:    12.9354 ms
+
+Test run: 3
+Total monitor access count: 218178
+Total real time:            1000 ms
+Total CPU time:             907.1450 ms
+Average thread CPU time:    12.9592 ms
+
+Test run: 4
+Total monitor access count: 228307
+Total real time:            1000 ms
+Total CPU time:             925.0970 ms
+Average thread CPU time:    13.2157 ms
+
+Test run: 5
+Total monitor access count: 227241
+Total real time:            1000 ms
+Total CPU time:             921.2850 ms
+Average thread CPU time:    13.1612 ms
+
+Test run: 6
+Total monitor access count: 227745
+Total real time:            1000 ms
+Total CPU time:             914.3820 ms
+Average thread CPU time:    13.0626 ms
+
+Test run: 7
+Total monitor access count: 223008
+Total real time:            1000 ms
+Total CPU time:             923.8060 ms
+Average thread CPU time:    13.1972 ms
+
+Test run: 8
+Total monitor access count: 229445
+Total real time:            1000 ms
+Total CPU time:             924.5630 ms
+Average thread CPU time:    13.2080 ms
+
+Test run: 9
+Total monitor access count: 226998
+Total real time:            1000 ms
+Total CPU time:             914.9850 ms
+Average thread CPU time:    13.0712 ms
+
+Test run: 10
+Total monitor access count: 228849
+Total real time:            1000 ms
+Total CPU time:             928.5360 ms
+Average thread CPU time:    13.2648 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          225137.70
+Total CPU time:                      918.67ms
+Total monitor access per CPU second: 245.07 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 80
+
+Test run: 1
+Total monitor access count: 223159
+Total real time:            1000 ms
+Total CPU time:             925.4970 ms
+Average thread CPU time:    11.5687 ms
+
+Test run: 2
+Total monitor access count: 218383
+Total real time:            1000 ms
+Total CPU time:             929.3620 ms
+Average thread CPU time:    11.6170 ms
+
+Test run: 3
+Total monitor access count: 224114
+Total real time:            1000 ms
+Total CPU time:             919.4600 ms
+Average thread CPU time:    11.4933 ms
+
+Test run: 4
+Total monitor access count: 223200
+Total real time:            1000 ms
+Total CPU time:             921.9530 ms
+Average thread CPU time:    11.5244 ms
+
+Test run: 5
+Total monitor access count: 213812
+Total real time:            1000 ms
+Total CPU time:             892.0080 ms
+Average thread CPU time:    11.1501 ms
+
+Test run: 6
+Total monitor access count: 222933
+Total real time:            1000 ms
+Total CPU time:             919.7540 ms
+Average thread CPU time:    11.4969 ms
+
+Test run: 7
+Total monitor access count: 219480
+Total real time:            1000 ms
+Total CPU time:             922.4690 ms
+Average thread CPU time:    11.5309 ms
+
+Test run: 8
+Total monitor access count: 225456
+Total real time:            1000 ms
+Total CPU time:             918.8030 ms
+Average thread CPU time:    11.4850 ms
+
+Test run: 9
+Total monitor access count: 221193
+Total real time:            1000 ms
+Total CPU time:             919.5610 ms
+Average thread CPU time:    11.4945 ms
+
+Test run: 10
+Total monitor access count: 223261
+Total real time:            1000 ms
+Total CPU time:             918.3340 ms
+Average thread CPU time:    11.4792 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          221499.10
+Total CPU time:                      918.72ms
+Total monitor access per CPU second: 241.10 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 90
+
+Test run: 1
+Total monitor access count: 215658
+Total real time:            1000 ms
+Total CPU time:             927.1050 ms
+Average thread CPU time:    10.3012 ms
+
+Test run: 2
+Total monitor access count: 213937
+Total real time:            1000 ms
+Total CPU time:             923.4190 ms
+Average thread CPU time:    10.2602 ms
+
+Test run: 3
+Total monitor access count: 217503
+Total real time:            1000 ms
+Total CPU time:             928.8170 ms
+Average thread CPU time:    10.3202 ms
+
+Test run: 4
+Total monitor access count: 219107
+Total real time:            1000 ms
+Total CPU time:             929.1600 ms
+Average thread CPU time:    10.3240 ms
+
+Test run: 5
+Total monitor access count: 217850
+Total real time:            1000 ms
+Total CPU time:             926.2380 ms
+Average thread CPU time:    10.2915 ms
+
+Test run: 6
+Total monitor access count: 214280
+Total real time:            1000 ms
+Total CPU time:             923.1690 ms
+Average thread CPU time:    10.2574 ms
+
+Test run: 7
+Total monitor access count: 218053
+Total real time:            1000 ms
+Total CPU time:             925.9400 ms
+Average thread CPU time:    10.2882 ms
+
+Test run: 8
+Total monitor access count: 217973
+Total real time:            1000 ms
+Total CPU time:             925.6840 ms
+Average thread CPU time:    10.2854 ms
+
+Test run: 9
+Total monitor access count: 217795
+Total real time:            1000 ms
+Total CPU time:             920.4100 ms
+Average thread CPU time:    10.2268 ms
+
+Test run: 10
+Total monitor access count: 213219
+Total real time:            1000 ms
+Total CPU time:             921.2590 ms
+Average thread CPU time:    10.2362 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          216537.50
+Total CPU time:                      925.12ms
+Total monitor access per CPU second: 234.06 ms
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 100
+
+Test run: 1
+Total monitor access count: 208093
+Total real time:            1000 ms
+Total CPU time:             932.6180 ms
+Average thread CPU time:    9.3262 ms
+
+Test run: 2
+Total monitor access count: 211322
+Total real time:            1000 ms
+Total CPU time:             932.9870 ms
+Average thread CPU time:    9.3299 ms
+
+Test run: 3
+Total monitor access count: 212972
+Total real time:            1000 ms
+Total CPU time:             922.0400 ms
+Average thread CPU time:    9.2204 ms
+
+Test run: 4
+Total monitor access count: 200904
+Total real time:            1000 ms
+Total CPU time:             909.5670 ms
+Average thread CPU time:    9.0957 ms
+
+Test run: 5
+Total monitor access count: 201942
+Total real time:            1000 ms
+Total CPU time:             931.3760 ms
+Average thread CPU time:    9.3138 ms
+
+Test run: 6
+Total monitor access count: 208049
+Total real time:            1000 ms
+Total CPU time:             931.1470 ms
+Average thread CPU time:    9.3115 ms
+
+Test run: 7
+Total monitor access count: 209567
+Total real time:            1000 ms
+Total CPU time:             924.2890 ms
+Average thread CPU time:    9.2429 ms
+
+Test run: 8
+Total monitor access count: 210051
+Total real time:            1000 ms
+Total CPU time:             930.1120 ms
+Average thread CPU time:    9.3011 ms
+
+Test run: 9
+Total monitor access count: 206265
+Total real time:            1000 ms
+Total CPU time:             926.5270 ms
+Average thread CPU time:    9.2653 ms
+
+Test run: 10
+Total monitor access count: 209428
+Total real time:            1000 ms
+Total CPU time:             922.7390 ms
+Average thread CPU time:    9.2274 ms
+
+=========================
+Average results after running 10 tests:
+Total monitor access count:          207859.30
+Total CPU time:                      926.34ms
+Total monitor access per CPU second: 224.39 ms
+=========================
