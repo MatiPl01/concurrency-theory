@@ -23,13 +23,22 @@ public class Counter {
         return result;
     }
 
-    public void produce(int producedCount, Runnable callback) {
+    public void produce(int producedCount,
+                        Runnable onAccess,
+                        Runnable onHasWaitersWait,
+                        Runnable onBufferWait) {
         lock.lock();
         try {
-            while (lock.hasWaiters(firstProducer)) remainingProducers.await();
-            while (maxCount - count < producedCount) firstProducer.await();
+            while (lock.hasWaiters(firstProducer)) {
+                remainingProducers.await();
+                onHasWaitersWait.run();
+            }
+            while (maxCount - count < producedCount) {
+                firstProducer.await();
+                onBufferWait.run();
+            }
             count += producedCount;
-            callback.run();
+            onAccess.run();
             firstConsumer.signal();
             remainingProducers.signal();
         } catch (InterruptedException e) {
@@ -39,13 +48,22 @@ public class Counter {
         }
     }
 
-    public void consume(int consumedCount, Runnable callback) {
+    public void consume(int consumedCount,
+                        Runnable onAccess,
+                        Runnable onHasWaitersWait,
+                        Runnable onBufferWait) {
         lock.lock();
         try {
-            while (lock.hasWaiters(firstConsumer)) remainingConsumers.await();
-            while (count < consumedCount) firstConsumer.await();
+            while (lock.hasWaiters(firstConsumer)) {
+                remainingConsumers.await();
+                onHasWaitersWait.run();
+            }
+            while (count < consumedCount) {
+                firstConsumer.await();
+                onBufferWait.run();
+            }
             count -= consumedCount;
-            callback.run();
+            onAccess.run();
             firstProducer.signal();
             remainingConsumers.signal();
         } catch (InterruptedException e) {

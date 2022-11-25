@@ -15,10 +15,16 @@ public class Consumer extends Actor {
     public void run() {
         while (true) {
             int count = getRandomCount();
-            counter.consume(count, () -> {
-                registerMonitorAccess();
-                printAccessInfo(-count);
-            });
+            counter.consume(
+                    count,
+                    () -> {
+                        registerMonitorAccess();
+//                        printAccessInfo(-count);
+                        setWaitsOnCondition(null);
+                    },
+                    () -> setWaitsOnCondition("hasWaiters"),
+                    () -> setWaitsOnCondition("buffer")
+            );
         }
     }
 }

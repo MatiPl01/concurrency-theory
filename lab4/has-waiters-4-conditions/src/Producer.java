@@ -15,10 +15,16 @@ public class Producer extends Actor {
     public void run() {
         while (true) {
             int count = getRandomCount();
-            counter.produce(count, () -> {
-                registerMonitorAccess();
-                printAccessInfo(count);
-            });
+            counter.produce(
+                    count,
+                    () -> {
+                        registerMonitorAccess();
+//                        printAccessInfo(count);
+                        setWaitsOnCondition(null);
+                    },
+                    () -> setWaitsOnCondition("hasWaiters"),
+                    () -> setWaitsOnCondition("buffer")
+            );
         }
     }
 }

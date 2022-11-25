@@ -5,6 +5,9 @@ public abstract class Actor implements Runnable {
     private final int maxCount;
     private int monitorAccessCount = 0;
 
+    private String waitsOnCondition;
+    private Runnable summarizer;
+
     protected Actor(String name, Counter counter, int maxCount) {
         this(name, counter, maxCount, maxCount);
     }
@@ -45,5 +48,22 @@ public abstract class Actor implements Runnable {
 
     public void registerMonitorAccess() {
         monitorAccessCount++;
+    }
+
+    public void setWaitsOnCondition(String conditionName) {
+        waitsOnCondition = conditionName;
+        summarize();
+    }
+
+    public String getWaitsOnCondition() {
+        return waitsOnCondition;
+    }
+
+    public void setSummarizer(Runnable summarizer) {
+        this.summarizer = summarizer;
+    }
+
+    public void summarize() {
+        this.summarizer.run();
     }
 }
