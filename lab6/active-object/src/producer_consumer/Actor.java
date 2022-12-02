@@ -8,7 +8,6 @@ public abstract class Actor<T> extends Thread {
     protected final Proxy<T> proxy;
     private final int minCount;
     private final int maxCount;
-    private int monitorAccessCount = 0;
 
     protected Actor(String name, Proxy<T> proxy, int maxCount) {
         this(name, proxy, maxCount, maxCount);
@@ -26,29 +25,9 @@ public abstract class Actor<T> extends Thread {
         return name;
     }
 
-    public void printAccessInfo(int count) {
-//        System.out.println(String.format("%-14s", "(" + this + "):") +
-//                           " buffer size: " +
-//                           String.format("%2d", counter.getCount()) +
-//                           String.format("%-6s",
-//                                         " (" +
-//                                         (count > 0 ? "+" : "") +
-//                                         count +
-//                                         ")"
-//                           ) +
-//                           " access count: " +
-//                           monitorAccessCount);
-    }
-
-    public int getMonitorAccessCount() {
-        return monitorAccessCount;
-    }
+    protected abstract void work();
 
     protected int getRandomCount() {
         return Random.randInt(minCount, maxCount);
-    }
-
-    public void registerMonitorAccess() {
-        monitorAccessCount++;
     }
 }

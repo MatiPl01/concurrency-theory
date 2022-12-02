@@ -13,6 +13,14 @@ public class Servant<T> {
         this.size = size;
     }
 
+    public int size() {
+        return size;
+    }
+
+    public int messageCount() {
+        return messageQueue.size();
+    }
+
     boolean hasAtLeastElements(int count) {
         return messageQueue.size() >= count;
     }

@@ -9,9 +9,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int producerCount = 10;
-        int consumerCount = 10;
-        int bufferSize = 10;
+        int producerCount = 3;
+        int consumerCount = 2;
+        int bufferSize = 20;
         int maxCount = bufferSize / 2;
 
         Scheduler<String> scheduler = new Scheduler<>(bufferSize);

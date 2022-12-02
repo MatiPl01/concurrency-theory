@@ -2,6 +2,7 @@ package producer_consumer;
 
 import active_object.MessageFuture;
 import active_object.Proxy;
+import utils.ExpensiveComputation;
 
 public class Consumer<T> extends Actor<T> {
     private static final String NAME = "Consumer";
@@ -16,22 +17,22 @@ public class Consumer<T> extends Actor<T> {
         id++;
     }
 
-    void consume(int count) throws InterruptedException {
-        MessageFuture<T> messageFuture = proxy.get(count);
-        System.out.println("Consumed: " + count);
-
-        // TODO - improve waiting
-        while (!messageFuture.isCompleted()) {
-            Thread.sleep(10);
-        }
+    @Override
+    protected void work() {
+        ExpensiveComputation.compute();
     }
+
 
     @Override
     public void run() {
         while (true) {
-            int count = getRandomCount();
             try {
-                consume(count);
+                int consumeCount = getRandomCount();
+                MessageFuture<T> messageFuture = proxy.get(consumeCount);
+                // Do some expensive work while consumption request is being processed
+                while(!messageFuture.isCompleted()) work();
+                // Print the number of consumed messages
+                System.out.println("Consume: " + messageFuture.getMessages().size());
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

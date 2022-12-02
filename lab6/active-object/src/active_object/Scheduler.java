@@ -1,12 +1,12 @@
 package active_object;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class Scheduler<T> extends Thread {
     private final Servant<T> servant;
-    private final ActivationQueue activationQueue = new ActivationQueue();
-    private final Queue<MethodRequest> waitingQueue = new LinkedList<>();
+    private final BlockingQueue<MethodRequest> activationQueue = new LinkedBlockingQueue<>();
+    private final BlockingQueue<MethodRequest> waitingQueue = new LinkedBlockingQueue<>();
 
     public Scheduler(int bufferSize) {
         this.servant = new Servant<>(bufferSize);
@@ -17,23 +17,18 @@ public class Scheduler<T> extends Thread {
     }
 
     void enqueue(MethodRequest methodRequest) throws InterruptedException {
-        activationQueue.enqueue(methodRequest);
+        activationQueue.put(methodRequest);
     }
 
-    // TODO - rework this function to ensure that there is no starvation
-    void dispatch() throws InterruptedException {
-        System.out.println("Waiting queue:    " + waitingQueue.size());
-        System.out.println("Activation queue: " + activationQueue.size());
+    private void dispatch() throws InterruptedException {
         // Try to execute the first message request from the waiting queue
-        if (waitingQueue.peek() != null && !waitingQueue.peek().isGuarded()) {
-            waitingQueue.poll().call();
-        } else {
-            MethodRequest request = activationQueue.dequeue();
-            if (request.isGuarded()) {
-                waitingQueue.add(request);
-            } else {
-                request.call();
-            }
+        if (!waitingQueue.isEmpty() && !waitingQueue.peek().isGuarded()) {
+            waitingQueue.take().call();
+        }
+        if (!activationQueue.isEmpty()) {
+            MethodRequest request = activationQueue.take();
+            if (request.isGuarded()) waitingQueue.add(request);
+            else request.call();
         }
     }
 
