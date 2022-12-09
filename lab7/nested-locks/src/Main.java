@@ -13,9 +13,9 @@ public class Main {
     private static final ThreadMXBean threadManager =
             ManagementFactory.getThreadMXBean();
 
-    private static final int TEST_DURATION = 1000; // ms
+    private static final int TEST_DURATION = 10000; // ms
     private static final int REPETITIONS = 10; // per single test params
-    private static final int[] THREAD_COUNTS = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+    private static final int[] THREAD_COUNTS = { 2, 4, 6, 8, 10, 15, 20, 25, 30, 40, 50 };
     private static final int[] BUFFER_SIZES = { 10, 1000, 100000 };
 
     public static void main(String[] args) throws InterruptedException {
@@ -40,13 +40,16 @@ public class Main {
             Buffer<String> buffer = new Buffer<>(bufferSize);
             List<Actor<String>> threads = new ArrayList<>();
 
+            int consumerCount = threadCount / 2;
+            int producerCount = threadCount - consumerCount;
+
             // Create small producers
-            for (int i = 0; i < threadCount / 2; i++) {
+            for (int i = 0; i < producerCount; i++) {
                 threads.add(new Producer<>(buffer, 1, bufferSize / 2, "Some product"));
             }
 
             // Create small consumers
-            for (int i = 0; i < threadCount / 2; i++) {
+            for (int i = 0; i < consumerCount; i++) {
                 threads.add(new Consumer<>(buffer, 1, bufferSize / 2));
             }
 

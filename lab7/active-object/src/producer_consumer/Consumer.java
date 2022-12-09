@@ -25,13 +25,11 @@ public class Consumer<T> extends Actor<T> {
     @Override
     public void run() {
         try {
-            while (true) {
+            while (!isInterrupted()) {
                 int consumeCount = getRandomCount();
                 MessageFuture<T> messageFuture = proxy.get(consumeCount);
                 // Do some expensive work while consumption request is being processed
-                while (!messageFuture.isCompleted()) work();
-                // Print the number of consumed messages
-//                System.out.println("Consume: " + messageFuture.getMessages().size());
+                while (!messageFuture.isCompleted() && !isInterrupted()) work();
             }
         } catch (InterruptedException e) {
             interrupt();

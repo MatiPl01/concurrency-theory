@@ -30,7 +30,7 @@ public class Producer<T> extends Actor<T> {
     @Override
     public void run() {
         try {
-            while (true) {
+            while (!isInterrupted()) {
                 int produceCount = getRandomCount();
                 List<T> messages = new ArrayList<>();
                 for (int i = 0; i < produceCount; i++) {
@@ -38,9 +38,7 @@ public class Producer<T> extends Actor<T> {
                 }
                 MessageFuture<Void> promise = proxy.put(messages);
                 // Do some expensive work while consumption request is being processed
-                while (!promise.isCompleted()) work();
-                // Print the number of produced messages
-//                System.out.println("Produce: " + produceCount);
+                while (!promise.isCompleted() && !isInterrupted()) work();
             }
         } catch (InterruptedException e) {
             interrupt();

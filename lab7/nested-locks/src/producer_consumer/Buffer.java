@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Buffer<T> {
     private final Stack<T> buffer = new Stack<>();
     private final int size;
-    private int accessCount = 0;
+    private long accessCount = 0;
 
     private final Lock bufferLock = new ReentrantLock();
     private final Lock producerLock = new ReentrantLock();
@@ -23,7 +23,7 @@ public class Buffer<T> {
         this.size = size;
     }
 
-    public int getTotalAccessCount() {
+    public long getTotalAccessCount() {
         return accessCount;
     }
 

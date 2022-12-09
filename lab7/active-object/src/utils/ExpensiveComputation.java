@@ -1,7 +1,7 @@
 package utils;
 
 public final class ExpensiveComputation {
-    private static final int ITERATIONS = 1000;
+    private static final int ITERATIONS = 100;
 
     public static void compute() {
         double total = 0;

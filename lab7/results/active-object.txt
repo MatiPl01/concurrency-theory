@@ -1,0 +1,2407 @@
+=========================
+- buffer size:  10
+- thread count: 2
+
+Test run: 1
+Total tasks done count:  16839428
+Total real time:         10000 ms
+Total CPU time:          19679.5100 ms
+Average thread CPU time: 9839.7550 ms
+
+Test run: 2
+Total tasks done count:  17123448
+Total real time:         10000 ms
+Total CPU time:          19746.8340 ms
+Average thread CPU time: 9873.4170 ms
+
+Test run: 3
+Total tasks done count:  15332167
+Total real time:         10000 ms
+Total CPU time:          19602.2420 ms
+Average thread CPU time: 9801.1210 ms
+
+Test run: 4
+Total tasks done count:  17463159
+Total real time:         10000 ms
+Total CPU time:          19791.9320 ms
+Average thread CPU time: 9895.9660 ms
+
+Test run: 5
+Total tasks done count:  16785517
+Total real time:         10000 ms
+Total CPU time:          19742.3250 ms
+Average thread CPU time: 9871.1625 ms
+
+Test run: 6
+Total tasks done count:  16788948
+Total real time:         10000 ms
+Total CPU time:          19726.7000 ms
+Average thread CPU time: 9863.3500 ms
+
+Test run: 7
+Total tasks done count:  17149920
+Total real time:         10000 ms
+Total CPU time:          19792.6340 ms
+Average thread CPU time: 9896.3170 ms
+
+Test run: 8
+Total tasks done count:  16888717
+Total real time:         10000 ms
+Total CPU time:          19767.6770 ms
+Average thread CPU time: 9883.8385 ms
+
+Test run: 9
+Total tasks done count:  16190472
+Total real time:         10000 ms
+Total CPU time:          19713.9590 ms
+Average thread CPU time: 9856.9795 ms
+
+Test run: 10
+Total tasks done count:  17059367
+Total real time:         10000 ms
+Total CPU time:          19783.3020 ms
+Average thread CPU time: 9891.6510 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              16762114.30
+Total CPU time:                      19734.71 ms
+Average thread CPU time:             9867.36 ms
+Total monitor access per CPU second: 849372.15 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 4
+
+Test run: 1
+Total tasks done count:  4396744
+Total real time:         10000 ms
+Total CPU time:          28787.3040 ms
+Average thread CPU time: 7196.8260 ms
+
+Test run: 2
+Total tasks done count:  4261587
+Total real time:         10000 ms
+Total CPU time:          28464.2990 ms
+Average thread CPU time: 7116.0748 ms
+
+Test run: 3
+Total tasks done count:  4126367
+Total real time:         10000 ms
+Total CPU time:          28379.7100 ms
+Average thread CPU time: 7094.9275 ms
+
+Test run: 4
+Total tasks done count:  4255783
+Total real time:         10000 ms
+Total CPU time:          28118.3780 ms
+Average thread CPU time: 7029.5945 ms
+
+Test run: 5
+Total tasks done count:  4470267
+Total real time:         10000 ms
+Total CPU time:          28631.8690 ms
+Average thread CPU time: 7157.9673 ms
+
+Test run: 6
+Total tasks done count:  4584271
+Total real time:         10000 ms
+Total CPU time:          28756.3930 ms
+Average thread CPU time: 7189.0983 ms
+
+Test run: 7
+Total tasks done count:  4282477
+Total real time:         10000 ms
+Total CPU time:          28394.7410 ms
+Average thread CPU time: 7098.6853 ms
+
+Test run: 8
+Total tasks done count:  4497032
+Total real time:         10000 ms
+Total CPU time:          28138.7870 ms
+Average thread CPU time: 7034.6968 ms
+
+Test run: 9
+Total tasks done count:  4051235
+Total real time:         10000 ms
+Total CPU time:          28458.4310 ms
+Average thread CPU time: 7114.6078 ms
+
+Test run: 10
+Total tasks done count:  3880254
+Total real time:         10000 ms
+Total CPU time:          28581.0800 ms
+Average thread CPU time: 7145.2700 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              4280601.70
+Total CPU time:                      28471.10 ms
+Average thread CPU time:             7117.77 ms
+Total monitor access per CPU second: 150349.01 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 6
+
+Test run: 1
+Total tasks done count:  3278026
+Total real time:         10000 ms
+Total CPU time:          36565.7070 ms
+Average thread CPU time: 6094.2845 ms
+
+Test run: 2
+Total tasks done count:  3124018
+Total real time:         10000 ms
+Total CPU time:          39026.2020 ms
+Average thread CPU time: 6504.3670 ms
+
+Test run: 3
+Total tasks done count:  2771579
+Total real time:         10000 ms
+Total CPU time:          37130.9200 ms
+Average thread CPU time: 6188.4867 ms
+
+Test run: 4
+Total tasks done count:  3233538
+Total real time:         10000 ms
+Total CPU time:          37635.6360 ms
+Average thread CPU time: 6272.6060 ms
+
+Test run: 5
+Total tasks done count:  3022209
+Total real time:         10000 ms
+Total CPU time:          38655.7190 ms
+Average thread CPU time: 6442.6198 ms
+
+Test run: 6
+Total tasks done count:  3026275
+Total real time:         10000 ms
+Total CPU time:          38532.2660 ms
+Average thread CPU time: 6422.0443 ms
+
+Test run: 7
+Total tasks done count:  3095353
+Total real time:         10000 ms
+Total CPU time:          38371.2990 ms
+Average thread CPU time: 6395.2165 ms
+
+Test run: 8
+Total tasks done count:  3117057
+Total real time:         10000 ms
+Total CPU time:          38189.5040 ms
+Average thread CPU time: 6364.9173 ms
+
+Test run: 9
+Total tasks done count:  2965530
+Total real time:         10000 ms
+Total CPU time:          37762.7600 ms
+Average thread CPU time: 6293.7933 ms
+
+Test run: 10
+Total tasks done count:  3296359
+Total real time:         10000 ms
+Total CPU time:          36595.9510 ms
+Average thread CPU time: 6099.3252 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              3092994.40
+Total CPU time:                      37846.60 ms
+Average thread CPU time:             6307.77 ms
+Total monitor access per CPU second: 81724.51 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 8
+
+Test run: 1
+Total tasks done count:  1737797
+Total real time:         10000 ms
+Total CPU time:          57251.9300 ms
+Average thread CPU time: 7156.4913 ms
+
+Test run: 2
+Total tasks done count:  1412827
+Total real time:         10000 ms
+Total CPU time:          58243.8720 ms
+Average thread CPU time: 7280.4840 ms
+
+Test run: 3
+Total tasks done count:  1446196
+Total real time:         10000 ms
+Total CPU time:          58766.0730 ms
+Average thread CPU time: 7345.7591 ms
+
+Test run: 4
+Total tasks done count:  1164113
+Total real time:         10000 ms
+Total CPU time:          59307.1910 ms
+Average thread CPU time: 7413.3989 ms
+
+Test run: 5
+Total tasks done count:  1256909
+Total real time:         10000 ms
+Total CPU time:          57166.1410 ms
+Average thread CPU time: 7145.7676 ms
+
+Test run: 6
+Total tasks done count:  1189747
+Total real time:         10000 ms
+Total CPU time:          55680.9510 ms
+Average thread CPU time: 6960.1189 ms
+
+Test run: 7
+Total tasks done count:  1228033
+Total real time:         10000 ms
+Total CPU time:          57390.4160 ms
+Average thread CPU time: 7173.8020 ms
+
+Test run: 8
+Total tasks done count:  1198293
+Total real time:         10000 ms
+Total CPU time:          57539.2310 ms
+Average thread CPU time: 7192.4039 ms
+
+Test run: 9
+Total tasks done count:  1264889
+Total real time:         10000 ms
+Total CPU time:          60181.1340 ms
+Average thread CPU time: 7522.6418 ms
+
+Test run: 10
+Total tasks done count:  1496198
+Total real time:         10000 ms
+Total CPU time:          58122.2910 ms
+Average thread CPU time: 7265.2864 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              1339500.20
+Total CPU time:                      57964.92 ms
+Average thread CPU time:             7245.62 ms
+Total monitor access per CPU second: 23108.81 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 10
+
+Test run: 1
+Total tasks done count:  366592
+Total real time:         10000 ms
+Total CPU time:          72138.6650 ms
+Average thread CPU time: 7213.8665 ms
+
+Test run: 2
+Total tasks done count:  1042777
+Total real time:         10000 ms
+Total CPU time:          62199.9530 ms
+Average thread CPU time: 6219.9953 ms
+
+Test run: 3
+Total tasks done count:  684254
+Total real time:         10000 ms
+Total CPU time:          64992.7230 ms
+Average thread CPU time: 6499.2723 ms
+
+Test run: 4
+Total tasks done count:  578617
+Total real time:         10000 ms
+Total CPU time:          67534.1970 ms
+Average thread CPU time: 6753.4197 ms
+
+Test run: 5
+Total tasks done count:  908224
+Total real time:         10000 ms
+Total CPU time:          64801.7720 ms
+Average thread CPU time: 6480.1772 ms
+
+Test run: 6
+Total tasks done count:  772786
+Total real time:         10000 ms
+Total CPU time:          65976.6280 ms
+Average thread CPU time: 6597.6628 ms
+
+Test run: 7
+Total tasks done count:  581957
+Total real time:         10000 ms
+Total CPU time:          68091.4030 ms
+Average thread CPU time: 6809.1403 ms
+
+Test run: 8
+Total tasks done count:  874124
+Total real time:         10000 ms
+Total CPU time:          63388.0720 ms
+Average thread CPU time: 6338.8072 ms
+
+Test run: 9
+Total tasks done count:  1062150
+Total real time:         10000 ms
+Total CPU time:          63047.3170 ms
+Average thread CPU time: 6304.7317 ms
+
+Test run: 10
+Total tasks done count:  1209154
+Total real time:         10000 ms
+Total CPU time:          58738.3560 ms
+Average thread CPU time: 5873.8356 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              808063.50
+Total CPU time:                      65090.91 ms
+Average thread CPU time:             6509.09 ms
+Total monitor access per CPU second: 12414.38 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 15
+
+Test run: 1
+Total tasks done count:  483781
+Total real time:         10000 ms
+Total CPU time:          69867.8060 ms
+Average thread CPU time: 4657.8537 ms
+
+Test run: 2
+Total tasks done count:  170981
+Total real time:         10000 ms
+Total CPU time:          74775.1350 ms
+Average thread CPU time: 4985.0090 ms
+
+Test run: 3
+Total tasks done count:  782178
+Total real time:         10000 ms
+Total CPU time:          64439.3110 ms
+Average thread CPU time: 4295.9541 ms
+
+Test run: 4
+Total tasks done count:  643847
+Total real time:         10000 ms
+Total CPU time:          68399.8970 ms
+Average thread CPU time: 4559.9931 ms
+
+Test run: 5
+Total tasks done count:  662769
+Total real time:         10000 ms
+Total CPU time:          68405.6900 ms
+Average thread CPU time: 4560.3793 ms
+
+Test run: 6
+Total tasks done count:  491425
+Total real time:         10000 ms
+Total CPU time:          69052.6180 ms
+Average thread CPU time: 4603.5079 ms
+
+Test run: 7
+Total tasks done count:  727011
+Total real time:         10000 ms
+Total CPU time:          66364.8300 ms
+Average thread CPU time: 4424.3220 ms
+
+Test run: 8
+Total tasks done count:  717339
+Total real time:         10000 ms
+Total CPU time:          66538.0400 ms
+Average thread CPU time: 4435.8693 ms
+
+Test run: 9
+Total tasks done count:  556359
+Total real time:         10000 ms
+Total CPU time:          68285.3650 ms
+Average thread CPU time: 4552.3577 ms
+
+Test run: 10
+Total tasks done count:  489961
+Total real time:         10000 ms
+Total CPU time:          70177.0130 ms
+Average thread CPU time: 4678.4675 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              572565.10
+Total CPU time:                      68630.57 ms
+Average thread CPU time:             4575.37 ms
+Total monitor access per CPU second: 8342.71 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 20
+
+Test run: 1
+Total tasks done count:  377501
+Total real time:         10000 ms
+Total CPU time:          69646.5060 ms
+Average thread CPU time: 3482.3253 ms
+
+Test run: 2
+Total tasks done count:  138278
+Total real time:         10000 ms
+Total CPU time:          76508.7820 ms
+Average thread CPU time: 3825.4391 ms
+
+Test run: 3
+Total tasks done count:  356235
+Total real time:         10000 ms
+Total CPU time:          70515.0080 ms
+Average thread CPU time: 3525.7504 ms
+
+Test run: 4
+Total tasks done count:  329360
+Total real time:         10000 ms
+Total CPU time:          73178.6150 ms
+Average thread CPU time: 3658.9308 ms
+
+Test run: 5
+Total tasks done count:  511765
+Total real time:         10000 ms
+Total CPU time:          69637.2400 ms
+Average thread CPU time: 3481.8620 ms
+
+Test run: 6
+Total tasks done count:  135447
+Total real time:         10000 ms
+Total CPU time:          77105.4090 ms
+Average thread CPU time: 3855.2705 ms
+
+Test run: 7
+Total tasks done count:  511737
+Total real time:         10000 ms
+Total CPU time:          69451.0340 ms
+Average thread CPU time: 3472.5517 ms
+
+Test run: 8
+Total tasks done count:  310833
+Total real time:         10000 ms
+Total CPU time:          71886.6090 ms
+Average thread CPU time: 3594.3305 ms
+
+Test run: 9
+Total tasks done count:  371865
+Total real time:         10000 ms
+Total CPU time:          70165.6200 ms
+Average thread CPU time: 3508.2810 ms
+
+Test run: 10
+Total tasks done count:  293672
+Total real time:         10000 ms
+Total CPU time:          71466.3250 ms
+Average thread CPU time: 3573.3163 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              333669.30
+Total CPU time:                      71956.11 ms
+Average thread CPU time:             3597.81 ms
+Total monitor access per CPU second: 4637.12 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 25
+
+Test run: 1
+Total tasks done count:  330221
+Total real time:         10000 ms
+Total CPU time:          71516.0950 ms
+Average thread CPU time: 2860.6438 ms
+
+Test run: 2
+Total tasks done count:  329337
+Total real time:         10000 ms
+Total CPU time:          72081.2150 ms
+Average thread CPU time: 2883.2486 ms
+
+Test run: 3
+Total tasks done count:  198063
+Total real time:         10000 ms
+Total CPU time:          73977.5280 ms
+Average thread CPU time: 2959.1011 ms
+
+Test run: 4
+Total tasks done count:  262487
+Total real time:         10000 ms
+Total CPU time:          72500.5160 ms
+Average thread CPU time: 2900.0206 ms
+
+Test run: 5
+Total tasks done count:  238861
+Total real time:         10000 ms
+Total CPU time:          72581.6120 ms
+Average thread CPU time: 2903.2645 ms
+
+Test run: 6
+Total tasks done count:  306160
+Total real time:         10000 ms
+Total CPU time:          71380.3030 ms
+Average thread CPU time: 2855.2121 ms
+
+Test run: 7
+Total tasks done count:  222443
+Total real time:         10000 ms
+Total CPU time:          73085.5670 ms
+Average thread CPU time: 2923.4227 ms
+
+Test run: 8
+Total tasks done count:  212725
+Total real time:         10000 ms
+Total CPU time:          73254.3550 ms
+Average thread CPU time: 2930.1742 ms
+
+Test run: 9
+Total tasks done count:  289101
+Total real time:         10000 ms
+Total CPU time:          72308.8770 ms
+Average thread CPU time: 2892.3551 ms
+
+Test run: 10
+Total tasks done count:  99732
+Total real time:         10000 ms
+Total CPU time:          77580.8750 ms
+Average thread CPU time: 3103.2350 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              248913.00
+Total CPU time:                      73026.69 ms
+Average thread CPU time:             2921.07 ms
+Total monitor access per CPU second: 3408.52 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 30
+
+Test run: 1
+Total tasks done count:  163388
+Total real time:         10000 ms
+Total CPU time:          73957.3850 ms
+Average thread CPU time: 2465.2462 ms
+
+Test run: 2
+Total tasks done count:  121223
+Total real time:         10000 ms
+Total CPU time:          75260.1160 ms
+Average thread CPU time: 2508.6705 ms
+
+Test run: 3
+Total tasks done count:  225847
+Total real time:         10000 ms
+Total CPU time:          72744.3090 ms
+Average thread CPU time: 2424.8103 ms
+
+Test run: 4
+Total tasks done count:  93047
+Total real time:         10000 ms
+Total CPU time:          76259.4140 ms
+Average thread CPU time: 2541.9805 ms
+
+Test run: 5
+Total tasks done count:  119046
+Total real time:         10000 ms
+Total CPU time:          75547.9320 ms
+Average thread CPU time: 2518.2644 ms
+
+Test run: 6
+Total tasks done count:  270741
+Total real time:         10000 ms
+Total CPU time:          72125.9630 ms
+Average thread CPU time: 2404.1988 ms
+
+Test run: 7
+Total tasks done count:  157067
+Total real time:         10000 ms
+Total CPU time:          73868.7430 ms
+Average thread CPU time: 2462.2914 ms
+
+Test run: 8
+Total tasks done count:  219584
+Total real time:         10000 ms
+Total CPU time:          73505.1620 ms
+Average thread CPU time: 2450.1721 ms
+
+Test run: 9
+Total tasks done count:  149251
+Total real time:         10000 ms
+Total CPU time:          75564.6100 ms
+Average thread CPU time: 2518.8203 ms
+
+Test run: 10
+Total tasks done count:  243351
+Total real time:         10000 ms
+Total CPU time:          72884.3170 ms
+Average thread CPU time: 2429.4772 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              176254.50
+Total CPU time:                      74171.80 ms
+Average thread CPU time:             2472.39 ms
+Total monitor access per CPU second: 2376.30 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 40
+
+Test run: 1
+Total tasks done count:  147873
+Total real time:         10000 ms
+Total CPU time:          74775.4710 ms
+Average thread CPU time: 1869.3868 ms
+
+Test run: 2
+Total tasks done count:  117095
+Total real time:         10000 ms
+Total CPU time:          76170.1140 ms
+Average thread CPU time: 1904.2529 ms
+
+Test run: 3
+Total tasks done count:  114631
+Total real time:         10000 ms
+Total CPU time:          75443.8230 ms
+Average thread CPU time: 1886.0956 ms
+
+Test run: 4
+Total tasks done count:  216282
+Total real time:         10000 ms
+Total CPU time:          74428.3810 ms
+Average thread CPU time: 1860.7095 ms
+
+Test run: 5
+Total tasks done count:  132226
+Total real time:         10000 ms
+Total CPU time:          75943.6100 ms
+Average thread CPU time: 1898.5903 ms
+
+Test run: 6
+Total tasks done count:  176956
+Total real time:         10000 ms
+Total CPU time:          74727.7240 ms
+Average thread CPU time: 1868.1931 ms
+
+Test run: 7
+Total tasks done count:  62930
+Total real time:         10000 ms
+Total CPU time:          77797.4360 ms
+Average thread CPU time: 1944.9359 ms
+
+Test run: 8
+Total tasks done count:  215050
+Total real time:         10000 ms
+Total CPU time:          73896.1160 ms
+Average thread CPU time: 1847.4029 ms
+
+Test run: 9
+Total tasks done count:  107009
+Total real time:         10000 ms
+Total CPU time:          75803.3950 ms
+Average thread CPU time: 1895.0849 ms
+
+Test run: 10
+Total tasks done count:  143073
+Total real time:         10000 ms
+Total CPU time:          75284.2590 ms
+Average thread CPU time: 1882.1065 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              143312.50
+Total CPU time:                      75427.03 ms
+Average thread CPU time:             1885.68 ms
+Total monitor access per CPU second: 1900.02 1/s
+=========================
+
+
+=========================
+- buffer size:  10
+- thread count: 50
+
+Test run: 1
+Total tasks done count:  143681
+Total real time:         10000 ms
+Total CPU time:          76461.7330 ms
+Average thread CPU time: 1529.2347 ms
+
+Test run: 2
+Total tasks done count:  32848
+Total real time:         10000 ms
+Total CPU time:          79047.7520 ms
+Average thread CPU time: 1580.9550 ms
+
+Test run: 3
+Total tasks done count:  97062
+Total real time:         10000 ms
+Total CPU time:          76685.8170 ms
+Average thread CPU time: 1533.7163 ms
+
+Test run: 4
+Total tasks done count:  39493
+Total real time:         10000 ms
+Total CPU time:          78768.2710 ms
+Average thread CPU time: 1575.3654 ms
+
+Test run: 5
+Total tasks done count:  94404
+Total real time:         10000 ms
+Total CPU time:          76375.4800 ms
+Average thread CPU time: 1527.5096 ms
+
+Test run: 6
+Total tasks done count:  156685
+Total real time:         10000 ms
+Total CPU time:          75410.7390 ms
+Average thread CPU time: 1508.2148 ms
+
+Test run: 7
+Total tasks done count:  111469
+Total real time:         10000 ms
+Total CPU time:          76578.1930 ms
+Average thread CPU time: 1531.5639 ms
+
+Test run: 8
+Total tasks done count:  92225
+Total real time:         10000 ms
+Total CPU time:          76945.6470 ms
+Average thread CPU time: 1538.9129 ms
+
+Test run: 9
+Total tasks done count:  106108
+Total real time:         10000 ms
+Total CPU time:          75905.9180 ms
+Average thread CPU time: 1518.1184 ms
+
+Test run: 10
+Total tasks done count:  107485
+Total real time:         10000 ms
+Total CPU time:          76694.0430 ms
+Average thread CPU time: 1533.8809 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              98146.00
+Total CPU time:                      76887.36 ms
+Average thread CPU time:             1537.75 ms
+Total monitor access per CPU second: 1276.49 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 2
+
+Test run: 1
+Total tasks done count:  6828370
+Total real time:         10000 ms
+Total CPU time:          19535.2610 ms
+Average thread CPU time: 9767.6305 ms
+
+Test run: 2
+Total tasks done count:  6898101
+Total real time:         10000 ms
+Total CPU time:          19628.7760 ms
+Average thread CPU time: 9814.3880 ms
+
+Test run: 3
+Total tasks done count:  7101942
+Total real time:         10000 ms
+Total CPU time:          19607.2760 ms
+Average thread CPU time: 9803.6380 ms
+
+Test run: 4
+Total tasks done count:  6166151
+Total real time:         10000 ms
+Total CPU time:          19578.8320 ms
+Average thread CPU time: 9789.4160 ms
+
+Test run: 5
+Total tasks done count:  7039970
+Total real time:         10000 ms
+Total CPU time:          19631.4240 ms
+Average thread CPU time: 9815.7120 ms
+
+Test run: 6
+Total tasks done count:  6269513
+Total real time:         10000 ms
+Total CPU time:          19642.7910 ms
+Average thread CPU time: 9821.3955 ms
+
+Test run: 7
+Total tasks done count:  7109139
+Total real time:         10000 ms
+Total CPU time:          19576.1970 ms
+Average thread CPU time: 9788.0985 ms
+
+Test run: 8
+Total tasks done count:  7257080
+Total real time:         10000 ms
+Total CPU time:          19581.3980 ms
+Average thread CPU time: 9790.6990 ms
+
+Test run: 9
+Total tasks done count:  7238683
+Total real time:         10000 ms
+Total CPU time:          19594.9790 ms
+Average thread CPU time: 9797.4895 ms
+
+Test run: 10
+Total tasks done count:  7261162
+Total real time:         10000 ms
+Total CPU time:          19598.1720 ms
+Average thread CPU time: 9799.0860 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              6917011.10
+Total CPU time:                      19597.51 ms
+Average thread CPU time:             9798.76 ms
+Total monitor access per CPU second: 352953.56 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 4
+
+Test run: 1
+Total tasks done count:  6080873
+Total real time:         10000 ms
+Total CPU time:          33941.6930 ms
+Average thread CPU time: 8485.4233 ms
+
+Test run: 2
+Total tasks done count:  6349044
+Total real time:         10000 ms
+Total CPU time:          34052.8810 ms
+Average thread CPU time: 8513.2203 ms
+
+Test run: 3
+Total tasks done count:  5464965
+Total real time:         10000 ms
+Total CPU time:          33200.9240 ms
+Average thread CPU time: 8300.2310 ms
+
+Test run: 4
+Total tasks done count:  5432074
+Total real time:         10000 ms
+Total CPU time:          32882.8520 ms
+Average thread CPU time: 8220.7130 ms
+
+Test run: 5
+Total tasks done count:  5487315
+Total real time:         10000 ms
+Total CPU time:          32767.5310 ms
+Average thread CPU time: 8191.8828 ms
+
+Test run: 6
+Total tasks done count:  5246225
+Total real time:         10000 ms
+Total CPU time:          32736.7940 ms
+Average thread CPU time: 8184.1985 ms
+
+Test run: 7
+Total tasks done count:  4746469
+Total real time:         10000 ms
+Total CPU time:          33187.6580 ms
+Average thread CPU time: 8296.9145 ms
+
+Test run: 8
+Total tasks done count:  6057245
+Total real time:         10000 ms
+Total CPU time:          33965.1710 ms
+Average thread CPU time: 8491.2928 ms
+
+Test run: 9
+Total tasks done count:  4696388
+Total real time:         10000 ms
+Total CPU time:          32801.5060 ms
+Average thread CPU time: 8200.3765 ms
+
+Test run: 10
+Total tasks done count:  5281923
+Total real time:         10000 ms
+Total CPU time:          31450.0070 ms
+Average thread CPU time: 7862.5018 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              5484252.10
+Total CPU time:                      33098.70 ms
+Average thread CPU time:             8274.68 ms
+Total monitor access per CPU second: 165693.87 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 6
+
+Test run: 1
+Total tasks done count:  3583327
+Total real time:         10000 ms
+Total CPU time:          46336.4990 ms
+Average thread CPU time: 7722.7498 ms
+
+Test run: 2
+Total tasks done count:  3947936
+Total real time:         10000 ms
+Total CPU time:          48149.0650 ms
+Average thread CPU time: 8024.8442 ms
+
+Test run: 3
+Total tasks done count:  4038349
+Total real time:         10000 ms
+Total CPU time:          44811.9370 ms
+Average thread CPU time: 7468.6562 ms
+
+Test run: 4
+Total tasks done count:  2534337
+Total real time:         10000 ms
+Total CPU time:          51053.2470 ms
+Average thread CPU time: 8508.8745 ms
+
+Test run: 5
+Total tasks done count:  3510239
+Total real time:         10000 ms
+Total CPU time:          45531.7480 ms
+Average thread CPU time: 7588.6247 ms
+
+Test run: 6
+Total tasks done count:  2649113
+Total real time:         10000 ms
+Total CPU time:          52648.4720 ms
+Average thread CPU time: 8774.7453 ms
+
+Test run: 7
+Total tasks done count:  2992192
+Total real time:         10000 ms
+Total CPU time:          52713.7270 ms
+Average thread CPU time: 8785.6212 ms
+
+Test run: 8
+Total tasks done count:  3333046
+Total real time:         10000 ms
+Total CPU time:          46505.6640 ms
+Average thread CPU time: 7750.9440 ms
+
+Test run: 9
+Total tasks done count:  3234736
+Total real time:         10000 ms
+Total CPU time:          47632.7740 ms
+Average thread CPU time: 7938.7957 ms
+
+Test run: 10
+Total tasks done count:  3146709
+Total real time:         10000 ms
+Total CPU time:          48477.2100 ms
+Average thread CPU time: 8079.5350 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              3296998.40
+Total CPU time:                      48386.03 ms
+Average thread CPU time:             8064.34 ms
+Total monitor access per CPU second: 68139.46 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 8
+
+Test run: 1
+Total tasks done count:  1520737
+Total real time:         10000 ms
+Total CPU time:          63491.9220 ms
+Average thread CPU time: 7936.4903 ms
+
+Test run: 2
+Total tasks done count:  1553865
+Total real time:         10000 ms
+Total CPU time:          64519.1150 ms
+Average thread CPU time: 8064.8894 ms
+
+Test run: 3
+Total tasks done count:  1516245
+Total real time:         10000 ms
+Total CPU time:          63002.2870 ms
+Average thread CPU time: 7875.2859 ms
+
+Test run: 4
+Total tasks done count:  1449046
+Total real time:         10000 ms
+Total CPU time:          62469.6650 ms
+Average thread CPU time: 7808.7081 ms
+
+Test run: 5
+Total tasks done count:  1310283
+Total real time:         10000 ms
+Total CPU time:          64791.4540 ms
+Average thread CPU time: 8098.9318 ms
+
+Test run: 6
+Total tasks done count:  1572236
+Total real time:         10000 ms
+Total CPU time:          63270.9600 ms
+Average thread CPU time: 7908.8700 ms
+
+Test run: 7
+Total tasks done count:  1458828
+Total real time:         10000 ms
+Total CPU time:          62909.3480 ms
+Average thread CPU time: 7863.6685 ms
+
+Test run: 8
+Total tasks done count:  1422421
+Total real time:         10000 ms
+Total CPU time:          63042.5710 ms
+Average thread CPU time: 7880.3214 ms
+
+Test run: 9
+Total tasks done count:  1596787
+Total real time:         10000 ms
+Total CPU time:          64034.7280 ms
+Average thread CPU time: 8004.3410 ms
+
+Test run: 10
+Total tasks done count:  1661455
+Total real time:         10000 ms
+Total CPU time:          61176.2880 ms
+Average thread CPU time: 7647.0360 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              1506190.30
+Total CPU time:                      63270.83 ms
+Average thread CPU time:             7908.85 ms
+Total monitor access per CPU second: 23805.44 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 10
+
+Test run: 1
+Total tasks done count:  1195340
+Total real time:         10000 ms
+Total CPU time:          64516.0450 ms
+Average thread CPU time: 6451.6045 ms
+
+Test run: 2
+Total tasks done count:  1252305
+Total real time:         10000 ms
+Total CPU time:          65044.9300 ms
+Average thread CPU time: 6504.4930 ms
+
+Test run: 3
+Total tasks done count:  967103
+Total real time:         10000 ms
+Total CPU time:          69098.4690 ms
+Average thread CPU time: 6909.8469 ms
+
+Test run: 4
+Total tasks done count:  1143691
+Total real time:         10000 ms
+Total CPU time:          66517.3130 ms
+Average thread CPU time: 6651.7313 ms
+
+Test run: 5
+Total tasks done count:  1201892
+Total real time:         10000 ms
+Total CPU time:          64914.2350 ms
+Average thread CPU time: 6491.4235 ms
+
+Test run: 6
+Total tasks done count:  1148218
+Total real time:         10000 ms
+Total CPU time:          67292.4570 ms
+Average thread CPU time: 6729.2457 ms
+
+Test run: 7
+Total tasks done count:  1073716
+Total real time:         10000 ms
+Total CPU time:          66678.9720 ms
+Average thread CPU time: 6667.8972 ms
+
+Test run: 8
+Total tasks done count:  1223921
+Total real time:         10000 ms
+Total CPU time:          65985.6100 ms
+Average thread CPU time: 6598.5610 ms
+
+Test run: 9
+Total tasks done count:  1102102
+Total real time:         10000 ms
+Total CPU time:          67018.2330 ms
+Average thread CPU time: 6701.8233 ms
+
+Test run: 10
+Total tasks done count:  1254857
+Total real time:         10000 ms
+Total CPU time:          65176.3370 ms
+Average thread CPU time: 6517.6337 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              1156314.50
+Total CPU time:                      66224.26 ms
+Average thread CPU time:             6622.43 ms
+Total monitor access per CPU second: 17460.59 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 15
+
+Test run: 1
+Total tasks done count:  700474
+Total real time:         10000 ms
+Total CPU time:          70089.0380 ms
+Average thread CPU time: 4672.6025 ms
+
+Test run: 2
+Total tasks done count:  640798
+Total real time:         10000 ms
+Total CPU time:          70139.0370 ms
+Average thread CPU time: 4675.9358 ms
+
+Test run: 3
+Total tasks done count:  693996
+Total real time:         10000 ms
+Total CPU time:          70016.0650 ms
+Average thread CPU time: 4667.7377 ms
+
+Test run: 4
+Total tasks done count:  687828
+Total real time:         10000 ms
+Total CPU time:          70597.4900 ms
+Average thread CPU time: 4706.4993 ms
+
+Test run: 5
+Total tasks done count:  669631
+Total real time:         10000 ms
+Total CPU time:          70833.0020 ms
+Average thread CPU time: 4722.2001 ms
+
+Test run: 6
+Total tasks done count:  696727
+Total real time:         10000 ms
+Total CPU time:          70203.0340 ms
+Average thread CPU time: 4680.2023 ms
+
+Test run: 7
+Total tasks done count:  674419
+Total real time:         10000 ms
+Total CPU time:          70450.7450 ms
+Average thread CPU time: 4696.7163 ms
+
+Test run: 8
+Total tasks done count:  675532
+Total real time:         10000 ms
+Total CPU time:          70732.8410 ms
+Average thread CPU time: 4715.5227 ms
+
+Test run: 9
+Total tasks done count:  645737
+Total real time:         10000 ms
+Total CPU time:          70276.1240 ms
+Average thread CPU time: 4685.0749 ms
+
+Test run: 10
+Total tasks done count:  692785
+Total real time:         10000 ms
+Total CPU time:          70656.8710 ms
+Average thread CPU time: 4710.4581 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              677792.70
+Total CPU time:                      70399.42 ms
+Average thread CPU time:             4693.29 ms
+Total monitor access per CPU second: 9627.82 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 20
+
+Test run: 1
+Total tasks done count:  416986
+Total real time:         10000 ms
+Total CPU time:          72461.8260 ms
+Average thread CPU time: 3623.0913 ms
+
+Test run: 2
+Total tasks done count:  409897
+Total real time:         10000 ms
+Total CPU time:          73212.6920 ms
+Average thread CPU time: 3660.6346 ms
+
+Test run: 3
+Total tasks done count:  428809
+Total real time:         10000 ms
+Total CPU time:          72848.0860 ms
+Average thread CPU time: 3642.4043 ms
+
+Test run: 4
+Total tasks done count:  356107
+Total real time:         10000 ms
+Total CPU time:          73601.6690 ms
+Average thread CPU time: 3680.0834 ms
+
+Test run: 5
+Total tasks done count:  399490
+Total real time:         10000 ms
+Total CPU time:          72851.0850 ms
+Average thread CPU time: 3642.5543 ms
+
+Test run: 6
+Total tasks done count:  399592
+Total real time:         10000 ms
+Total CPU time:          73482.2640 ms
+Average thread CPU time: 3674.1132 ms
+
+Test run: 7
+Total tasks done count:  391110
+Total real time:         10000 ms
+Total CPU time:          72887.9430 ms
+Average thread CPU time: 3644.3972 ms
+
+Test run: 8
+Total tasks done count:  386058
+Total real time:         10000 ms
+Total CPU time:          73099.0000 ms
+Average thread CPU time: 3654.9500 ms
+
+Test run: 9
+Total tasks done count:  388952
+Total real time:         10000 ms
+Total CPU time:          73166.6450 ms
+Average thread CPU time: 3658.3323 ms
+
+Test run: 10
+Total tasks done count:  410210
+Total real time:         10000 ms
+Total CPU time:          72254.8240 ms
+Average thread CPU time: 3612.7412 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              398721.10
+Total CPU time:                      72986.60 ms
+Average thread CPU time:             3649.33 ms
+Total monitor access per CPU second: 72986.60 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 25
+
+Test run: 1
+Total tasks done count:  308838
+Total real time:         10000 ms
+Total CPU time:          75632.3620 ms
+Average thread CPU time: 3025.2945 ms
+
+Test run: 2
+Total tasks done count:  296990
+Total real time:         10000 ms
+Total CPU time:          74310.7670 ms
+Average thread CPU time: 2972.4307 ms
+
+Test run: 3
+Total tasks done count:  273929
+Total real time:         10000 ms
+Total CPU time:          74602.7680 ms
+Average thread CPU time: 2984.1107 ms
+
+Test run: 4
+Total tasks done count:  259115
+Total real time:         10000 ms
+Total CPU time:          74595.0360 ms
+Average thread CPU time: 2983.8014 ms
+
+Test run: 5
+Total tasks done count:  242701
+Total real time:         10000 ms
+Total CPU time:          75825.5240 ms
+Average thread CPU time: 3033.0210 ms
+
+Test run: 6
+Total tasks done count:  275470
+Total real time:         10000 ms
+Total CPU time:          74214.4890 ms
+Average thread CPU time: 2968.5796 ms
+
+Test run: 7
+Total tasks done count:  260925
+Total real time:         10000 ms
+Total CPU time:          74708.7390 ms
+Average thread CPU time: 2988.3496 ms
+
+Test run: 8
+Total tasks done count:  289851
+Total real time:         10000 ms
+Total CPU time:          74613.8140 ms
+Average thread CPU time: 2984.5526 ms
+
+Test run: 9
+Total tasks done count:  272799
+Total real time:         10000 ms
+Total CPU time:          74343.0160 ms
+Average thread CPU time: 2973.7206 ms
+
+Test run: 10
+Total tasks done count:  239704
+Total real time:         10000 ms
+Total CPU time:          75498.2180 ms
+Average thread CPU time: 3019.9287 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              272032.20
+Total CPU time:                      74834.47 ms
+Average thread CPU time:             2993.38 ms
+Total monitor access per CPU second: 3635.12 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 30
+
+Test run: 1
+Total tasks done count:  210593
+Total real time:         10000 ms
+Total CPU time:          74951.8190 ms
+Average thread CPU time: 2498.3940 ms
+
+Test run: 2
+Total tasks done count:  212869
+Total real time:         10000 ms
+Total CPU time:          75481.1340 ms
+Average thread CPU time: 2516.0378 ms
+
+Test run: 3
+Total tasks done count:  241714
+Total real time:         10000 ms
+Total CPU time:          75600.1280 ms
+Average thread CPU time: 2520.0043 ms
+
+Test run: 4
+Total tasks done count:  226876
+Total real time:         10000 ms
+Total CPU time:          75635.0170 ms
+Average thread CPU time: 2521.1672 ms
+
+Test run: 5
+Total tasks done count:  242709
+Total real time:         10000 ms
+Total CPU time:          74980.1430 ms
+Average thread CPU time: 2499.3381 ms
+
+Test run: 6
+Total tasks done count:  232570
+Total real time:         10000 ms
+Total CPU time:          74555.8520 ms
+Average thread CPU time: 2485.1951 ms
+
+Test run: 7
+Total tasks done count:  208577
+Total real time:         10000 ms
+Total CPU time:          74317.1940 ms
+Average thread CPU time: 2477.2398 ms
+
+Test run: 8
+Total tasks done count:  219264
+Total real time:         10000 ms
+Total CPU time:          74743.9030 ms
+Average thread CPU time: 2491.4634 ms
+
+Test run: 9
+Total tasks done count:  239719
+Total real time:         10000 ms
+Total CPU time:          75506.3150 ms
+Average thread CPU time: 2516.8772 ms
+
+Test run: 10
+Total tasks done count:  256176
+Total real time:         10000 ms
+Total CPU time:          75392.5740 ms
+Average thread CPU time: 2513.0858 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              229106.70
+Total CPU time:                      75116.41 ms
+Average thread CPU time:             2503.88 ms
+Total monitor access per CPU second: 3050.02 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 40
+
+Test run: 1
+Total tasks done count:  171056
+Total real time:         10000 ms
+Total CPU time:          76889.0260 ms
+Average thread CPU time: 1922.2256 ms
+
+Test run: 2
+Total tasks done count:  175089
+Total real time:         10000 ms
+Total CPU time:          75932.2000 ms
+Average thread CPU time: 1898.3050 ms
+
+Test run: 3
+Total tasks done count:  161500
+Total real time:         10000 ms
+Total CPU time:          76110.3180 ms
+Average thread CPU time: 1902.7580 ms
+
+Test run: 4
+Total tasks done count:  179669
+Total real time:         10000 ms
+Total CPU time:          76508.7100 ms
+Average thread CPU time: 1912.7178 ms
+
+Test run: 5
+Total tasks done count:  159412
+Total real time:         10000 ms
+Total CPU time:          76484.6160 ms
+Average thread CPU time: 1912.1154 ms
+
+Test run: 6
+Total tasks done count:  152963
+Total real time:         10000 ms
+Total CPU time:          76725.3440 ms
+Average thread CPU time: 1918.1336 ms
+
+Test run: 7
+Total tasks done count:  185817
+Total real time:         10000 ms
+Total CPU time:          76410.3060 ms
+Average thread CPU time: 1910.2577 ms
+
+Test run: 8
+Total tasks done count:  183075
+Total real time:         10000 ms
+Total CPU time:          76384.0900 ms
+Average thread CPU time: 1909.6023 ms
+
+Test run: 9
+Total tasks done count:  168147
+Total real time:         10000 ms
+Total CPU time:          76690.7720 ms
+Average thread CPU time: 1917.2693 ms
+
+Test run: 10
+Total tasks done count:  163155
+Total real time:         10000 ms
+Total CPU time:          76424.1340 ms
+Average thread CPU time: 1910.6034 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              169988.30
+Total CPU time:                      76455.95 ms
+Average thread CPU time:             1911.40 ms
+Total monitor access per CPU second: 2223.35 1/s
+=========================
+
+
+=========================
+- buffer size:  1000
+- thread count: 50
+
+Test run: 1
+Total tasks done count:  170920
+Total real time:         10000 ms
+Total CPU time:          74881.6050 ms
+Average thread CPU time: 1497.6321 ms
+
+Test run: 2
+Total tasks done count:  164369
+Total real time:         10000 ms
+Total CPU time:          74683.0200 ms
+Average thread CPU time: 1493.6604 ms
+
+Test run: 3
+Total tasks done count:  137397
+Total real time:         10000 ms
+Total CPU time:          77162.0240 ms
+Average thread CPU time: 1543.2405 ms
+
+Test run: 4
+Total tasks done count:  148709
+Total real time:         10000 ms
+Total CPU time:          77497.9020 ms
+Average thread CPU time: 1549.9580 ms
+
+Test run: 5
+Total tasks done count:  147649
+Total real time:         10000 ms
+Total CPU time:          78269.4670 ms
+Average thread CPU time: 1565.3893 ms
+
+Test run: 6
+Total tasks done count:  155597
+Total real time:         10000 ms
+Total CPU time:          77302.7000 ms
+Average thread CPU time: 1546.0540 ms
+
+Test run: 7
+Total tasks done count:  130398
+Total real time:         10000 ms
+Total CPU time:          77482.0130 ms
+Average thread CPU time: 1549.6403 ms
+
+Test run: 8
+Total tasks done count:  158732
+Total real time:         10000 ms
+Total CPU time:          77058.2890 ms
+Average thread CPU time: 1541.1658 ms
+
+Test run: 9
+Total tasks done count:  154324
+Total real time:         10000 ms
+Total CPU time:          77797.7010 ms
+Average thread CPU time: 1555.9540 ms
+
+Test run: 10
+Total tasks done count:  148245
+Total real time:         10000 ms
+Total CPU time:          77312.7730 ms
+Average thread CPU time: 1546.2555 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              151634.00
+Total CPU time:                      76944.75 ms
+Average thread CPU time:             1538.89 ms
+Total monitor access per CPU second: 1970.69 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 2
+
+Test run: 1
+Total tasks done count:  104246
+Total real time:         10000 ms
+Total CPU time:          19421.5270 ms
+Average thread CPU time: 9710.7635 ms
+
+Test run: 2
+Total tasks done count:  102246
+Total real time:         10000 ms
+Total CPU time:          19477.1310 ms
+Average thread CPU time: 9738.5655 ms
+
+Test run: 3
+Total tasks done count:  102066
+Total real time:         10000 ms
+Total CPU time:          19489.7950 ms
+Average thread CPU time: 9744.8975 ms
+
+Test run: 4
+Total tasks done count:  102686
+Total real time:         10000 ms
+Total CPU time:          19444.9010 ms
+Average thread CPU time: 9722.4505 ms
+
+Test run: 5
+Total tasks done count:  74404
+Total real time:         10000 ms
+Total CPU time:          19645.4890 ms
+Average thread CPU time: 9822.7445 ms
+
+Test run: 6
+Total tasks done count:  102316
+Total real time:         10000 ms
+Total CPU time:          19477.6100 ms
+Average thread CPU time: 9738.8050 ms
+
+Test run: 7
+Total tasks done count:  102460
+Total real time:         10000 ms
+Total CPU time:          19474.3200 ms
+Average thread CPU time: 9737.1600 ms
+
+Test run: 8
+Total tasks done count:  103916
+Total real time:         10000 ms
+Total CPU time:          19438.1760 ms
+Average thread CPU time: 9719.0880 ms
+
+Test run: 9
+Total tasks done count:  71541
+Total real time:         10000 ms
+Total CPU time:          19606.8850 ms
+Average thread CPU time: 9803.4425 ms
+
+Test run: 10
+Total tasks done count:  102169
+Total real time:         10000 ms
+Total CPU time:          19482.3950 ms
+Average thread CPU time: 9741.1975 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              96805.50
+Total CPU time:                      19495.82 ms
+Average thread CPU time:             9747.91 ms
+Total monitor access per CPU second: 4965.45 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 4
+
+Test run: 1
+Total tasks done count:  124228
+Total real time:         10000 ms
+Total CPU time:          38686.5530 ms
+Average thread CPU time: 9671.6383 ms
+
+Test run: 2
+Total tasks done count:  123743
+Total real time:         10000 ms
+Total CPU time:          38699.6390 ms
+Average thread CPU time: 9674.9098 ms
+
+Test run: 3
+Total tasks done count:  123384
+Total real time:         10000 ms
+Total CPU time:          38604.8510 ms
+Average thread CPU time: 9651.2128 ms
+
+Test run: 4
+Total tasks done count:  123663
+Total real time:         10000 ms
+Total CPU time:          38690.1060 ms
+Average thread CPU time: 9672.5265 ms
+
+Test run: 5
+Total tasks done count:  123609
+Total real time:         10000 ms
+Total CPU time:          38711.2140 ms
+Average thread CPU time: 9677.8035 ms
+
+Test run: 6
+Total tasks done count:  123951
+Total real time:         10000 ms
+Total CPU time:          38663.4830 ms
+Average thread CPU time: 9665.8708 ms
+
+Test run: 7
+Total tasks done count:  99891
+Total real time:         10000 ms
+Total CPU time:          38889.9460 ms
+Average thread CPU time: 9722.4865 ms
+
+Test run: 8
+Total tasks done count:  123861
+Total real time:         10000 ms
+Total CPU time:          38784.0220 ms
+Average thread CPU time: 9696.0055 ms
+
+Test run: 9
+Total tasks done count:  123713
+Total real time:         10000 ms
+Total CPU time:          38852.7520 ms
+Average thread CPU time: 9713.1880 ms
+
+Test run: 10
+Total tasks done count:  123451
+Total real time:         10000 ms
+Total CPU time:          38869.1740 ms
+Average thread CPU time: 9717.2935 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              121350.10
+Total CPU time:                      38745.17 ms
+Average thread CPU time:             9686.29 ms
+Total monitor access per CPU second: 3132.01 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 6
+
+Test run: 1
+Total tasks done count:  105358
+Total real time:         10000 ms
+Total CPU time:          58141.0740 ms
+Average thread CPU time: 9690.1790 ms
+
+Test run: 2
+Total tasks done count:  105010
+Total real time:         10000 ms
+Total CPU time:          58181.9460 ms
+Average thread CPU time: 9696.9910 ms
+
+Test run: 3
+Total tasks done count:  86568
+Total real time:         10000 ms
+Total CPU time:          58169.8410 ms
+Average thread CPU time: 9694.9735 ms
+
+Test run: 4
+Total tasks done count:  85976
+Total real time:         10000 ms
+Total CPU time:          58304.9240 ms
+Average thread CPU time: 9717.4873 ms
+
+Test run: 5
+Total tasks done count:  104069
+Total real time:         10000 ms
+Total CPU time:          58263.2140 ms
+Average thread CPU time: 9710.5357 ms
+
+Test run: 6
+Total tasks done count:  105491
+Total real time:         10000 ms
+Total CPU time:          58222.9310 ms
+Average thread CPU time: 9703.8218 ms
+
+Test run: 7
+Total tasks done count:  102738
+Total real time:         10000 ms
+Total CPU time:          58001.9400 ms
+Average thread CPU time: 9666.9900 ms
+
+Test run: 8
+Total tasks done count:  107957
+Total real time:         10000 ms
+Total CPU time:          58202.5520 ms
+Average thread CPU time: 9700.4253 ms
+
+Test run: 9
+Total tasks done count:  86784
+Total real time:         10000 ms
+Total CPU time:          58298.2600 ms
+Average thread CPU time: 9716.3767 ms
+
+Test run: 10
+Total tasks done count:  104809
+Total real time:         10000 ms
+Total CPU time:          58196.2010 ms
+Average thread CPU time: 9699.3668 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              99477.10
+Total CPU time:                      58198.29 ms
+Average thread CPU time:             9699.71 ms
+Total monitor access per CPU second: 1709.28 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 8
+
+Test run: 1
+Total tasks done count:  104351
+Total real time:         10000 ms
+Total CPU time:          68396.9040 ms
+Average thread CPU time: 8549.6130 ms
+
+Test run: 2
+Total tasks done count:  100078
+Total real time:         10000 ms
+Total CPU time:          68417.4620 ms
+Average thread CPU time: 8552.1828 ms
+
+Test run: 3
+Total tasks done count:  101804
+Total real time:         10000 ms
+Total CPU time:          68618.1300 ms
+Average thread CPU time: 8577.2663 ms
+
+Test run: 4
+Total tasks done count:  105313
+Total real time:         10000 ms
+Total CPU time:          68446.4930 ms
+Average thread CPU time: 8555.8116 ms
+
+Test run: 5
+Total tasks done count:  101849
+Total real time:         10000 ms
+Total CPU time:          68792.8120 ms
+Average thread CPU time: 8599.1015 ms
+
+Test run: 6
+Total tasks done count:  100993
+Total real time:         10000 ms
+Total CPU time:          68476.6210 ms
+Average thread CPU time: 8559.5776 ms
+
+Test run: 7
+Total tasks done count:  99420
+Total real time:         10000 ms
+Total CPU time:          68461.0900 ms
+Average thread CPU time: 8557.6363 ms
+
+Test run: 8
+Total tasks done count:  104079
+Total real time:         10000 ms
+Total CPU time:          68486.8100 ms
+Average thread CPU time: 8560.8513 ms
+
+Test run: 9
+Total tasks done count:  85768
+Total real time:         10000 ms
+Total CPU time:          68038.0020 ms
+Average thread CPU time: 8504.7503 ms
+
+Test run: 10
+Total tasks done count:  103013
+Total real time:         10000 ms
+Total CPU time:          68321.8380 ms
+Average thread CPU time: 8540.2298 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              100668.30
+Total CPU time:                      68445.62 ms
+Average thread CPU time:             8555.70 ms
+Total monitor access per CPU second: 1470.78 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 10
+
+Test run: 1
+Total tasks done count:  83795
+Total real time:         10000 ms
+Total CPU time:          70054.8000 ms
+Average thread CPU time: 7005.4800 ms
+
+Test run: 2
+Total tasks done count:  84371
+Total real time:         10000 ms
+Total CPU time:          69736.0780 ms
+Average thread CPU time: 6973.6078 ms
+
+Test run: 3
+Total tasks done count:  89095
+Total real time:         10000 ms
+Total CPU time:          70239.5590 ms
+Average thread CPU time: 7023.9559 ms
+
+Test run: 4
+Total tasks done count:  86692
+Total real time:         10000 ms
+Total CPU time:          70160.3030 ms
+Average thread CPU time: 7016.0303 ms
+
+Test run: 5
+Total tasks done count:  87992
+Total real time:         10000 ms
+Total CPU time:          70311.4640 ms
+Average thread CPU time: 7031.1464 ms
+
+Test run: 6
+Total tasks done count:  86683
+Total real time:         10000 ms
+Total CPU time:          70271.2900 ms
+Average thread CPU time: 7027.1290 ms
+
+Test run: 7
+Total tasks done count:  76016
+Total real time:         10000 ms
+Total CPU time:          70232.3060 ms
+Average thread CPU time: 7023.2306 ms
+
+Test run: 8
+Total tasks done count:  87229
+Total real time:         10000 ms
+Total CPU time:          69402.4160 ms
+Average thread CPU time: 6940.2416 ms
+
+Test run: 9
+Total tasks done count:  89268
+Total real time:         10000 ms
+Total CPU time:          69955.1880 ms
+Average thread CPU time: 6995.5188 ms
+
+Test run: 10
+Total tasks done count:  88100
+Total real time:         10000 ms
+Total CPU time:          69312.7770 ms
+Average thread CPU time: 6931.2777 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              85925.30
+Total CPU time:                      69967.62 ms
+Average thread CPU time:             6996.76 ms
+Total monitor access per CPU second: 1228.07 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 15
+
+Test run: 1
+Total tasks done count:  66071
+Total real time:         10000 ms
+Total CPU time:          72109.3260 ms
+Average thread CPU time: 4807.2884 ms
+
+Test run: 2
+Total tasks done count:  66292
+Total real time:         10000 ms
+Total CPU time:          71743.6440 ms
+Average thread CPU time: 4782.9096 ms
+
+Test run: 3
+Total tasks done count:  60593
+Total real time:         10000 ms
+Total CPU time:          71781.6940 ms
+Average thread CPU time: 4785.4463 ms
+
+Test run: 4
+Total tasks done count:  60736
+Total real time:         10000 ms
+Total CPU time:          71550.9620 ms
+Average thread CPU time: 4770.0641 ms
+
+Test run: 5
+Total tasks done count:  66632
+Total real time:         10000 ms
+Total CPU time:          71995.3480 ms
+Average thread CPU time: 4799.6899 ms
+
+Test run: 6
+Total tasks done count:  63566
+Total real time:         10000 ms
+Total CPU time:          71808.3820 ms
+Average thread CPU time: 4787.2255 ms
+
+Test run: 7
+Total tasks done count:  61879
+Total real time:         10000 ms
+Total CPU time:          72024.3410 ms
+Average thread CPU time: 4801.6227 ms
+
+Test run: 8
+Total tasks done count:  61080
+Total real time:         10000 ms
+Total CPU time:          71550.0400 ms
+Average thread CPU time: 4770.0027 ms
+
+Test run: 9
+Total tasks done count:  66479
+Total real time:         10000 ms
+Total CPU time:          71855.0550 ms
+Average thread CPU time: 4790.3370 ms
+
+Test run: 10
+Total tasks done count:  66490
+Total real time:         10000 ms
+Total CPU time:          70502.4490 ms
+Average thread CPU time: 4700.1633 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              63982.90
+Total CPU time:                      71692.12 ms
+Average thread CPU time:             4779.47 ms
+Total monitor access per CPU second: 892.47 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 20
+
+Test run: 1
+Total tasks done count:  53900
+Total real time:         10000 ms
+Total CPU time:          72815.1390 ms
+Average thread CPU time: 3640.7570 ms
+
+Test run: 2
+Total tasks done count:  55968
+Total real time:         10000 ms
+Total CPU time:          73000.7360 ms
+Average thread CPU time: 3650.0368 ms
+
+Test run: 3
+Total tasks done count:  56065
+Total real time:         10000 ms
+Total CPU time:          72533.8890 ms
+Average thread CPU time: 3626.6945 ms
+
+Test run: 4
+Total tasks done count:  56978
+Total real time:         10000 ms
+Total CPU time:          72176.1350 ms
+Average thread CPU time: 3608.8067 ms
+
+Test run: 5
+Total tasks done count:  55496
+Total real time:         10000 ms
+Total CPU time:          64403.0340 ms
+Average thread CPU time: 3220.1517 ms
+
+Test run: 6
+Total tasks done count:  48551
+Total real time:         10000 ms
+Total CPU time:          68778.3380 ms
+Average thread CPU time: 3438.9169 ms
+
+Test run: 7
+Total tasks done count:  55459
+Total real time:         10000 ms
+Total CPU time:          73471.0140 ms
+Average thread CPU time: 3673.5507 ms
+
+Test run: 8
+Total tasks done count:  54689
+Total real time:         10000 ms
+Total CPU time:          72759.7210 ms
+Average thread CPU time: 3637.9861 ms
+
+Test run: 9
+Total tasks done count:  57130
+Total real time:         10000 ms
+Total CPU time:          73037.5500 ms
+Average thread CPU time: 3651.8775 ms
+
+Test run: 10
+Total tasks done count:  54481
+Total real time:         10000 ms
+Total CPU time:          72228.6290 ms
+Average thread CPU time: 3611.4315 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              54871.90
+Total CPU time:                      71520.42 ms
+Average thread CPU time:             3576.02 ms
+Total monitor access per CPU second: 767.22 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 25
+
+Test run: 1
+Total tasks done count:  52846
+Total real time:         10000 ms
+Total CPU time:          74601.7600 ms
+Average thread CPU time: 2984.0704 ms
+
+Test run: 2
+Total tasks done count:  52337
+Total real time:         10000 ms
+Total CPU time:          73637.4400 ms
+Average thread CPU time: 2945.4976 ms
+
+Test run: 3
+Total tasks done count:  51081
+Total real time:         10000 ms
+Total CPU time:          73498.3800 ms
+Average thread CPU time: 2939.9352 ms
+
+Test run: 4
+Total tasks done count:  53415
+Total real time:         10000 ms
+Total CPU time:          74534.2670 ms
+Average thread CPU time: 2981.3707 ms
+
+Test run: 5
+Total tasks done count:  56603
+Total real time:         10000 ms
+Total CPU time:          71254.6040 ms
+Average thread CPU time: 2850.1842 ms
+
+Test run: 6
+Total tasks done count:  39630
+Total real time:         10000 ms
+Total CPU time:          72443.9730 ms
+Average thread CPU time: 2897.7589 ms
+
+Test run: 7
+Total tasks done count:  53302
+Total real time:         10000 ms
+Total CPU time:          73575.7260 ms
+Average thread CPU time: 2943.0290 ms
+
+Test run: 8
+Total tasks done count:  51834
+Total real time:         10000 ms
+Total CPU time:          74134.4590 ms
+Average thread CPU time: 2965.3784 ms
+
+Test run: 9
+Total tasks done count:  56283
+Total real time:         10000 ms
+Total CPU time:          73952.9990 ms
+Average thread CPU time: 2958.1200 ms
+
+Test run: 10
+Total tasks done count:  50673
+Total real time:         10000 ms
+Total CPU time:          74569.7200 ms
+Average thread CPU time: 2982.7888 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              51800.40
+Total CPU time:                      73620.33 ms
+Average thread CPU time:             2944.81 ms
+Total monitor access per CPU second: 703.62 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 30
+
+Test run: 1
+Total tasks done count:  46458
+Total real time:         10000 ms
+Total CPU time:          75037.8410 ms
+Average thread CPU time: 2501.2614 ms
+
+Test run: 2
+Total tasks done count:  49181
+Total real time:         10000 ms
+Total CPU time:          73334.6360 ms
+Average thread CPU time: 2444.4879 ms
+
+Test run: 3
+Total tasks done count:  48614
+Total real time:         10000 ms
+Total CPU time:          74269.2190 ms
+Average thread CPU time: 2475.6406 ms
+
+Test run: 4
+Total tasks done count:  48839
+Total real time:         10000 ms
+Total CPU time:          75397.5260 ms
+Average thread CPU time: 2513.2509 ms
+
+Test run: 5
+Total tasks done count:  51268
+Total real time:         10000 ms
+Total CPU time:          73977.1420 ms
+Average thread CPU time: 2465.9047 ms
+
+Test run: 6
+Total tasks done count:  48031
+Total real time:         10000 ms
+Total CPU time:          75662.3260 ms
+Average thread CPU time: 2522.0775 ms
+
+Test run: 7
+Total tasks done count:  46751
+Total real time:         10000 ms
+Total CPU time:          76296.9970 ms
+Average thread CPU time: 2543.2332 ms
+
+Test run: 8
+Total tasks done count:  53698
+Total real time:         10000 ms
+Total CPU time:          74470.1410 ms
+Average thread CPU time: 2482.3380 ms
+
+Test run: 9
+Total tasks done count:  53582
+Total real time:         10000 ms
+Total CPU time:          74485.1910 ms
+Average thread CPU time: 2482.8397 ms
+
+Test run: 10
+Total tasks done count:  48452
+Total real time:         10000 ms
+Total CPU time:          74718.1650 ms
+Average thread CPU time: 2490.6055 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              49487.40
+Total CPU time:                      74764.92 ms
+Average thread CPU time:             2492.16 ms
+Total monitor access per CPU second: 661.91 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 40
+
+Test run: 1
+Total tasks done count:  50787
+Total real time:         10000 ms
+Total CPU time:          76991.4320 ms
+Average thread CPU time: 1924.7858 ms
+
+Test run: 2
+Total tasks done count:  45116
+Total real time:         10000 ms
+Total CPU time:          75927.6600 ms
+Average thread CPU time: 1898.1915 ms
+
+Test run: 3
+Total tasks done count:  48013
+Total real time:         10000 ms
+Total CPU time:          77355.8470 ms
+Average thread CPU time: 1933.8962 ms
+
+Test run: 4
+Total tasks done count:  49841
+Total real time:         10000 ms
+Total CPU time:          78729.1900 ms
+Average thread CPU time: 1968.2298 ms
+
+Test run: 5
+Total tasks done count:  47677
+Total real time:         10000 ms
+Total CPU time:          74974.4050 ms
+Average thread CPU time: 1874.3601 ms
+
+Test run: 6
+Total tasks done count:  48647
+Total real time:         10000 ms
+Total CPU time:          76054.6970 ms
+Average thread CPU time: 1901.3674 ms
+
+Test run: 7
+Total tasks done count:  48753
+Total real time:         10000 ms
+Total CPU time:          76368.2060 ms
+Average thread CPU time: 1909.2052 ms
+
+Test run: 8
+Total tasks done count:  48727
+Total real time:         10000 ms
+Total CPU time:          76769.8580 ms
+Average thread CPU time: 1919.2464 ms
+
+Test run: 9
+Total tasks done count:  48682
+Total real time:         10000 ms
+Total CPU time:          77870.4170 ms
+Average thread CPU time: 1946.7604 ms
+
+Test run: 10
+Total tasks done count:  50600
+Total real time:         10000 ms
+Total CPU time:          75806.8420 ms
+Average thread CPU time: 1895.1711 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              48684.60
+Total CPU time:                      76684.86 ms
+Average thread CPU time:             1917.12 ms
+Total monitor access per CPU second: 634.87 1/s
+=========================
+
+
+=========================
+- buffer size:  100000
+- thread count: 50
+
+Test run: 1
+Total tasks done count:  47292
+Total real time:         10000 ms
+Total CPU time:          76792.7040 ms
+Average thread CPU time: 1535.8541 ms
+
+Test run: 2
+Total tasks done count:  47487
+Total real time:         10000 ms
+Total CPU time:          78850.4330 ms
+Average thread CPU time: 1577.0087 ms
+
+Test run: 3
+Total tasks done count:  50561
+Total real time:         10000 ms
+Total CPU time:          77537.3870 ms
+Average thread CPU time: 1550.7477 ms
+
+Test run: 4
+Total tasks done count:  47399
+Total real time:         10000 ms
+Total CPU time:          79474.5030 ms
+Average thread CPU time: 1589.4901 ms
+
+Test run: 5
+Total tasks done count:  48299
+Total real time:         10000 ms
+Total CPU time:          76755.9570 ms
+Average thread CPU time: 1535.1191 ms
+
+Test run: 6
+Total tasks done count:  45751
+Total real time:         10000 ms
+Total CPU time:          78161.3500 ms
+Average thread CPU time: 1563.2270 ms
+
+Test run: 7
+Total tasks done count:  48288
+Total real time:         10000 ms
+Total CPU time:          78266.0530 ms
+Average thread CPU time: 1565.3211 ms
+
+Test run: 8
+Total tasks done count:  49115
+Total real time:         10000 ms
+Total CPU time:          75314.9250 ms
+Average thread CPU time: 1506.2985 ms
+
+Test run: 9
+Total tasks done count:  44815
+Total real time:         10000 ms
+Total CPU time:          76808.7900 ms
+Average thread CPU time: 1536.1758 ms
+
+Test run: 10
+Total tasks done count:  42330
+Total real time:         10000 ms
+Total CPU time:          77847.5330 ms
+Average thread CPU time: 1556.9507 ms
+
+=========================
+Average results after running 10 tests:
+Total tasks done count:              47133.70
+Total CPU time:                      77580.96 ms
+Average thread CPU time:             1551.62 ms
+Total monitor access per CPU second: 607.54 1/s
+=========================
