@@ -1,7 +1,5 @@
 package producer_consumer;
 
-import utils.ExpensiveComputation;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,25 +8,27 @@ public class Producer<T> extends Actor<T> {
     private static int id = 0;
     private final T product;
 
-    public Producer(Buffer<T> buffer, int maxCount, T product) {
-        this(buffer, maxCount, maxCount, product);
+    public Producer(Buffer<T> buffer,
+                    int maxCount,
+                    int workIterations,
+                    T product) {
+        this(buffer, maxCount, maxCount, workIterations, product);
     }
 
-    public Producer(Buffer<T> buffer, int minCount, int maxCount, T product) {
-        super(NAME + " " + id, buffer, minCount, maxCount);
+    public Producer(Buffer<T> buffer,
+                    int minCount,
+                    int maxCount,
+                    int workIterations,
+                    T product) {
+        super(NAME + " " + id, buffer, minCount, maxCount, workIterations);
         this.product = product;
         id++;
     }
 
     @Override
-    protected void work() {
-        ExpensiveComputation.compute();
-    }
-
-    @Override
     public void run() {
         try {
-            while (true) {
+            while (!isInterrupted()) {
                 int produceCount = getRandomCount();
                 List<T> products = new ArrayList<>();
                 for (int i = 0; i < produceCount; i++) {

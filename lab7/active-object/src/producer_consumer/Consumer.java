@@ -2,24 +2,21 @@ package producer_consumer;
 
 import active_object.MessageFuture;
 import active_object.Proxy;
-import utils.ExpensiveComputation;
 
 public class Consumer<T> extends Actor<T> {
     private static final String NAME = "Consumer";
     private static int id = 0;
 
-    public Consumer(Proxy<T> proxy, int maxCount) {
-        this(proxy, maxCount, maxCount);
+    public Consumer(Proxy<T> proxy, int maxCount, int workIterations) {
+        this(proxy, maxCount, maxCount, workIterations);
     }
 
-    public Consumer(Proxy<T> proxy, int minCount, int maxCount) {
-        super(NAME + " " + id, proxy, minCount, maxCount);
+    public Consumer(Proxy<T> proxy,
+                    int minCount,
+                    int maxCount,
+                    int workIterations) {
+        super(NAME + " " + id, proxy, minCount, maxCount, workIterations);
         id++;
-    }
-
-    @Override
-    protected void work() {
-        ExpensiveComputation.compute();
     }
 
     @Override

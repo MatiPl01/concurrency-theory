@@ -1,5 +1,7 @@
 package producer_consumer;
 
+import utils.ExpensiveComputation;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -10,7 +12,8 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Buffer<T> {
     private final Stack<T> buffer = new Stack<>();
     private final int size;
-    private long accessCount = 0;
+    private final int bufferWork;
+    private long tasksDone = 0;
 
     private final Lock bufferLock = new ReentrantLock();
     private final Lock producerLock = new ReentrantLock();
@@ -19,12 +22,13 @@ public class Buffer<T> {
     private final Condition producerCondition = bufferLock.newCondition();
     private final Condition consumerCondition = bufferLock.newCondition();
 
-    public Buffer(int size) {
+    public Buffer(int size, int bufferWork) {
         this.size = size;
+        this.bufferWork = bufferWork;
     }
 
-    public long getTotalAccessCount() {
-        return accessCount;
+    public long getTasksDone() {
+        return tasksDone;
     }
 
     public void produce(List<T> products) throws InterruptedException {
@@ -35,8 +39,9 @@ public class Buffer<T> {
                 while (size - buffer.size() < products.size()) {
                     producerCondition.await();
                 }
+                ExpensiveComputation.compute(bufferWork);
                 buffer.addAll(products);
-                accessCount++;
+                tasksDone++;
             } finally {
                 consumerCondition.signal();
                 bufferLock.unlock();
@@ -54,11 +59,12 @@ public class Buffer<T> {
                 while (buffer.size() < consumedCount) {
                     consumerCondition.await();
                 }
+                ExpensiveComputation.compute(bufferWork);
                 List<T> result = new ArrayList<>();
                 for (int i = 0; i < consumedCount; i++) {
                     result.add(buffer.pop());
                 }
-                accessCount++;
+                tasksDone++;
                 return result;
             } finally {
                 producerCondition.signal();

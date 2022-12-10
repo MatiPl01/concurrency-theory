@@ -1,17 +1,21 @@
 package active_object;
 
+import utils.ExpensiveComputation;
+
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class Scheduler<T> extends Thread {
     private final Servant<T> servant;
+    private final int bufferWork;
     private final BlockingQueue<MethodRequest> activationQueue =
             new LinkedBlockingQueue<>();
     private final BlockingQueue<MethodRequest> waitingQueue =
             new LinkedBlockingQueue<>();
 
-    public Scheduler(int bufferSize) {
+    public Scheduler(int bufferSize, int bufferWork) {
         this.servant = new Servant<>(bufferSize);
+        this.bufferWork = bufferWork;
     }
 
     Servant<T> getServant() {
@@ -47,6 +51,7 @@ public class Scheduler<T> extends Thread {
     public void run() {
         try {
             while (!isInterrupted()) this.dispatch();
+            ExpensiveComputation.compute(bufferWork);
         } catch (InterruptedException e) {
             interrupt();
         }

@@ -1,11 +1,9 @@
 package utils;
 
 public final class ExpensiveComputation {
-    private static final int ITERATIONS = 100;
-
-    public static void compute() {
+    public static void compute(int iterations) {
         double total = 0;
-        for (int i = 0; i < ITERATIONS; i++) {
+        for (int i = 0; i < iterations; i++) {
             total += Math.sin(i) * Math.cos(i);
         }
     }

@@ -1,0 +1,2792 @@
+[
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 0,
+    "tasks_done": 3395.4,
+    "total_cpu_time": 17.743600000000004,
+    "average_cpu_time": 8.871800000000002,
+    "tasks_done_per_cpu_second": 191359.1379426948
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 10,
+    "tasks_done": 6292.8,
+    "total_cpu_time": 21.1756,
+    "average_cpu_time": 10.5878,
+    "tasks_done_per_cpu_second": 297172.21708003554
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 25,
+    "tasks_done": 7170.0,
+    "total_cpu_time": 20.140800000000002,
+    "average_cpu_time": 10.070400000000001,
+    "tasks_done_per_cpu_second": 355993.8036224976
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 50,
+    "tasks_done": 6058.2,
+    "total_cpu_time": 18.6734,
+    "average_cpu_time": 9.3367,
+    "tasks_done_per_cpu_second": 324429.4022513307
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 100,
+    "tasks_done": 5553.4,
+    "total_cpu_time": 19.537799999999997,
+    "average_cpu_time": 9.768899999999999,
+    "tasks_done_per_cpu_second": 284238.757690221
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 250,
+    "tasks_done": 4336.6,
+    "total_cpu_time": 21.1612,
+    "average_cpu_time": 10.5806,
+    "tasks_done_per_cpu_second": 204931.66739126324
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 500,
+    "tasks_done": 4124.6,
+    "total_cpu_time": 24.1274,
+    "average_cpu_time": 12.0637,
+    "tasks_done_per_cpu_second": 170950.86913633463
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 1000,
+    "tasks_done": 1906.8,
+    "total_cpu_time": 22.4446,
+    "average_cpu_time": 11.2223,
+    "tasks_done_per_cpu_second": 84955.84684066546
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 2500,
+    "tasks_done": 860.8,
+    "total_cpu_time": 24.767799999999998,
+    "average_cpu_time": 12.383899999999999,
+    "tasks_done_per_cpu_second": 34754.802606610196
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 5000,
+    "tasks_done": 413.0,
+    "total_cpu_time": 23.905,
+    "average_cpu_time": 11.9525,
+    "tasks_done_per_cpu_second": 17276.720351390923
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 10000,
+    "tasks_done": 191.4,
+    "total_cpu_time": 22.537399999999998,
+    "average_cpu_time": 11.268699999999999,
+    "tasks_done_per_cpu_second": 8492.550161065607
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 25000,
+    "tasks_done": 79.2,
+    "total_cpu_time": 23.019599999999997,
+    "average_cpu_time": 11.509799999999998,
+    "tasks_done_per_cpu_second": 3440.546317051557
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 50000,
+    "tasks_done": 40.2,
+    "total_cpu_time": 22.9134,
+    "average_cpu_time": 11.4567,
+    "tasks_done_per_cpu_second": 1754.4319044751107
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 100000,
+    "tasks_done": 19.0,
+    "total_cpu_time": 23.062,
+    "average_cpu_time": 11.531,
+    "tasks_done_per_cpu_second": 823.8661000780505
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 250000,
+    "tasks_done": 9.8,
+    "total_cpu_time": 25.018,
+    "average_cpu_time": 12.509,
+    "tasks_done_per_cpu_second": 391.717963066592
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 500000,
+    "tasks_done": 4.8,
+    "total_cpu_time": 24.3236,
+    "average_cpu_time": 12.1618,
+    "tasks_done_per_cpu_second": 197.33920965646533
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 0,
+    "actor_work": 1000000,
+    "tasks_done": 3.2,
+    "total_cpu_time": 23.2498,
+    "average_cpu_time": 11.6249,
+    "tasks_done_per_cpu_second": 137.63559256423713
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 0,
+    "tasks_done": 6234.0,
+    "total_cpu_time": 17.887999999999998,
+    "average_cpu_time": 8.943999999999999,
+    "tasks_done_per_cpu_second": 348501.7889087657
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 10,
+    "tasks_done": 18055.2,
+    "total_cpu_time": 21.0558,
+    "average_cpu_time": 10.5279,
+    "tasks_done_per_cpu_second": 857492.9473114295
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 25,
+    "tasks_done": 17897.0,
+    "total_cpu_time": 20.180799999999998,
+    "average_cpu_time": 10.090399999999999,
+    "tasks_done_per_cpu_second": 886833.0294140966
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 50,
+    "tasks_done": 24834.2,
+    "total_cpu_time": 23.2674,
+    "average_cpu_time": 11.6337,
+    "tasks_done_per_cpu_second": 1067338.8517840412
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 100,
+    "tasks_done": 13556.6,
+    "total_cpu_time": 23.1186,
+    "average_cpu_time": 11.5593,
+    "tasks_done_per_cpu_second": 586393.6397532723
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 250,
+    "tasks_done": 6341.6,
+    "total_cpu_time": 23.4966,
+    "average_cpu_time": 11.7483,
+    "tasks_done_per_cpu_second": 269894.3676957517
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 500,
+    "tasks_done": 4402.6,
+    "total_cpu_time": 24.9888,
+    "average_cpu_time": 12.4944,
+    "tasks_done_per_cpu_second": 176182.92995261878
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 1000,
+    "tasks_done": 2015.6,
+    "total_cpu_time": 23.9974,
+    "average_cpu_time": 11.9987,
+    "tasks_done_per_cpu_second": 83992.4325135223
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 2500,
+    "tasks_done": 858.6,
+    "total_cpu_time": 22.512400000000003,
+    "average_cpu_time": 11.256200000000002,
+    "tasks_done_per_cpu_second": 38138.9811837032
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 5000,
+    "tasks_done": 357.0,
+    "total_cpu_time": 20.576,
+    "average_cpu_time": 10.288,
+    "tasks_done_per_cpu_second": 17350.31104199067
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 10000,
+    "tasks_done": 209.6,
+    "total_cpu_time": 23.6266,
+    "average_cpu_time": 11.8133,
+    "tasks_done_per_cpu_second": 8871.356860487755
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 25000,
+    "tasks_done": 83.4,
+    "total_cpu_time": 24.7964,
+    "average_cpu_time": 12.3982,
+    "tasks_done_per_cpu_second": 3363.3914600506528
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 50000,
+    "tasks_done": 51.2,
+    "total_cpu_time": 23.567,
+    "average_cpu_time": 11.7835,
+    "tasks_done_per_cpu_second": 2172.529384308567
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 100000,
+    "tasks_done": 27.0,
+    "total_cpu_time": 24.052799999999998,
+    "average_cpu_time": 12.026399999999999,
+    "tasks_done_per_cpu_second": 1122.5304330472961
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 250000,
+    "tasks_done": 8.8,
+    "total_cpu_time": 23.401999999999997,
+    "average_cpu_time": 11.700999999999999,
+    "tasks_done_per_cpu_second": 376.0362362191266
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 500000,
+    "tasks_done": 5.2,
+    "total_cpu_time": 24.525199999999998,
+    "average_cpu_time": 12.262599999999999,
+    "tasks_done_per_cpu_second": 212.02681323699707
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10,
+    "actor_work": 1000000,
+    "tasks_done": 3.0,
+    "total_cpu_time": 24.0054,
+    "average_cpu_time": 12.0027,
+    "tasks_done_per_cpu_second": 124.97188132670148
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 0,
+    "tasks_done": 12952.0,
+    "total_cpu_time": 18.951599999999996,
+    "average_cpu_time": 9.475799999999998,
+    "tasks_done_per_cpu_second": 683425.1461618018
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 10,
+    "tasks_done": 15292.0,
+    "total_cpu_time": 19.8094,
+    "average_cpu_time": 9.9047,
+    "tasks_done_per_cpu_second": 771956.7478065969
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 25,
+    "tasks_done": 13072.8,
+    "total_cpu_time": 20.075,
+    "average_cpu_time": 10.0375,
+    "tasks_done_per_cpu_second": 651198.0074719801
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 50,
+    "tasks_done": 16576.2,
+    "total_cpu_time": 20.139599999999998,
+    "average_cpu_time": 10.069799999999999,
+    "tasks_done_per_cpu_second": 823065.0062563309
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 100,
+    "tasks_done": 12281.0,
+    "total_cpu_time": 22.585199999999997,
+    "average_cpu_time": 11.292599999999998,
+    "tasks_done_per_cpu_second": 543763.1723429504
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 250,
+    "tasks_done": 7182.8,
+    "total_cpu_time": 22.5782,
+    "average_cpu_time": 11.2891,
+    "tasks_done_per_cpu_second": 318129.8774924485
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 500,
+    "tasks_done": 3857.0,
+    "total_cpu_time": 22.1302,
+    "average_cpu_time": 11.0651,
+    "tasks_done_per_cpu_second": 174286.72131295694
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 1000,
+    "tasks_done": 1965.8,
+    "total_cpu_time": 22.3594,
+    "average_cpu_time": 11.1797,
+    "tasks_done_per_cpu_second": 87918.28045475282
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 2500,
+    "tasks_done": 747.4,
+    "total_cpu_time": 22.9498,
+    "average_cpu_time": 11.4749,
+    "tasks_done_per_cpu_second": 32566.732607691574
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 5000,
+    "tasks_done": 382.0,
+    "total_cpu_time": 21.391399999999997,
+    "average_cpu_time": 10.695699999999999,
+    "tasks_done_per_cpu_second": 17857.64372598334
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 10000,
+    "tasks_done": 180.6,
+    "total_cpu_time": 23.2506,
+    "average_cpu_time": 11.6253,
+    "tasks_done_per_cpu_second": 7767.541482800445
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 25000,
+    "tasks_done": 75.2,
+    "total_cpu_time": 21.1656,
+    "average_cpu_time": 10.5828,
+    "tasks_done_per_cpu_second": 3552.9349510526513
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 50000,
+    "tasks_done": 38.8,
+    "total_cpu_time": 21.8264,
+    "average_cpu_time": 10.9132,
+    "tasks_done_per_cpu_second": 1777.6637466554264
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 100000,
+    "tasks_done": 21.4,
+    "total_cpu_time": 24.4364,
+    "average_cpu_time": 12.2182,
+    "tasks_done_per_cpu_second": 875.7427444304399
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 250000,
+    "tasks_done": 9.4,
+    "total_cpu_time": 24.075,
+    "average_cpu_time": 12.0375,
+    "tasks_done_per_cpu_second": 390.4465212876428
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 500000,
+    "tasks_done": 4.6,
+    "total_cpu_time": 22.2948,
+    "average_cpu_time": 11.1474,
+    "tasks_done_per_cpu_second": 206.32613883057934
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25,
+    "actor_work": 1000000,
+    "tasks_done": 1.8,
+    "total_cpu_time": 21.891000000000002,
+    "average_cpu_time": 10.945500000000001,
+    "tasks_done_per_cpu_second": 82.22557215293956
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 0,
+    "tasks_done": 20392.6,
+    "total_cpu_time": 20.3846,
+    "average_cpu_time": 10.1923,
+    "tasks_done_per_cpu_second": 1000392.4531263799
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 10,
+    "tasks_done": 19795.2,
+    "total_cpu_time": 19.9094,
+    "average_cpu_time": 9.9547,
+    "tasks_done_per_cpu_second": 994264.0159924456
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 25,
+    "tasks_done": 18732.0,
+    "total_cpu_time": 20.651000000000003,
+    "average_cpu_time": 10.325500000000002,
+    "tasks_done_per_cpu_second": 907074.717931335
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 50,
+    "tasks_done": 16998.6,
+    "total_cpu_time": 19.4564,
+    "average_cpu_time": 9.7282,
+    "tasks_done_per_cpu_second": 873676.5280319073
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 100,
+    "tasks_done": 12619.0,
+    "total_cpu_time": 23.121599999999997,
+    "average_cpu_time": 11.560799999999999,
+    "tasks_done_per_cpu_second": 545766.7289460937
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 250,
+    "tasks_done": 6052.6,
+    "total_cpu_time": 20.6336,
+    "average_cpu_time": 10.3168,
+    "tasks_done_per_cpu_second": 293337.08126550866
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 500,
+    "tasks_done": 3604.6,
+    "total_cpu_time": 22.452199999999998,
+    "average_cpu_time": 11.226099999999999,
+    "tasks_done_per_cpu_second": 160545.5144707423
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 1000,
+    "tasks_done": 1969.2,
+    "total_cpu_time": 22.381400000000003,
+    "average_cpu_time": 11.190700000000001,
+    "tasks_done_per_cpu_second": 87983.77223944882
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 2500,
+    "tasks_done": 766.0,
+    "total_cpu_time": 21.3754,
+    "average_cpu_time": 10.6877,
+    "tasks_done_per_cpu_second": 35835.58670247107
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 5000,
+    "tasks_done": 417.8,
+    "total_cpu_time": 22.764,
+    "average_cpu_time": 11.382,
+    "tasks_done_per_cpu_second": 18353.540678263926
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 10000,
+    "tasks_done": 176.2,
+    "total_cpu_time": 22.609599999999997,
+    "average_cpu_time": 11.304799999999998,
+    "tasks_done_per_cpu_second": 7793.149812469041
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 25000,
+    "tasks_done": 82.4,
+    "total_cpu_time": 23.291800000000002,
+    "average_cpu_time": 11.645900000000001,
+    "tasks_done_per_cpu_second": 3537.7257232158954
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 50000,
+    "tasks_done": 35.8,
+    "total_cpu_time": 21.3894,
+    "average_cpu_time": 10.6947,
+    "tasks_done_per_cpu_second": 1673.7262382301517
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 100000,
+    "tasks_done": 20.4,
+    "total_cpu_time": 23.080599999999997,
+    "average_cpu_time": 11.540299999999998,
+    "tasks_done_per_cpu_second": 883.8591717719644
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 250000,
+    "tasks_done": 9.0,
+    "total_cpu_time": 23.2738,
+    "average_cpu_time": 11.6369,
+    "tasks_done_per_cpu_second": 386.70092550421504
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 500000,
+    "tasks_done": 4.4,
+    "total_cpu_time": 22.9634,
+    "average_cpu_time": 11.4817,
+    "tasks_done_per_cpu_second": 191.60925646898977
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50,
+    "actor_work": 1000000,
+    "tasks_done": 2.4,
+    "total_cpu_time": 21.731199999999998,
+    "average_cpu_time": 10.865599999999999,
+    "tasks_done_per_cpu_second": 110.44028861728759
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 0,
+    "tasks_done": 22729.6,
+    "total_cpu_time": 20.3112,
+    "average_cpu_time": 10.1556,
+    "tasks_done_per_cpu_second": 1119067.3126156998
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 10,
+    "tasks_done": 24752.4,
+    "total_cpu_time": 21.4432,
+    "average_cpu_time": 10.7216,
+    "tasks_done_per_cpu_second": 1154323.9814952991
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 25,
+    "tasks_done": 19967.8,
+    "total_cpu_time": 20.5862,
+    "average_cpu_time": 10.2931,
+    "tasks_done_per_cpu_second": 969960.4589482273
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 50,
+    "tasks_done": 18242.0,
+    "total_cpu_time": 19.756400000000003,
+    "average_cpu_time": 9.878200000000001,
+    "tasks_done_per_cpu_second": 923346.3586483366
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 100,
+    "tasks_done": 12696.4,
+    "total_cpu_time": 22.711000000000002,
+    "average_cpu_time": 11.355500000000001,
+    "tasks_done_per_cpu_second": 559041.873981771
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 250,
+    "tasks_done": 7487.6,
+    "total_cpu_time": 22.453799999999998,
+    "average_cpu_time": 11.226899999999999,
+    "tasks_done_per_cpu_second": 333466.9410077582
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 500,
+    "tasks_done": 3766.0,
+    "total_cpu_time": 22.1016,
+    "average_cpu_time": 11.0508,
+    "tasks_done_per_cpu_second": 170394.90353639555
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 1000,
+    "tasks_done": 2254.8,
+    "total_cpu_time": 23.4874,
+    "average_cpu_time": 11.7437,
+    "tasks_done_per_cpu_second": 96000.40872978703
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 2500,
+    "tasks_done": 843.4,
+    "total_cpu_time": 23.1144,
+    "average_cpu_time": 11.5572,
+    "tasks_done_per_cpu_second": 36488.07669677777
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 5000,
+    "tasks_done": 442.4,
+    "total_cpu_time": 25.247600000000002,
+    "average_cpu_time": 12.623800000000001,
+    "tasks_done_per_cpu_second": 17522.457580126425
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 10000,
+    "tasks_done": 210.4,
+    "total_cpu_time": 23.076,
+    "average_cpu_time": 11.538,
+    "tasks_done_per_cpu_second": 9117.698041254982
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 25000,
+    "tasks_done": 72.4,
+    "total_cpu_time": 22.085199999999997,
+    "average_cpu_time": 11.042599999999998,
+    "tasks_done_per_cpu_second": 3278.2134642203832
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 50000,
+    "tasks_done": 32.4,
+    "total_cpu_time": 19.7172,
+    "average_cpu_time": 9.8586,
+    "tasks_done_per_cpu_second": 1643.2353478181487
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 100000,
+    "tasks_done": 26.8,
+    "total_cpu_time": 23.6558,
+    "average_cpu_time": 11.8279,
+    "tasks_done_per_cpu_second": 1132.914549497375
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 250000,
+    "tasks_done": 8.4,
+    "total_cpu_time": 22.8088,
+    "average_cpu_time": 11.4044,
+    "tasks_done_per_cpu_second": 368.2789098944267
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 500000,
+    "tasks_done": 5.4,
+    "total_cpu_time": 23.1822,
+    "average_cpu_time": 11.5911,
+    "tasks_done_per_cpu_second": 232.93733985557884
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100,
+    "actor_work": 1000000,
+    "tasks_done": 2.2,
+    "total_cpu_time": 22.283,
+    "average_cpu_time": 11.1415,
+    "tasks_done_per_cpu_second": 98.72997352241619
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 0,
+    "tasks_done": 19274.0,
+    "total_cpu_time": 19.4,
+    "average_cpu_time": 9.7,
+    "tasks_done_per_cpu_second": 993505.1546391753
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 10,
+    "tasks_done": 24489.2,
+    "total_cpu_time": 21.513,
+    "average_cpu_time": 10.7565,
+    "tasks_done_per_cpu_second": 1138344.2569609073
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 25,
+    "tasks_done": 13537.0,
+    "total_cpu_time": 20.910999999999998,
+    "average_cpu_time": 10.455499999999999,
+    "tasks_done_per_cpu_second": 647362.6321075032
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 50,
+    "tasks_done": 16284.8,
+    "total_cpu_time": 20.8238,
+    "average_cpu_time": 10.4119,
+    "tasks_done_per_cpu_second": 782028.2561300051
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 100,
+    "tasks_done": 14273.2,
+    "total_cpu_time": 21.8288,
+    "average_cpu_time": 10.9144,
+    "tasks_done_per_cpu_second": 653870.1165432823
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 250,
+    "tasks_done": 7655.6,
+    "total_cpu_time": 23.3772,
+    "average_cpu_time": 11.6886,
+    "tasks_done_per_cpu_second": 327481.4776791062
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 500,
+    "tasks_done": 3543.2,
+    "total_cpu_time": 22.997,
+    "average_cpu_time": 11.4985,
+    "tasks_done_per_cpu_second": 154072.27029612559
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 1000,
+    "tasks_done": 1986.6,
+    "total_cpu_time": 22.6128,
+    "average_cpu_time": 11.3064,
+    "tasks_done_per_cpu_second": 87852.89747399701
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 2500,
+    "tasks_done": 848.2,
+    "total_cpu_time": 24.052599999999998,
+    "average_cpu_time": 12.026299999999999,
+    "tasks_done_per_cpu_second": 35264.37890290447
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 5000,
+    "tasks_done": 414.8,
+    "total_cpu_time": 22.555,
+    "average_cpu_time": 11.2775,
+    "tasks_done_per_cpu_second": 18390.600753713145
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 10000,
+    "tasks_done": 192.4,
+    "total_cpu_time": 24.2246,
+    "average_cpu_time": 12.1123,
+    "tasks_done_per_cpu_second": 7942.33960519472
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 25000,
+    "tasks_done": 83.4,
+    "total_cpu_time": 24.3342,
+    "average_cpu_time": 12.1671,
+    "tasks_done_per_cpu_second": 3427.275192938334
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 50000,
+    "tasks_done": 49.4,
+    "total_cpu_time": 24.2024,
+    "average_cpu_time": 12.1012,
+    "tasks_done_per_cpu_second": 2041.1198889366344
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 100000,
+    "tasks_done": 18.2,
+    "total_cpu_time": 21.5516,
+    "average_cpu_time": 10.7758,
+    "tasks_done_per_cpu_second": 844.484864232818
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 250000,
+    "tasks_done": 9.2,
+    "total_cpu_time": 23.919400000000003,
+    "average_cpu_time": 11.959700000000002,
+    "tasks_done_per_cpu_second": 384.62503240047823
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 500000,
+    "tasks_done": 5.8,
+    "total_cpu_time": 21.8594,
+    "average_cpu_time": 10.9297,
+    "tasks_done_per_cpu_second": 265.33207681821096
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250,
+    "actor_work": 1000000,
+    "tasks_done": 2.6,
+    "total_cpu_time": 22.3708,
+    "average_cpu_time": 11.1854,
+    "tasks_done_per_cpu_second": 116.22293346684071
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 0,
+    "tasks_done": 1537.0,
+    "total_cpu_time": 15.044599999999999,
+    "average_cpu_time": 7.5222999999999995,
+    "tasks_done_per_cpu_second": 102162.90230381665
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 10,
+    "tasks_done": 2399.0,
+    "total_cpu_time": 17.7452,
+    "average_cpu_time": 8.8726,
+    "tasks_done_per_cpu_second": 135191.48840249758
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 25,
+    "tasks_done": 11082.6,
+    "total_cpu_time": 18.326599999999996,
+    "average_cpu_time": 9.163299999999998,
+    "tasks_done_per_cpu_second": 604727.5544836469
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 50,
+    "tasks_done": 5721.0,
+    "total_cpu_time": 17.435399999999998,
+    "average_cpu_time": 8.717699999999999,
+    "tasks_done_per_cpu_second": 328125.53769916383
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 100,
+    "tasks_done": 6013.4,
+    "total_cpu_time": 18.4462,
+    "average_cpu_time": 9.2231,
+    "tasks_done_per_cpu_second": 325996.6822434973
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 250,
+    "tasks_done": 4206.8,
+    "total_cpu_time": 19.9964,
+    "average_cpu_time": 9.9982,
+    "tasks_done_per_cpu_second": 210377.8680162429
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 500,
+    "tasks_done": 3399.0,
+    "total_cpu_time": 22.2762,
+    "average_cpu_time": 11.1381,
+    "tasks_done_per_cpu_second": 152584.37255905406
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 1000,
+    "tasks_done": 1779.0,
+    "total_cpu_time": 22.5696,
+    "average_cpu_time": 11.2848,
+    "tasks_done_per_cpu_second": 78822.84134410889
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 2500,
+    "tasks_done": 792.4,
+    "total_cpu_time": 22.849,
+    "average_cpu_time": 11.4245,
+    "tasks_done_per_cpu_second": 34679.854698236246
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 5000,
+    "tasks_done": 386.8,
+    "total_cpu_time": 22.031799999999997,
+    "average_cpu_time": 11.015899999999998,
+    "tasks_done_per_cpu_second": 17556.441144164346
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 10000,
+    "tasks_done": 187.0,
+    "total_cpu_time": 22.5006,
+    "average_cpu_time": 11.2503,
+    "tasks_done_per_cpu_second": 8310.889487391447
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 25000,
+    "tasks_done": 79.4,
+    "total_cpu_time": 23.0314,
+    "average_cpu_time": 11.5157,
+    "tasks_done_per_cpu_second": 3447.4673706331355
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 50000,
+    "tasks_done": 39.6,
+    "total_cpu_time": 23.1228,
+    "average_cpu_time": 11.5614,
+    "tasks_done_per_cpu_second": 1712.595360423478
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 100000,
+    "tasks_done": 17.4,
+    "total_cpu_time": 21.9108,
+    "average_cpu_time": 10.9554,
+    "tasks_done_per_cpu_second": 794.1289227230408
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 250000,
+    "tasks_done": 10.8,
+    "total_cpu_time": 24.9528,
+    "average_cpu_time": 12.4764,
+    "tasks_done_per_cpu_second": 432.8171587958065
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 500000,
+    "tasks_done": 3.8,
+    "total_cpu_time": 23.476800000000004,
+    "average_cpu_time": 11.738400000000002,
+    "tasks_done_per_cpu_second": 161.86192326041026
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500,
+    "actor_work": 1000000,
+    "tasks_done": 2.2,
+    "total_cpu_time": 22.9526,
+    "average_cpu_time": 11.4763,
+    "tasks_done_per_cpu_second": 95.84970765839164
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 0,
+    "tasks_done": 21396.4,
+    "total_cpu_time": 19.7108,
+    "average_cpu_time": 9.8554,
+    "tasks_done_per_cpu_second": 1085516.5695963635
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 10,
+    "tasks_done": 14037.8,
+    "total_cpu_time": 19.613,
+    "average_cpu_time": 9.8065,
+    "tasks_done_per_cpu_second": 715739.5604955896
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 25,
+    "tasks_done": 12788.4,
+    "total_cpu_time": 19.978199999999998,
+    "average_cpu_time": 9.989099999999999,
+    "tasks_done_per_cpu_second": 640117.728323873
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 50,
+    "tasks_done": 16418.2,
+    "total_cpu_time": 20.9964,
+    "average_cpu_time": 10.4982,
+    "tasks_done_per_cpu_second": 781953.0967213426
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 100,
+    "tasks_done": 13748.8,
+    "total_cpu_time": 21.658799999999996,
+    "average_cpu_time": 10.829399999999998,
+    "tasks_done_per_cpu_second": 634790.4777734686
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 250,
+    "tasks_done": 7013.0,
+    "total_cpu_time": 23.063599999999997,
+    "average_cpu_time": 11.531799999999999,
+    "tasks_done_per_cpu_second": 304072.2176936818
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 500,
+    "tasks_done": 3800.2,
+    "total_cpu_time": 22.980600000000003,
+    "average_cpu_time": 11.490300000000001,
+    "tasks_done_per_cpu_second": 165365.56921925448
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 1000,
+    "tasks_done": 2044.2,
+    "total_cpu_time": 23.323,
+    "average_cpu_time": 11.6615,
+    "tasks_done_per_cpu_second": 87647.38669982422
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 2500,
+    "tasks_done": 843.8,
+    "total_cpu_time": 23.3056,
+    "average_cpu_time": 11.6528,
+    "tasks_done_per_cpu_second": 36205.890429767955
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 5000,
+    "tasks_done": 412.4,
+    "total_cpu_time": 23.089999999999996,
+    "average_cpu_time": 11.544999999999998,
+    "tasks_done_per_cpu_second": 17860.54569077523
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 10000,
+    "tasks_done": 227.0,
+    "total_cpu_time": 24.5148,
+    "average_cpu_time": 12.2574,
+    "tasks_done_per_cpu_second": 9259.712500203957
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 25000,
+    "tasks_done": 78.6,
+    "total_cpu_time": 23.2746,
+    "average_cpu_time": 11.6373,
+    "tasks_done_per_cpu_second": 3377.0720012374004
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 50000,
+    "tasks_done": 42.2,
+    "total_cpu_time": 23.6458,
+    "average_cpu_time": 11.8229,
+    "tasks_done_per_cpu_second": 1784.6721193615776
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 100000,
+    "tasks_done": 21.6,
+    "total_cpu_time": 23.006999999999998,
+    "average_cpu_time": 11.503499999999999,
+    "tasks_done_per_cpu_second": 938.844699439301
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 250000,
+    "tasks_done": 7.8,
+    "total_cpu_time": 22.648,
+    "average_cpu_time": 11.324,
+    "tasks_done_per_cpu_second": 344.4012716354645
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 500000,
+    "tasks_done": 4.0,
+    "total_cpu_time": 22.644599999999997,
+    "average_cpu_time": 11.322299999999998,
+    "tasks_done_per_cpu_second": 176.64255495791494
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000,
+    "actor_work": 1000000,
+    "tasks_done": 3.0,
+    "total_cpu_time": 23.594,
+    "average_cpu_time": 11.797,
+    "tasks_done_per_cpu_second": 127.15097058574213
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 0,
+    "tasks_done": 8879.6,
+    "total_cpu_time": 19.1124,
+    "average_cpu_time": 9.5562,
+    "tasks_done_per_cpu_second": 464598.8991440112
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 10,
+    "tasks_done": 11696.8,
+    "total_cpu_time": 18.499000000000002,
+    "average_cpu_time": 9.249500000000001,
+    "tasks_done_per_cpu_second": 632293.6374939185
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 25,
+    "tasks_done": 6655.2,
+    "total_cpu_time": 18.2348,
+    "average_cpu_time": 9.1174,
+    "tasks_done_per_cpu_second": 364972.4702217737
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 50,
+    "tasks_done": 8154.0,
+    "total_cpu_time": 20.540999999999997,
+    "average_cpu_time": 10.270499999999998,
+    "tasks_done_per_cpu_second": 396962.1732145466
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 100,
+    "tasks_done": 6452.0,
+    "total_cpu_time": 18.7618,
+    "average_cpu_time": 9.3809,
+    "tasks_done_per_cpu_second": 343890.2450724344
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 250,
+    "tasks_done": 6889.4,
+    "total_cpu_time": 22.793799999999997,
+    "average_cpu_time": 11.396899999999999,
+    "tasks_done_per_cpu_second": 302248.8571453641
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 500,
+    "tasks_done": 3565.8,
+    "total_cpu_time": 21.8664,
+    "average_cpu_time": 10.9332,
+    "tasks_done_per_cpu_second": 163072.11063549557
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 1000,
+    "tasks_done": 2008.6,
+    "total_cpu_time": 23.609199999999998,
+    "average_cpu_time": 11.804599999999999,
+    "tasks_done_per_cpu_second": 85077.00387984345
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 2500,
+    "tasks_done": 843.8,
+    "total_cpu_time": 23.7606,
+    "average_cpu_time": 11.8803,
+    "tasks_done_per_cpu_second": 35512.571231366215
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 5000,
+    "tasks_done": 407.0,
+    "total_cpu_time": 22.9408,
+    "average_cpu_time": 11.4704,
+    "tasks_done_per_cpu_second": 17741.316780583067
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 10000,
+    "tasks_done": 201.8,
+    "total_cpu_time": 22.0276,
+    "average_cpu_time": 11.0138,
+    "tasks_done_per_cpu_second": 9161.234088143967
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 25000,
+    "tasks_done": 99.4,
+    "total_cpu_time": 24.179199999999998,
+    "average_cpu_time": 12.089599999999999,
+    "tasks_done_per_cpu_second": 4110.971413446268
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 50000,
+    "tasks_done": 44.8,
+    "total_cpu_time": 24.7004,
+    "average_cpu_time": 12.3502,
+    "tasks_done_per_cpu_second": 1813.7358099463977
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 100000,
+    "tasks_done": 19.6,
+    "total_cpu_time": 21.4244,
+    "average_cpu_time": 10.7122,
+    "tasks_done_per_cpu_second": 914.8447564459215
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 250000,
+    "tasks_done": 11.6,
+    "total_cpu_time": 23.8308,
+    "average_cpu_time": 11.9154,
+    "tasks_done_per_cpu_second": 486.7650267720765
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 500000,
+    "tasks_done": 5.0,
+    "total_cpu_time": 23.625999999999998,
+    "average_cpu_time": 11.812999999999999,
+    "tasks_done_per_cpu_second": 211.63125370354695
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 2500,
+    "actor_work": 1000000,
+    "tasks_done": 2.4,
+    "total_cpu_time": 23.147,
+    "average_cpu_time": 11.5735,
+    "tasks_done_per_cpu_second": 103.68514278308204
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 0,
+    "tasks_done": 17957.4,
+    "total_cpu_time": 19.775,
+    "average_cpu_time": 9.8875,
+    "tasks_done_per_cpu_second": 908085.9671302149
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 10,
+    "tasks_done": 19526.0,
+    "total_cpu_time": 19.450200000000002,
+    "average_cpu_time": 9.725100000000001,
+    "tasks_done_per_cpu_second": 1003897.1321631654
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 25,
+    "tasks_done": 8643.8,
+    "total_cpu_time": 19.8768,
+    "average_cpu_time": 9.9384,
+    "tasks_done_per_cpu_second": 434868.7917572245
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 50,
+    "tasks_done": 7703.2,
+    "total_cpu_time": 20.268,
+    "average_cpu_time": 10.134,
+    "tasks_done_per_cpu_second": 380067.1008486284
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 100,
+    "tasks_done": 5437.2,
+    "total_cpu_time": 19.6,
+    "average_cpu_time": 9.8,
+    "tasks_done_per_cpu_second": 277408.1632653061
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 250,
+    "tasks_done": 6038.4,
+    "total_cpu_time": 21.348399999999998,
+    "average_cpu_time": 10.674199999999999,
+    "tasks_done_per_cpu_second": 282850.2370201046
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 500,
+    "tasks_done": 3510.0,
+    "total_cpu_time": 21.721,
+    "average_cpu_time": 10.8605,
+    "tasks_done_per_cpu_second": 161594.77003821186
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 1000,
+    "tasks_done": 2049.8,
+    "total_cpu_time": 23.6198,
+    "average_cpu_time": 11.8099,
+    "tasks_done_per_cpu_second": 86783.12263439994
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 2500,
+    "tasks_done": 882.0,
+    "total_cpu_time": 24.4534,
+    "average_cpu_time": 12.2267,
+    "tasks_done_per_cpu_second": 36068.60395691397
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 5000,
+    "tasks_done": 413.4,
+    "total_cpu_time": 22.360200000000003,
+    "average_cpu_time": 11.180100000000001,
+    "tasks_done_per_cpu_second": 18488.2067244479
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 10000,
+    "tasks_done": 203.0,
+    "total_cpu_time": 23.6042,
+    "average_cpu_time": 11.8021,
+    "tasks_done_per_cpu_second": 8600.164377526035
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 25000,
+    "tasks_done": 81.4,
+    "total_cpu_time": 24.7374,
+    "average_cpu_time": 12.3687,
+    "tasks_done_per_cpu_second": 3290.5640851504204
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 50000,
+    "tasks_done": 38.6,
+    "total_cpu_time": 23.3096,
+    "average_cpu_time": 11.6548,
+    "tasks_done_per_cpu_second": 1655.970072416515
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 100000,
+    "tasks_done": 20.8,
+    "total_cpu_time": 23.241,
+    "average_cpu_time": 11.6205,
+    "tasks_done_per_cpu_second": 894.9700959511208
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 250000,
+    "tasks_done": 8.6,
+    "total_cpu_time": 23.772399999999998,
+    "average_cpu_time": 11.886199999999999,
+    "tasks_done_per_cpu_second": 361.764062526291
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 500000,
+    "tasks_done": 4.2,
+    "total_cpu_time": 21.8478,
+    "average_cpu_time": 10.9239,
+    "tasks_done_per_cpu_second": 192.23903550929614
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 5000,
+    "actor_work": 1000000,
+    "tasks_done": 2.2,
+    "total_cpu_time": 21.982200000000002,
+    "average_cpu_time": 10.991100000000001,
+    "tasks_done_per_cpu_second": 100.08097460672725
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 0,
+    "tasks_done": 4721.8,
+    "total_cpu_time": 19.1062,
+    "average_cpu_time": 9.5531,
+    "tasks_done_per_cpu_second": 247134.4380358208
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 10,
+    "tasks_done": 5537.8,
+    "total_cpu_time": 18.5134,
+    "average_cpu_time": 9.2567,
+    "tasks_done_per_cpu_second": 299123.8778398349
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 25,
+    "tasks_done": 6048.4,
+    "total_cpu_time": 18.783,
+    "average_cpu_time": 9.3915,
+    "tasks_done_per_cpu_second": 322014.58765905333
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 50,
+    "tasks_done": 7222.6,
+    "total_cpu_time": 19.009800000000002,
+    "average_cpu_time": 9.504900000000001,
+    "tasks_done_per_cpu_second": 379940.87260255235
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 100,
+    "tasks_done": 9395.0,
+    "total_cpu_time": 20.668999999999997,
+    "average_cpu_time": 10.334499999999998,
+    "tasks_done_per_cpu_second": 454545.45454545465
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 250,
+    "tasks_done": 5654.4,
+    "total_cpu_time": 21.032000000000004,
+    "average_cpu_time": 10.516000000000002,
+    "tasks_done_per_cpu_second": 268847.47052111063
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 500,
+    "tasks_done": 3506.6,
+    "total_cpu_time": 21.6196,
+    "average_cpu_time": 10.8098,
+    "tasks_done_per_cpu_second": 162195.41527132786
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 1000,
+    "tasks_done": 1923.8,
+    "total_cpu_time": 21.387999999999998,
+    "average_cpu_time": 10.693999999999999,
+    "tasks_done_per_cpu_second": 89947.63418739481
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 2500,
+    "tasks_done": 852.2,
+    "total_cpu_time": 23.6718,
+    "average_cpu_time": 11.8359,
+    "tasks_done_per_cpu_second": 36000.64211424564
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 5000,
+    "tasks_done": 444.4,
+    "total_cpu_time": 24.095000000000002,
+    "average_cpu_time": 12.047500000000001,
+    "tasks_done_per_cpu_second": 18443.66051047935
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 10000,
+    "tasks_done": 199.0,
+    "total_cpu_time": 22.9614,
+    "average_cpu_time": 11.4807,
+    "tasks_done_per_cpu_second": 8666.718928288345
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 25000,
+    "tasks_done": 87.2,
+    "total_cpu_time": 23.5078,
+    "average_cpu_time": 11.7539,
+    "tasks_done_per_cpu_second": 3709.4070904125438
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 50000,
+    "tasks_done": 43.6,
+    "total_cpu_time": 23.721799999999998,
+    "average_cpu_time": 11.860899999999999,
+    "tasks_done_per_cpu_second": 1837.9718233860838
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 100000,
+    "tasks_done": 21.6,
+    "total_cpu_time": 23.6554,
+    "average_cpu_time": 11.8277,
+    "tasks_done_per_cpu_second": 913.1107484971718
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 250000,
+    "tasks_done": 9.8,
+    "total_cpu_time": 23.708999999999996,
+    "average_cpu_time": 11.854499999999998,
+    "tasks_done_per_cpu_second": 413.3451431945675
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 500000,
+    "tasks_done": 5.4,
+    "total_cpu_time": 23.344800000000003,
+    "average_cpu_time": 11.672400000000001,
+    "tasks_done_per_cpu_second": 231.3148966793461
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 10000,
+    "actor_work": 1000000,
+    "tasks_done": 2.4,
+    "total_cpu_time": 23.2692,
+    "average_cpu_time": 11.6346,
+    "tasks_done_per_cpu_second": 103.1406322520757
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 0,
+    "tasks_done": 12785.8,
+    "total_cpu_time": 20.415399999999998,
+    "average_cpu_time": 10.207699999999999,
+    "tasks_done_per_cpu_second": 626282.1203601203
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 10,
+    "tasks_done": 22279.2,
+    "total_cpu_time": 19.6048,
+    "average_cpu_time": 9.8024,
+    "tasks_done_per_cpu_second": 1136415.5716967273
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 25,
+    "tasks_done": 17263.6,
+    "total_cpu_time": 20.239400000000003,
+    "average_cpu_time": 10.119700000000002,
+    "tasks_done_per_cpu_second": 852969.949702066
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 50,
+    "tasks_done": 20024.0,
+    "total_cpu_time": 20.9972,
+    "average_cpu_time": 10.4986,
+    "tasks_done_per_cpu_second": 953650.9629855409
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 100,
+    "tasks_done": 11086.6,
+    "total_cpu_time": 20.859,
+    "average_cpu_time": 10.4295,
+    "tasks_done_per_cpu_second": 531501.9895488758
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 250,
+    "tasks_done": 6044.8,
+    "total_cpu_time": 20.845799999999997,
+    "average_cpu_time": 10.422899999999998,
+    "tasks_done_per_cpu_second": 289976.8778363028
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 500,
+    "tasks_done": 3650.2,
+    "total_cpu_time": 22.9054,
+    "average_cpu_time": 11.4527,
+    "tasks_done_per_cpu_second": 159359.80161883222
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 1000,
+    "tasks_done": 2029.6,
+    "total_cpu_time": 24.611200000000004,
+    "average_cpu_time": 12.305600000000002,
+    "tasks_done_per_cpu_second": 82466.5193082824
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 2500,
+    "tasks_done": 764.6,
+    "total_cpu_time": 22.2268,
+    "average_cpu_time": 11.1134,
+    "tasks_done_per_cpu_second": 34399.91361779474
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 5000,
+    "tasks_done": 421.8,
+    "total_cpu_time": 23.029,
+    "average_cpu_time": 11.5145,
+    "tasks_done_per_cpu_second": 18316.036302053933
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 10000,
+    "tasks_done": 172.8,
+    "total_cpu_time": 22.9806,
+    "average_cpu_time": 11.4903,
+    "tasks_done_per_cpu_second": 7519.385916816794
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 25000,
+    "tasks_done": 79.4,
+    "total_cpu_time": 24.071800000000003,
+    "average_cpu_time": 12.035900000000002,
+    "tasks_done_per_cpu_second": 3298.465424272385
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 50000,
+    "tasks_done": 34.4,
+    "total_cpu_time": 22.1414,
+    "average_cpu_time": 11.0707,
+    "tasks_done_per_cpu_second": 1553.650627331605
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 100000,
+    "tasks_done": 22.8,
+    "total_cpu_time": 23.439,
+    "average_cpu_time": 11.7195,
+    "tasks_done_per_cpu_second": 972.7377447843337
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 250000,
+    "tasks_done": 9.2,
+    "total_cpu_time": 22.2912,
+    "average_cpu_time": 11.1456,
+    "tasks_done_per_cpu_second": 412.71892047085845
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 500000,
+    "tasks_done": 5.0,
+    "total_cpu_time": 24.3846,
+    "average_cpu_time": 12.1923,
+    "tasks_done_per_cpu_second": 205.04744797946245
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 25000,
+    "actor_work": 1000000,
+    "tasks_done": 3.2,
+    "total_cpu_time": 23.544800000000002,
+    "average_cpu_time": 11.772400000000001,
+    "tasks_done_per_cpu_second": 135.91111413135806
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 0,
+    "tasks_done": 1613.8,
+    "total_cpu_time": 19.693399999999997,
+    "average_cpu_time": 9.846699999999998,
+    "tasks_done_per_cpu_second": 81946.23579473328
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 10,
+    "tasks_done": 11022.6,
+    "total_cpu_time": 16.2034,
+    "average_cpu_time": 8.1017,
+    "tasks_done_per_cpu_second": 680264.6358171742
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 25,
+    "tasks_done": 12835.6,
+    "total_cpu_time": 18.4894,
+    "average_cpu_time": 9.2447,
+    "tasks_done_per_cpu_second": 694213.9820653996
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 50,
+    "tasks_done": 18564.2,
+    "total_cpu_time": 20.4198,
+    "average_cpu_time": 10.2099,
+    "tasks_done_per_cpu_second": 909127.4155476547
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 100,
+    "tasks_done": 11913.4,
+    "total_cpu_time": 21.209799999999998,
+    "average_cpu_time": 10.604899999999999,
+    "tasks_done_per_cpu_second": 561693.1795679356
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 250,
+    "tasks_done": 6661.6,
+    "total_cpu_time": 22.775799999999997,
+    "average_cpu_time": 11.387899999999998,
+    "tasks_done_per_cpu_second": 292485.8841401839
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 500,
+    "tasks_done": 3819.2,
+    "total_cpu_time": 21.595999999999997,
+    "average_cpu_time": 10.797999999999998,
+    "tasks_done_per_cpu_second": 176847.5643637711
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 1000,
+    "tasks_done": 1951.8,
+    "total_cpu_time": 22.8948,
+    "average_cpu_time": 11.4474,
+    "tasks_done_per_cpu_second": 85250.79930813983
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 2500,
+    "tasks_done": 770.6,
+    "total_cpu_time": 23.1586,
+    "average_cpu_time": 11.5793,
+    "tasks_done_per_cpu_second": 33274.89571908492
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 5000,
+    "tasks_done": 405.2,
+    "total_cpu_time": 23.171600000000005,
+    "average_cpu_time": 11.585800000000003,
+    "tasks_done_per_cpu_second": 17486.923647913824
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 10000,
+    "tasks_done": 195.0,
+    "total_cpu_time": 23.6986,
+    "average_cpu_time": 11.8493,
+    "tasks_done_per_cpu_second": 8228.334163199514
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 25000,
+    "tasks_done": 97.0,
+    "total_cpu_time": 23.2076,
+    "average_cpu_time": 11.6038,
+    "tasks_done_per_cpu_second": 4179.665282062772
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 50000,
+    "tasks_done": 43.8,
+    "total_cpu_time": 24.0638,
+    "average_cpu_time": 12.0319,
+    "tasks_done_per_cpu_second": 1820.16140426699
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 100000,
+    "tasks_done": 19.8,
+    "total_cpu_time": 22.4424,
+    "average_cpu_time": 11.2212,
+    "tasks_done_per_cpu_second": 882.2585819698429
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 250000,
+    "tasks_done": 10.4,
+    "total_cpu_time": 23.1832,
+    "average_cpu_time": 11.5916,
+    "tasks_done_per_cpu_second": 448.600710859588
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 500000,
+    "tasks_done": 4.4,
+    "total_cpu_time": 22.9918,
+    "average_cpu_time": 11.4959,
+    "tasks_done_per_cpu_second": 191.3725763098148
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 50000,
+    "actor_work": 1000000,
+    "tasks_done": 2.8,
+    "total_cpu_time": 22.9076,
+    "average_cpu_time": 11.4538,
+    "tasks_done_per_cpu_second": 122.23017688452741
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 0,
+    "tasks_done": 16459.2,
+    "total_cpu_time": 19.933799999999998,
+    "average_cpu_time": 9.966899999999999,
+    "tasks_done_per_cpu_second": 825693.0439755592
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 10,
+    "tasks_done": 21844.8,
+    "total_cpu_time": 19.5048,
+    "average_cpu_time": 9.7524,
+    "tasks_done_per_cpu_second": 1119970.4688076782
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 25,
+    "tasks_done": 21092.2,
+    "total_cpu_time": 19.459799999999998,
+    "average_cpu_time": 9.729899999999999,
+    "tasks_done_per_cpu_second": 1083885.7542215234
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 50,
+    "tasks_done": 13786.4,
+    "total_cpu_time": 20.6128,
+    "average_cpu_time": 10.3064,
+    "tasks_done_per_cpu_second": 668827.136536521
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 100,
+    "tasks_done": 13022.6,
+    "total_cpu_time": 22.2834,
+    "average_cpu_time": 11.1417,
+    "tasks_done_per_cpu_second": 584408.1244334347
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 250,
+    "tasks_done": 6309.6,
+    "total_cpu_time": 21.8568,
+    "average_cpu_time": 10.9284,
+    "tasks_done_per_cpu_second": 288679.03810255846
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 500,
+    "tasks_done": 3631.8,
+    "total_cpu_time": 21.7796,
+    "average_cpu_time": 10.8898,
+    "tasks_done_per_cpu_second": 166752.37378096936
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 1000,
+    "tasks_done": 1888.0,
+    "total_cpu_time": 22.1476,
+    "average_cpu_time": 11.0738,
+    "tasks_done_per_cpu_second": 85246.25693077354
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 2500,
+    "tasks_done": 865.0,
+    "total_cpu_time": 23.599,
+    "average_cpu_time": 11.7995,
+    "tasks_done_per_cpu_second": 36654.095512521715
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 5000,
+    "tasks_done": 429.2,
+    "total_cpu_time": 24.915799999999997,
+    "average_cpu_time": 12.457899999999999,
+    "tasks_done_per_cpu_second": 17226.01722601723
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 10000,
+    "tasks_done": 209.0,
+    "total_cpu_time": 23.7558,
+    "average_cpu_time": 11.8779,
+    "tasks_done_per_cpu_second": 8797.851472061559
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 25000,
+    "tasks_done": 78.4,
+    "total_cpu_time": 23.603,
+    "average_cpu_time": 11.8015,
+    "tasks_done_per_cpu_second": 3321.611659534805
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 50000,
+    "tasks_done": 37.0,
+    "total_cpu_time": 21.721799999999998,
+    "average_cpu_time": 10.860899999999999,
+    "tasks_done_per_cpu_second": 1703.3579169313778
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 100000,
+    "tasks_done": 20.8,
+    "total_cpu_time": 23.041400000000003,
+    "average_cpu_time": 11.520700000000001,
+    "tasks_done_per_cpu_second": 902.7229248222764
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 250000,
+    "tasks_done": 9.6,
+    "total_cpu_time": 24.2602,
+    "average_cpu_time": 12.1301,
+    "tasks_done_per_cpu_second": 395.7098457555997
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 500000,
+    "tasks_done": 5.6,
+    "total_cpu_time": 23.538599999999995,
+    "average_cpu_time": 11.769299999999998,
+    "tasks_done_per_cpu_second": 237.9070972785128
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 100000,
+    "actor_work": 1000000,
+    "tasks_done": 2.8,
+    "total_cpu_time": 24.7044,
+    "average_cpu_time": 12.3522,
+    "tasks_done_per_cpu_second": 113.3401337413578
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 0,
+    "tasks_done": 12901.8,
+    "total_cpu_time": 17.7474,
+    "average_cpu_time": 8.8737,
+    "tasks_done_per_cpu_second": 726968.4573514994
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 10,
+    "tasks_done": 16898.0,
+    "total_cpu_time": 19.3124,
+    "average_cpu_time": 9.6562,
+    "tasks_done_per_cpu_second": 874981.8769288126
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 25,
+    "tasks_done": 19237.8,
+    "total_cpu_time": 20.0326,
+    "average_cpu_time": 10.0163,
+    "tasks_done_per_cpu_second": 960324.6707866178
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 50,
+    "tasks_done": 6659.0,
+    "total_cpu_time": 19.6462,
+    "average_cpu_time": 9.8231,
+    "tasks_done_per_cpu_second": 338945.953924932
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 100,
+    "tasks_done": 11493.4,
+    "total_cpu_time": 20.727,
+    "average_cpu_time": 10.3635,
+    "tasks_done_per_cpu_second": 554513.4365803058
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 250,
+    "tasks_done": 4920.4,
+    "total_cpu_time": 21.839199999999998,
+    "average_cpu_time": 10.919599999999999,
+    "tasks_done_per_cpu_second": 225301.29308765888
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 500,
+    "tasks_done": 3363.2,
+    "total_cpu_time": 21.876600000000003,
+    "average_cpu_time": 10.938300000000002,
+    "tasks_done_per_cpu_second": 153735.0410941371
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 1000,
+    "tasks_done": 1894.2,
+    "total_cpu_time": 22.7948,
+    "average_cpu_time": 11.3974,
+    "tasks_done_per_cpu_second": 83097.89952094338
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 2500,
+    "tasks_done": 874.6,
+    "total_cpu_time": 23.905399999999997,
+    "average_cpu_time": 11.952699999999998,
+    "tasks_done_per_cpu_second": 36585.875994545175
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 5000,
+    "tasks_done": 395.0,
+    "total_cpu_time": 22.360799999999998,
+    "average_cpu_time": 11.180399999999999,
+    "tasks_done_per_cpu_second": 17664.842045007335
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 10000,
+    "tasks_done": 189.2,
+    "total_cpu_time": 22.862000000000002,
+    "average_cpu_time": 11.431000000000001,
+    "tasks_done_per_cpu_second": 8275.741404951446
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 25000,
+    "tasks_done": 85.0,
+    "total_cpu_time": 24.090000000000003,
+    "average_cpu_time": 12.045000000000002,
+    "tasks_done_per_cpu_second": 3528.43503528435
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 50000,
+    "tasks_done": 38.8,
+    "total_cpu_time": 21.6774,
+    "average_cpu_time": 10.8387,
+    "tasks_done_per_cpu_second": 1789.8825504903728
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 100000,
+    "tasks_done": 22.2,
+    "total_cpu_time": 24.0634,
+    "average_cpu_time": 12.0317,
+    "tasks_done_per_cpu_second": 922.5628963488118
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 250000,
+    "tasks_done": 8.4,
+    "total_cpu_time": 24.208599999999997,
+    "average_cpu_time": 12.104299999999999,
+    "tasks_done_per_cpu_second": 346.98412960683396
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 500000,
+    "tasks_done": 3.4,
+    "total_cpu_time": 21.8726,
+    "average_cpu_time": 10.9363,
+    "tasks_done_per_cpu_second": 155.4456260343992
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 250000,
+    "actor_work": 1000000,
+    "tasks_done": 3.2,
+    "total_cpu_time": 22.7942,
+    "average_cpu_time": 11.3971,
+    "tasks_done_per_cpu_second": 140.38658957103124
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 0,
+    "tasks_done": 20535.6,
+    "total_cpu_time": 19.221399999999996,
+    "average_cpu_time": 9.610699999999998,
+    "tasks_done_per_cpu_second": 1068371.710697452
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 10,
+    "tasks_done": 20745.0,
+    "total_cpu_time": 20.7628,
+    "average_cpu_time": 10.3814,
+    "tasks_done_per_cpu_second": 999142.6975167127
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 25,
+    "tasks_done": 12593.0,
+    "total_cpu_time": 20.1838,
+    "average_cpu_time": 10.0919,
+    "tasks_done_per_cpu_second": 623916.2100298258
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 50,
+    "tasks_done": 6584.8,
+    "total_cpu_time": 17.957,
+    "average_cpu_time": 8.9785,
+    "tasks_done_per_cpu_second": 366698.22353399795
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 100,
+    "tasks_done": 10238.0,
+    "total_cpu_time": 20.552,
+    "average_cpu_time": 10.276,
+    "tasks_done_per_cpu_second": 498151.03152977815
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 250,
+    "tasks_done": 5907.6,
+    "total_cpu_time": 21.3704,
+    "average_cpu_time": 10.6852,
+    "tasks_done_per_cpu_second": 276438.43821360386
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 500,
+    "tasks_done": 3189.6,
+    "total_cpu_time": 22.615,
+    "average_cpu_time": 11.3075,
+    "tasks_done_per_cpu_second": 141039.13331859387
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 1000,
+    "tasks_done": 2147.4,
+    "total_cpu_time": 23.648,
+    "average_cpu_time": 11.824,
+    "tasks_done_per_cpu_second": 90806.83355886333
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 2500,
+    "tasks_done": 804.0,
+    "total_cpu_time": 22.6358,
+    "average_cpu_time": 11.3179,
+    "tasks_done_per_cpu_second": 35518.95669691374
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 5000,
+    "tasks_done": 411.2,
+    "total_cpu_time": 21.920800000000003,
+    "average_cpu_time": 10.960400000000002,
+    "tasks_done_per_cpu_second": 18758.43947301193
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 10000,
+    "tasks_done": 197.0,
+    "total_cpu_time": 23.575799999999997,
+    "average_cpu_time": 11.787899999999999,
+    "tasks_done_per_cpu_second": 8356.026094554587
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 25000,
+    "tasks_done": 88.0,
+    "total_cpu_time": 23.546,
+    "average_cpu_time": 11.773,
+    "tasks_done_per_cpu_second": 3737.365157563918
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 50000,
+    "tasks_done": 36.8,
+    "total_cpu_time": 21.3906,
+    "average_cpu_time": 10.6953,
+    "tasks_done_per_cpu_second": 1720.3818499714828
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 100000,
+    "tasks_done": 21.6,
+    "total_cpu_time": 20.976,
+    "average_cpu_time": 10.488,
+    "tasks_done_per_cpu_second": 1029.7482837528603
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 250000,
+    "tasks_done": 10.6,
+    "total_cpu_time": 23.9954,
+    "average_cpu_time": 11.9977,
+    "tasks_done_per_cpu_second": 441.7513356726706
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 500000,
+    "tasks_done": 6.6,
+    "total_cpu_time": 22.7796,
+    "average_cpu_time": 11.3898,
+    "tasks_done_per_cpu_second": 289.7329189274614
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 500000,
+    "actor_work": 1000000,
+    "tasks_done": 2.8,
+    "total_cpu_time": 23.657400000000003,
+    "average_cpu_time": 11.828700000000001,
+    "tasks_done_per_cpu_second": 118.35620144225486
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000000,
+    "actor_work": 0,
+    "tasks_done": 11562.8,
+    "total_cpu_time": 18.4242,
+    "average_cpu_time": 9.2121,
+    "tasks_done_per_cpu_second": 627587.6293136202
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000000,
+    "actor_work": 10,
+    "tasks_done": 24165.0,
+    "total_cpu_time": 20.6328,
+    "average_cpu_time": 10.3164,
+    "tasks_done_per_cpu_second": 1171193.4395719436
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000000,
+    "actor_work": 25,
+    "tasks_done": 19773.0,
+    "total_cpu_time": 20.9668,
+    "average_cpu_time": 10.4834,
+    "tasks_done_per_cpu_second": 943062.3652631781
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000000,
+    "actor_work": 50,
+    "tasks_done": 20314.2,
+    "total_cpu_time": 22.0536,
+    "average_cpu_time": 11.0268,
+    "tasks_done_per_cpu_second": 921128.5232343018
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000000,
+    "actor_work": 100,
+    "tasks_done": 7673.8,
+    "total_cpu_time": 20.290399999999998,
+    "average_cpu_time": 10.145199999999999,
+    "tasks_done_per_cpu_second": 378198.5569530418
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000000,
+    "actor_work": 250,
+    "tasks_done": 5236.6,
+    "total_cpu_time": 22.1034,
+    "average_cpu_time": 11.0517,
+    "tasks_done_per_cpu_second": 236913.77797080996
+  },
+  {
+    "buffer_size": 10,
+    "thread_count": 2,
+    "buffer_work": 1000000,
+    "actor_work": 500,
+    "tasks_done": 3699.2,
+    "total_cpu_time": 22.3232,
+    "average_cpu_time": 11.1616,
+    "tasks_done_per_cpu_second": 165711.00917431194
+  }
+]

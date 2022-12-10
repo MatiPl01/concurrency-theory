@@ -2,7 +2,6 @@ package producer_consumer;
 
 import active_object.MessageFuture;
 import active_object.Proxy;
-import utils.ExpensiveComputation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,19 +11,21 @@ public class Producer<T> extends Actor<T> {
     private static int id = 0;
     private final T product;
 
-    public Producer(Proxy<T> proxy, int maxCount, T product) {
-        this(proxy, maxCount, maxCount, product);
+    public Producer(Proxy<T> proxy,
+                    int maxCount,
+                    int workIterations,
+                    T product) {
+        this(proxy, maxCount, maxCount, workIterations, product);
     }
 
-    public Producer(Proxy<T> proxy, int minCount, int maxCount, T product) {
-        super(NAME + " " + id, proxy, minCount, maxCount);
+    public Producer(Proxy<T> proxy,
+                    int minCount,
+                    int maxCount,
+                    int workIterations,
+                    T product) {
+        super(NAME + " " + id, proxy, minCount, maxCount, workIterations);
         this.product = product;
         id++;
-    }
-
-    @Override
-    protected void work() {
-        ExpensiveComputation.compute();
     }
 
     @Override
