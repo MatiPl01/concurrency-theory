@@ -1,66 +1,30 @@
-import active_object.Proxy;
-import active_object.Scheduler;
 import producer_consumer.Actor;
+import producer_consumer.Buffer;
 import producer_consumer.Consumer;
 import producer_consumer.Producer;
-import utils.Counter;
 import utils.JSONArrayWriter;
 import utils.Logger;
 import utils.Summary;
 
 import java.io.IOException;
-import java.lang.management.ManagementFactory;
-import java.lang.management.ThreadMXBean;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringJoiner;
+import java.lang.management.ThreadMXBean;
+import java.lang.management.ManagementFactory;
 
 public class Main {
     private static final String LOG_FILE_NAME = "nested-locks.txt";
     private static final String JSON_FILE_NAME = "nested-locks.json";
 
-    private static final int TEST_DURATION = 100000; // ms
+    private static final int TEST_DURATION = 20000; // ms
     private static final int REPETITIONS = 5; // per single test params
     private static final int MAX_PRODUCED_COUNT = 10;
     private static final int MAX_CONSUMED_COUNT = 10;
-    private static final int[] BUFFER_SIZES = { 10, 1000, 100000 };
-    private static final int[] THREAD_COUNTS = { 2, 4, 6, 8, 10 };
-    private static final int[] BUFFER_WORK = { 0,
-                                               10,
-                                               25,
-                                               50,
-                                               100,
-                                               250,
-                                               500,
-                                               1000,
-                                               2500,
-                                               5000,
-                                               10000,
-                                               25000,
-                                               50000,
-                                               100000,
-                                               250000,
-                                               500000,
-                                               1000000
-    };
-    private static final int[] ACTOR_WORK = { 0,
-                                              10,
-                                              25,
-                                              50,
-                                              100,
-                                              250,
-                                              500,
-                                              1000,
-                                              2500,
-                                              5000,
-                                              10000,
-                                              25000,
-                                              50000,
-                                              100000,
-                                              250000,
-                                              500000,
-                                              1000000
-    };
+    private static final int[] BUFFER_SIZES = { 100 };
+    private static final int[] THREAD_COUNTS = { 4, 8, 16 };
+    private static final int[] BUFFER_WORK = { 0, 50, 100, 250, 500, 1000 };
+    private static final int[] ACTOR_WORK = { 0, 50, 100, 250, 500, 1000 };
 
     private static final ThreadMXBean threadManager =
             ManagementFactory.getThreadMXBean();
@@ -77,12 +41,7 @@ public class Main {
                 for (int threadCount : THREAD_COUNTS) {
                     for (int bufferWork : BUFFER_WORK) {
                         for (int actorWork : ACTOR_WORK) {
-                            runTest(
-                                    bufferSize,
-                                    threadCount,
-                                    bufferWork,
-                                    actorWork
-                            );
+                            runTest(bufferSize, threadCount, bufferWork, actorWork);
                         }
                     }
                 }
@@ -103,28 +62,28 @@ public class Main {
         long totalTasksDone = 0;
         double totalCPUTime = 0;
 
+        int consumerCount = threadCount / 2;
+        int producerCount = threadCount - consumerCount;
+
+        int maxConsumed = Math.min(bufferSize / 2, MAX_CONSUMED_COUNT);
+        int maxProduced = Math.min(bufferSize / 2, MAX_PRODUCED_COUNT);
+
         logger.log("=========================");
-        logger.log("- buffer size:  " + bufferSize);
-        logger.log("- thread count: " + threadCount);
-        logger.log("- buffer work:  " + bufferWork);
-        logger.log("- actor work:   " + actorWork);
+        logger.log("- buffer size:    " + bufferSize);
+        logger.log("- consumer count: " + consumerCount);
+        logger.log("- producer count: " + producerCount);
+        logger.log("- buffer work:    " + bufferWork);
+        logger.log("- actor work:     " + actorWork);
 
         for (int r = 0; r < REPETITIONS; r++) {
             logger.log("\nTest run: " + (r + 1));
-            Scheduler<String> scheduler = new Scheduler<>(bufferSize, bufferWork);
-            Proxy<String> proxy = new Proxy<>(scheduler);
+            Buffer<String> buffer = new Buffer<>(bufferSize, bufferWork);
             List<Actor<String>> threads = new ArrayList<>();
-
-            int consumerCount = threadCount / 2;
-            int producerCount = threadCount - consumerCount;
-
-            int maxConsumed = Math.min(bufferSize / 2, MAX_CONSUMED_COUNT);
-            int maxProduced = Math.min(bufferSize / 2, MAX_PRODUCED_COUNT);
 
             // Create producers
             for (int i = 0; i < producerCount; i++) {
                 threads.add(new Producer<>(
-                        proxy,
+                        buffer,
                         1,
                         maxProduced,
                         actorWork,
@@ -135,7 +94,7 @@ public class Main {
             // Create consumers
             for (int i = 0; i < consumerCount; i++) {
                 threads.add(new Consumer<>(
-                        proxy,
+                        buffer,
                         1,
                         maxConsumed,
                         actorWork
@@ -144,22 +103,19 @@ public class Main {
 
             // Start all threads, wait the desired test time and put all threads
             // in the waiting state (remove them from the running state)
-            scheduler.start();
             threads.forEach(Thread::start);
             Thread.sleep(TEST_DURATION);
             threads.forEach(Thread::suspend);
 
             // Print the test summary
-            double CPUTime = summarizeTestRun(threads);
-            totalTasksDone += Counter.getTasksDoneCount();
+            double CPUTime = summarizeTestRun(buffer, threads);
+            totalTasksDone += buffer.getTasksDone();
             totalCPUTime += CPUTime;
 
             // Resume and remove all threads
             // (Threads must be resumed in order to get interrupted)
             threads.forEach(Thread::resume);
             threads.forEach(Thread::interrupt);
-            scheduler.interrupt();
-            Counter.reset();
         }
 
         logger.log("\n=========================");
@@ -174,7 +130,9 @@ public class Main {
         logger.log("=========================\n\n");
     }
 
-    private static double summarizeTestRun(List<Actor<String>> threads)
+    private static double summarizeTestRun(
+            Buffer<String> buffer,
+            List<Actor<String>> threads)
             throws IOException {
         double totalCPUTime = threads
               .stream()
@@ -186,7 +144,7 @@ public class Main {
 
         StringJoiner joiner = new StringJoiner("\n");
         joiner.add("Total monitor access count: " +
-                   Counter.getTasksDoneCount());
+                   buffer.getTasksDone());
         joiner.add("Total real time:            " +
                    TEST_DURATION +
                    " ms");
