@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jcsp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/jcsp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
