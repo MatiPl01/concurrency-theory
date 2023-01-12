@@ -9,16 +9,19 @@ public abstract class Actor implements CSProcess {
 
     protected final List<One2OneChannel> outChannels;
     protected final List<One2OneChannel> inChannels;
-    protected final One2OneChannel channelLB;
     protected final int id;
 
-    public Actor(One2OneChannel channelLB,
-                 List<One2OneChannel> inChannels,
+    protected int operationsCount = 0;
+
+    public Actor(List<One2OneChannel> inChannels,
                  List<One2OneChannel> outChannels) {
         id = nextId++;
-        this.channelLB = channelLB;
         this.inChannels = inChannels;
         this.outChannels = outChannels;
+    }
+
+    public int getOperationsCount() {
+        return operationsCount;
     }
 
     public List<One2OneChannel> getOutChannels() {
