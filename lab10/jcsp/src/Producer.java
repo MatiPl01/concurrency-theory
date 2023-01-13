@@ -3,15 +3,26 @@ import org.jcsp.lang.One2OneChannel;
 import java.util.List;
 
 public class Producer extends Actor {
-    public Producer(One2OneChannel channelLB,
-                    List<One2OneChannel> inChannels,
+    private static int nextId = 0;
+    protected static final String NAME = "Producer";
+
+    private final int id;
+
+    public Producer(List<One2OneChannel> inChannels,
                     List<One2OneChannel> outChannels) {
-        super(channelLB, inChannels, outChannels);
+        super(inChannels, outChannels);
+        this.id = nextId++;
+    }
+
+    @Override
+    public String toString() {
+        return NAME + " " + id;
     }
 
     @Override
     public void run() {
         System.out.println("Producer " + id + " started");
+
         while (true) {
             int bufferIdx = getRandomBufferIdx();
 
@@ -22,6 +33,7 @@ public class Producer extends Actor {
 
             // Request consume if the buffer consume request was accepted
             if (response == RequestType.ACCEPT) {
+                operationsCount++;
                 outChannels.get(bufferIdx).out().write(RequestType.PRODUCE);
             }
         }

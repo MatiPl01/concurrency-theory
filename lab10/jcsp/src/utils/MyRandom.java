@@ -10,6 +10,6 @@ public class MyRandom {
     }
 
     public static int randInt(int maxInt) {
-        return rand.nextInt(maxInt - 1);
+        return rand.nextInt(maxInt);
     }
 }
