@@ -4,23 +4,20 @@ import utils.MyRandom;
 
 import java.util.List;
 
-public abstract class Actor implements CSProcess {
-    private static int nextId = 0;
-
+public abstract class Actor implements CSProcess, OperationsCounter {
     protected final List<One2OneChannel> outChannels;
     protected final List<One2OneChannel> inChannels;
-    protected final int id;
 
     protected int operationsCount = 0;
 
     public Actor(List<One2OneChannel> inChannels,
                  List<One2OneChannel> outChannels) {
-        id = nextId++;
         this.inChannels = inChannels;
         this.outChannels = outChannels;
     }
 
-    public int getOperationsCount() {
+    @Override
+    public long getOperationsCount() {
         return operationsCount;
     }
 

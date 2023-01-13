@@ -5,7 +5,7 @@ import org.jcsp.lang.One2OneChannel;
 
 import java.util.List;
 
-public class Buffer implements CSProcess {
+public class Buffer implements CSProcess, OperationsCounter {
     private static final String NAME = "Buffer";
     private static int nextId = 0;
 
@@ -16,7 +16,7 @@ public class Buffer implements CSProcess {
     private int bufferFill;
     private Alternative alternative;
 
-    private int operationsCount = 0;
+    private long operationsCount = 0;
 
     public Buffer(List<One2OneChannel> inChannels,
                   List<One2OneChannel> outChannels,
@@ -28,7 +28,8 @@ public class Buffer implements CSProcess {
         this.bufferFill = 0;
     }
 
-    public int getOperationsCount() {
+    @Override
+    public long getOperationsCount() {
         return operationsCount;
     }
 
@@ -39,6 +40,8 @@ public class Buffer implements CSProcess {
 
     @Override
     public void run() {
+        System.out.println("Buffer " + id + " started");
+
         final Guard[] guards = new Guard[inChannels.size()];
         for (int i = 0; i < inChannels.size(); i++) {
             guards[i] = inChannels.get(i).in();

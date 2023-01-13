@@ -17,8 +17,8 @@ public class Interval {
         thread = new Thread(() -> {
             while (!thread.isInterrupted()) {
                 try {
-                    callback.run();
                     TimeUnit.MILLISECONDS.sleep(millis);
+                    callback.run();
                 } catch (InterruptedException e) {
                     clear();
                     throw new RuntimeException(e);
